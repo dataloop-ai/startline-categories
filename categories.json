@@ -1,0 +1,105 @@
+[{ 
+    "key": "appType",
+    "value": "Studio"
+},
+{ 
+    "key": "appType",
+    "value": "Model"
+},
+{ 
+    "key": "appType",
+    "value": "Dataset"
+},
+{ 
+    "key": "appType",
+    "value": "Solution"
+},
+{ 
+    "key": "appType",
+    "value": "Pipeline"
+},
+{ 
+    "key": "appType",
+    "value": "Function"
+},
+{ 
+    "key": "appType",
+    "value": "Other"
+},
+{ 
+    "key": "taskType",
+    "value": "Audio"
+},
+{ 
+    "key": "taskType",
+    "value": "Image"
+},
+{ 
+    "key": "taskType",
+    "value": "Text"
+},
+{ 
+    "key": "taskType",
+    "value": "Video"
+},
+{ 
+    "key": "taskType",
+    "value": "Other"
+},
+{ 
+    "key": "libraries",
+    "value": "Torch"
+},
+{ 
+    "key": "libraries",
+    "value": "TensorFlow "
+},
+{ 
+    "key": "libraries",
+    "value": "Timm"
+},
+{ 
+    "key": "libraries",
+    "value": "Other"
+},
+{ 
+    "key": "NPL",
+    "value": "TextClassification"
+},
+{ 
+    "key": "NPL",
+    "value": "Translation"
+},
+{ 
+    "key": "NPL",
+    "value": "Other"
+},
+{ 
+    "key": "Computer Vision",
+    "value": "Object Detection"
+},
+{ 
+    "key": "Computer Vision",
+    "value": "Classification"
+},
+{ 
+    "key": "Computer Vision",
+    "value": "Other"
+},
+{ 
+    "key": "PCD",
+    "value": "Other"
+},
+{ 
+    "key": "Provider",
+    "value": "NVIDIA"
+},
+{ 
+    "key": "Provider",
+    "value": "HF"
+},
+{ 
+    "key": "Provider",
+    "value": "Other"
+}
+]
