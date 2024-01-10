@@ -27,7 +27,7 @@
              "link":""
           }
        ],
-       "isMultiple":false
+       "isMultiple":true
     },
     {
        "key":"license",
@@ -136,7 +136,7 @@
              "description":""
           }
        ],
-       "isMultiple":false
+       "isMultiple":true
     },
     {
        "key":"libraries",
@@ -162,7 +162,7 @@
              "description":""
           }
        ],
-       "isMultiple":false
+       "isMultiple":true
     },
     {
        "key":"NPL",
@@ -183,7 +183,7 @@
              "description":""
           }
        ],
-       "isMultiple":false
+       "isMultiple":true
     },
     {
        "key":"Computer Vision",
@@ -204,7 +204,7 @@
              "description":""
           }
        ],
-       "isMultiple":false
+       "isMultiple":true
     },
     {
        "key":"PCD",
@@ -215,6 +215,6 @@
              "description":""
           }
        ],
-       "isMultiple":false
+       "isMultiple":true
     }
  ]
