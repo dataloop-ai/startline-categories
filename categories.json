@@ -1,105 +1,220 @@
-[{ 
-    "key": "appType",
-    "value": "Studio"
-},
-{ 
-    "key": "appType",
-    "value": "Model"
-},
-{ 
-    "key": "appType",
-    "value": "Dataset"
-},
-{ 
-    "key": "appType",
-    "value": "Solution"
-},
-{ 
-    "key": "appType",
-    "value": "Pipeline"
-},
-{ 
-    "key": "appType",
-    "value": "Function"
-},
-{ 
-    "key": "appType",
-    "value": "Other"
-},
-{ 
-    "key": "taskType",
-    "value": "Audio"
-},
-{ 
-    "key": "taskType",
-    "value": "Image"
-},
-{ 
-    "key": "taskType",
-    "value": "Text"
-},
-{ 
-    "key": "taskType",
-    "value": "Video"
-},
-{ 
-    "key": "taskType",
-    "value": "Other"
-},
-{ 
-    "key": "libraries",
-    "value": "Torch"
-},
-{ 
-    "key": "libraries",
-    "value": "TensorFlow "
-},
-{ 
-    "key": "libraries",
-    "value": "Timm"
-},
-{ 
-    "key": "libraries",
-    "value": "Other"
-},
-{ 
-    "key": "NPL",
-    "value": "TextClassification"
-},
-{ 
-    "key": "NPL",
-    "value": "Translation"
-},
-{ 
-    "key": "NPL",
-    "value": "Other"
-},
-{ 
-    "key": "Computer Vision",
-    "value": "Object Detection"
-},
-{ 
-    "key": "Computer Vision",
-    "value": "Classification"
-},
-{ 
-    "key": "Computer Vision",
-    "value": "Other"
-},
-{ 
-    "key": "PCD",
-    "value": "Other"
-},
-{ 
-    "key": "Provider",
-    "value": "NVIDIA"
-},
-{ 
-    "key": "Provider",
-    "value": "HF"
-},
-{ 
-    "key": "Provider",
-    "value": "Other"
-}
-]
+[
+    {
+       "key":"provider",
+       "values":[
+          {
+             "name":"Hugging Face",
+             "icon":"color_lens",
+             "description":"The color of the product",
+             "link":"https://huggingface.co"
+          },
+          {
+             "name":"NVIDIA",
+             "icon":"",
+             "description":"",
+             "link":""
+          },
+          {
+             "name":"HF",
+             "icon":"",
+             "description":"",
+             "link":""
+          },
+          {
+             "name":"Other",
+             "icon":"",
+             "description":"",
+             "link":""
+          }
+       ],
+       "isMultiple":false
+    },
+    {
+       "key":"license",
+       "values":[
+          {
+             "name":"MIT",
+             "icon":"mit",
+             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+          },
+          {
+             "name":"Apache 2.0",
+             "icon":"apache",
+             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+          }
+       ],
+       "isMultiple":true
+    },
+    {
+       "key":"taskType",
+       "values":[
+          {
+             "name":"Audio",
+             "description":""
+          },
+          {
+             "name":"Image",
+             "description":""
+          },
+          {
+             "name":"Text",
+             "description":""
+          },
+          {
+             "name":"Video",
+             "description":""
+          },
+          {
+             "name":"Other",
+             "description":""
+          }
+       ],
+       "isMultiple":true
+    },
+    {
+       "key":"category",
+       "values":[
+          {
+             "name":"Model",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Pipeline",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Element",
+             "icon":"",
+             "description":""
+          }
+       ],
+       "isMultiple":false
+    },
+    {
+       "key":"type",
+       "values":[
+          {
+             "name":"Studio",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Model",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Dataset",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Solution",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Pipeline",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Function",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Other",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Model Management",
+             "icon":"",
+             "description":""
+          }
+       ],
+       "isMultiple":false
+    },
+    {
+       "key":"libraries",
+       "values":[
+          {
+             "name":"Torch",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"TensorFlow",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Timm",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Other",
+             "icon":"",
+             "description":""
+          }
+       ],
+       "isMultiple":false
+    },
+    {
+       "key":"NPL",
+       "values":[
+          {
+             "name":"TextClassification",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Translation",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Other",
+             "icon":"",
+             "description":""
+          }
+       ],
+       "isMultiple":false
+    },
+    {
+       "key":"Computer Vision",
+       "values":[
+          {
+             "name":"Object Detection",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Classification",
+             "icon":"",
+             "description":""
+          },
+          {
+             "name":"Other",
+             "icon":"",
+             "description":""
+          }
+       ],
+       "isMultiple":false
+    },
+    {
+       "key":"PCD",
+       "values":[
+          {
+             "name":"Other",
+             "icon":"",
+             "description":""
+          }
+       ],
+       "isMultiple":false
+    }
+ ]
