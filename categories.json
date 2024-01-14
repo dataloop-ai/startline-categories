@@ -1,220 +1,241 @@
 [
-    {
-       "key":"provider",
-       "values":[
-          {
-             "name":"Hugging Face",
-             "icon":"color_lens",
-             "description":"The color of the product",
-             "link":"https://huggingface.co"
-          },
-          {
-             "name":"NVIDIA",
-             "icon":"",
-             "description":"",
-             "link":""
-          },
-          {
-             "name":"HF",
-             "icon":"",
-             "description":"",
-             "link":""
-          },
-          {
-             "name":"Other",
-             "icon":"",
-             "description":"",
-             "link":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"license",
-       "values":[
-          {
-             "name":"MIT",
-             "icon":"mit",
-             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-          },
-          {
-             "name":"Apache 2.0",
-             "icon":"apache",
-             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"taskType",
-       "values":[
-          {
-             "name":"Audio",
-             "description":""
-          },
-          {
-             "name":"Image",
-             "description":""
-          },
-          {
-             "name":"Text",
-             "description":""
-          },
-          {
-             "name":"Video",
-             "description":""
-          },
-          {
-             "name":"Other",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"category",
-       "values":[
-          {
-             "name":"Model",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Pipeline",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Element",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":false
-    },
-    {
-       "key":"type",
-       "values":[
-          {
-             "name":"Studio",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Model",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Dataset",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Solution",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Pipeline",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Function",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Other",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Model Management",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"libraries",
-       "values":[
-          {
-             "name":"Torch",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"TensorFlow",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Timm",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Other",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"NPL",
-       "values":[
-          {
-             "name":"TextClassification",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Translation",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Other",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"Computer Vision",
-       "values":[
-          {
-             "name":"Object Detection",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Classification",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Other",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"PCD",
-       "values":[
-          {
-             "name":"Other",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    }
- ]
+  {
+    "key": "provider",
+    "values": [
+      {
+        "name": "Hugging Face",
+        "icon": "",
+        "description": "Provided by Hugging Face",
+        "link": "https://huggingface.co"
+      },
+      {
+        "name": "Nvidia",
+        "icon": "",
+        "description": "Provided by Nvidia",
+        "link": "https://catalog.ngc.nvidia.com/models"
+      },
+      {
+        "name": "Dataloop",
+        "icon": "",
+        "description": "Provided by Dataloop",
+        "link": "https://dataloop.ai"
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "license",
+    "values": [
+      {
+        "name": "MIT",
+        "icon": "",
+        "description": "",
+        "link": "https://opensource.org/licenses/MIT"
+      },
+      {
+        "name": "Apache 2.0",
+        "icon": "",
+        "description": "",
+        "link": "https://opensource.org/licenses/Apache-2.0"
+      },
+      {
+        "name": "EULA",
+        "icon": "",
+        "description": "",
+        "link": "https://www.nvidia.com/en-us/data-center/products/nvidia-ai-enterprise/eula/"
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "taskType",
+    "values": [
+      {
+        "name": "Audio",
+        "description": ""
+      },
+      {
+        "name": "Image",
+        "description": ""
+      },
+      {
+        "name": "Text",
+        "description": ""
+      },
+      {
+        "name": "Video",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "description": ""
+      }
+    ],
+    "isMultiple": true
+  },
+  {
+    "key": "category",
+    "values": [
+      {
+        "name": "Model"
+      },
+      {
+        "name": "Pipeline"
+      },
+      {
+        "name": "Element"
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "Computer Vision",
+    "values": [
+      {
+        "name": "Object Detection",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Classification",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "OCR",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Semantic Segmentation",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "key": "type",
+    "values": [
+      {
+        "name": "Studio",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Model",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Node",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Template",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Function",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "libraries",
+    "values": [
+      {
+        "name": "Torch",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Timm",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "ImgAug",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "isMultiple": true
+  },
+  {
+    "key": "NLP",
+    "values": [
+      {
+        "name": "Classification",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Translation",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "isMultiple": true
+  },
+  {
+    "key": "Computer Vision",
+    "values": [
+      {
+        "name": "Object Detection",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Classification",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "isMultiple": true
+  },
+  {
+    "key": "PCD",
+    "values": [
+      {
+        "name": "Other",
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "isMultiple": true
+  }
+]
