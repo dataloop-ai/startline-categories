@@ -1,6 +1,26 @@
 [
   {
-    "key": "provider",
+    "key": "Category",
+    "values": [
+      {
+        "name": "Model"
+      },
+      {
+        "name": "Pipeline"
+      },
+      {
+        "name": "Element"
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "Provider",
+    "categories": [
+      "Model",
+      "Pipeline",
+      "Element"
+    ],
     "values": [
       {
         "name": "Hugging Face",
@@ -15,6 +35,30 @@
         "link": "https://catalog.ngc.nvidia.com/models"
       },
       {
+        "name": "Google",
+        "icon": "",
+        "description": "Provided by Google",
+        "link": "https://cloud.google.com/vision?hl=en"
+      },
+      {
+        "name": "AWS",
+        "icon": "",
+        "description": "Provided by AWS",
+        "link": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
+      },
+      {
+        "name": "Open AI",
+        "icon": "",
+        "description": "Provided by Open AI",
+        "link": "https://openai.com/blog/openai-api"
+      },
+      {
+        "name": "OpenMMLabs",
+        "icon": "",
+        "description": "Provided by OpenMMLabs",
+        "link": "https://openmmlab.com/"
+      },
+      {
         "name": "Dataloop",
         "icon": "",
         "description": "Provided by Dataloop",
@@ -24,7 +68,7 @@
     "isMultiple": false
   },
   {
-    "key": "license",
+    "key": "License",
     "values": [
       {
         "name": "MIT",
@@ -48,7 +92,10 @@
     "isMultiple": false
   },
   {
-    "key": "taskType",
+    "key": "Task Type",
+    "categories": [
+      "Model"
+    ],
     "values": [
       {
         "name": "Audio",
@@ -67,6 +114,10 @@
         "description": ""
       },
       {
+        "name": "Multi Modal",
+        "description": ""
+      },
+      {
         "name": "Other",
         "description": ""
       }
@@ -74,22 +125,10 @@
     "isMultiple": true
   },
   {
-    "key": "category",
-    "values": [
-      {
-        "name": "Model"
-      },
-      {
-        "name": "Pipeline"
-      },
-      {
-        "name": "Element"
-      }
-    ],
-    "isMultiple": false
-  },
-  {
     "key": "Computer Vision",
+    "categories": [
+      "Model"
+    ],
     "values": [
       {
         "name": "Object Detection",
@@ -119,35 +158,18 @@
     ]
   },
   {
-    "key": "type",
+    "key": "NLP",
+    "categories": [
+      "Model"
+    ],
     "values": [
       {
-        "name": "Studio",
+        "name": "Classification",
         "icon": "",
         "description": ""
       },
       {
-        "name": "Model",
-        "icon": "",
-        "description": ""
-      },
-      {
-        "name": "Pipeline Node",
-        "icon": "",
-        "description": ""
-      },
-      {
-        "name": "Pipeline Template",
-        "icon": "",
-        "description": ""
-      },
-      {
-        "name": "Notification Channel",
-        "icon": "",
-        "description": ""
-      },
-      {
-        "name": "Function",
+        "name": "Translation",
         "icon": "",
         "description": ""
       },
@@ -157,10 +179,15 @@
         "description": ""
       }
     ],
-    "isMultiple": false
+    "isMultiple": true
   },
   {
-    "key": "libraries",
+    "key": "Libraries",
+    "Category": [
+      "Pipeline",
+      "Model",
+      "Element"
+    ],
     "values": [
       {
         "name": "Torch",
@@ -191,56 +218,117 @@
     "isMultiple": true
   },
   {
-    "key": "NLP",
+    "key": "Converters",
+    "categories": [
+      "Element"
+    ],
     "values": [
       {
-        "name": "Classification",
+        "name": "COCO",
         "icon": "",
         "description": ""
       },
       {
-        "name": "Translation",
+        "name": "YOLO",
         "icon": "",
         "description": ""
       },
       {
-        "name": "Other",
+        "name": "VOC",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "DICOM",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "HEIC",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Custom",
         "icon": "",
         "description": ""
       }
-    ],
-    "isMultiple": true
+    ]
   },
   {
-    "key": "Computer Vision",
+    "key": "Pipeline Type",
+    "categories": [
+      "Pipeline"
+    ],
     "values": [
       {
-        "name": "Object Detection",
-        "icon": "",
-        "description": ""
+        "name": "Node",
+        "icon": ""
       },
       {
-        "name": "Classification",
-        "icon": "",
-        "description": ""
-      },
-      {
-        "name": "Other",
-        "icon": "",
-        "description": ""
+        "name": "Template",
+        "icon": ""
       }
-    ],
-    "isMultiple": true
+    ]
   },
   {
-    "key": "PCD",
+    "key": "Node Type",
+    "categories": [
+      "Pipeline"
+    ],
     "values": [
       {
+        "name": "Data",
+        "icon": ""
+      },
+      {
+        "name": "Image Utils",
+        "icon": ""
+      },
+      {
+        "name": "Models",
+        "icon": ""
+      },
+      {
+        "name": "Video Utils",
+        "icon": ""
+      },
+      {
         "name": "Other",
-        "icon": "",
-        "description": ""
+        "icon": ""
       }
+    ]
+  },
+  {
+    "key": "Template Type",
+    "categories": [
+      "Pipeline"
     ],
-    "isMultiple": true
+    "values": [
+      {
+        "name": "Data Engineering",
+        "icon": ""
+      },
+      {
+        "name": "Labeling",
+        "icon": ""
+      },
+      {
+        "name": "MlOps",
+        "icon": ""
+      },
+      {
+        "name": "Project Management",
+        "icon": ""
+      },
+      {
+        "name": "Workforce",
+        "icon": ""
+      },
+      {
+        "name": "Other",
+        "icon": ""
+      }
+    ]
   }
 ]
