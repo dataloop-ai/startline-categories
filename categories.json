@@ -132,12 +132,17 @@
         "description": ""
       },
       {
-        "name": "Node",
+        "name": "Pipeline Node",
         "icon": "",
         "description": ""
       },
       {
-        "name": "Template",
+        "name": "Pipeline Template",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Notification Channel",
         "icon": "",
         "description": ""
       },
