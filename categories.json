@@ -330,5 +330,51 @@
         "icon": ""
       }
     ]
+  },
+  {
+    "key": "Type",
+    "categories": [
+      "Model",
+      "Pipeline",
+      "Element"
+    ],
+    "values": [
+      {
+        "name": "Studio",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Model",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Pipeline Node",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Pipeline Template",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Notification Channel",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Function",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "isMultiple": true
   }
 ]
