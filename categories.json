@@ -72,19 +72,16 @@
     "values": [
       {
         "name": "MIT",
-        "icon": "",
         "description": "",
         "link": "https://opensource.org/licenses/MIT"
       },
       {
         "name": "Apache 2.0",
-        "icon": "",
         "description": "",
         "link": "https://opensource.org/licenses/Apache-2.0"
       },
       {
         "name": "EULA",
-        "icon": "",
         "description": "",
         "link": "https://www.nvidia.com/en-us/data-center/products/nvidia-ai-enterprise/eula/"
       }
@@ -155,7 +152,8 @@
         "icon": "",
         "description": ""
       }
-    ]
+    ],
+    "isMultiple": false
   },
   {
     "key": "NLP",
@@ -179,7 +177,7 @@
         "description": ""
       }
     ],
-    "isMultiple": true
+    "isMultiple": false
   },
   {
     "key": "Libraries",
@@ -253,7 +251,8 @@
         "icon": "",
         "description": ""
       }
-    ]
+    ],
+    "isMultiple": false
   },
   {
     "key": "Pipeline Type",
@@ -310,11 +309,7 @@
         "icon": ""
       },
       {
-        "name": "Labeling",
-        "icon": ""
-      },
-      {
-        "name": "MlOps",
+        "name": "MLOps",
         "icon": ""
       },
       {
@@ -322,7 +317,7 @@
         "icon": ""
       },
       {
-        "name": "Workforce",
+        "name": "Workflow",
         "icon": ""
       },
       {
