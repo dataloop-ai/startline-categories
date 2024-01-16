@@ -81,9 +81,24 @@
         "link": "https://opensource.org/licenses/Apache-2.0"
       },
       {
-        "name": "EULA",
+        "name": "GPL 2.0",
         "description": "",
-        "link": "https://www.nvidia.com/en-us/data-center/products/nvidia-ai-enterprise/eula/"
+        "link": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"
+      },
+      {
+        "name": "GPL 3.0",
+        "description": "",
+        "link": "https://www.gnu.org/licenses/gpl-3.0.html"
+      },
+      {
+        "name": "AGPL-3.0",
+        "description": "",
+        "link": "https://www.gnu.org/licenses/agpl-3.0.en.html"
+      },
+      {
+        "name": "Llama 2",
+        "description": "",
+        "link": "https://github.com/facebookresearch/llama/blob/main/LICENSE"
       }
     ],
     "isMultiple": false
@@ -112,6 +127,10 @@
       },
       {
         "name": "Multi Modal",
+        "description": ""
+      },
+      {
+        "name": "Feature extraction",
         "description": ""
       },
       {
@@ -148,6 +167,11 @@
         "description": ""
       },
       {
+        "name": "Video classification",
+        "icon": "",
+        "description": ""
+      },
+      {
         "name": "Other",
         "icon": "",
         "description": ""
@@ -162,7 +186,12 @@
     ],
     "values": [
       {
-        "name": "Classification",
+        "name": "Text Classification",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Token Classification",
         "icon": "",
         "description": ""
       },
@@ -179,6 +208,35 @@
     ],
     "isMultiple": false
   },
+  {
+    "key": "Audio",
+    "categories": [
+      "Model"
+    ],
+    "values": [
+      {
+        "name": "Auto Speech Recognition",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Text to speech",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Audio classification",
+        "icon": "",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "isMultiple": false
+  },  
   {
     "key": "Libraries",
     "Category": [
@@ -317,7 +375,7 @@
         "icon": ""
       },
       {
-        "name": "Workflow",
+        "name": "Labeling Workflow",
         "icon": ""
       },
       {
