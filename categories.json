@@ -201,6 +201,11 @@
         "description": ""
       },
       {
+        "name": "Conversational",
+        "icon": "",
+        "description": ""
+      },
+      {
         "name": "Other",
         "icon": "",
         "description": ""
@@ -236,7 +241,7 @@
       }
     ],
     "isMultiple": false
-  },  
+  },
   {
     "key": "Libraries",
     "Category": [
@@ -429,5 +434,24 @@
       }
     ],
     "isMultiple": true
+  },
+  {
+    "key": "Gen AI",
+    "categories": [
+      "Model"
+    ],
+    "values": [
+      {
+        "name": "LLM",
+        "icon": "",
+        "description": "Large Language Models"
+      },
+      {
+        "name": "LMM",
+        "icon": "",
+        "description": "Large Multimodal Models"
+      }
+    ],
+    "isMultiple": false
   }
 ]
