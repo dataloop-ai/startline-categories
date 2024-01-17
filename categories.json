@@ -24,43 +24,43 @@
     "values": [
       {
         "name": "Hugging Face",
-        "icon": "",
+        "icon": "icon-dl-hugging-face",
         "description": "Provided by Hugging Face",
         "link": "https://huggingface.co"
       },
       {
         "name": "Nvidia",
-        "icon": "",
+        "icon": "icon-dl-nvidia",
         "description": "Provided by Nvidia",
         "link": "https://catalog.ngc.nvidia.com/models"
       },
       {
         "name": "Google",
-        "icon": "",
+        "icon": "icon-dl-google",
         "description": "Provided by Google",
         "link": "https://cloud.google.com/vision?hl=en"
       },
       {
         "name": "AWS",
-        "icon": "",
+        "icon": ["icon-dl-aws-light","icon-dl-aws-dark"]
         "description": "Provided by AWS",
         "link": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
       },
       {
         "name": "Open AI",
-        "icon": "",
+        "icon": "icon-dl-open-ai",
         "description": "Provided by Open AI",
         "link": "https://openai.com/blog/openai-api"
       },
       {
         "name": "OpenMMLabs",
-        "icon": "",
+        "icon": "icon-dl-open-mm-labs",
         "description": "Provided by OpenMMLabs",
         "link": "https://openmmlab.com/"
       },
       {
         "name": "Dataloop",
-        "icon": "",
+        "icon": "icon-dl-dataloop",
         "description": "Provided by Dataloop",
         "link": "https://dataloop.ai"
       }
@@ -72,31 +72,37 @@
     "values": [
       {
         "name": "MIT",
+        "icon": "icon-dl-license",
         "description": "",
         "link": "https://opensource.org/licenses/MIT"
       },
       {
         "name": "Apache 2.0",
+        "icon": "icon-dl-license",
         "description": "",
         "link": "https://opensource.org/licenses/Apache-2.0"
       },
       {
         "name": "GPL 2.0",
+        "icon": "icon-dl-license",
         "description": "",
         "link": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"
       },
       {
         "name": "GPL 3.0",
+        "icon": "icon-dl-license",
         "description": "",
         "link": "https://www.gnu.org/licenses/gpl-3.0.html"
       },
       {
         "name": "AGPL-3.0",
+        "icon": "icon-dl-license",
         "description": "",
         "link": "https://www.gnu.org/licenses/agpl-3.0.en.html"
       },
       {
         "name": "Llama 2",
+        "icon": "icon-dl-license",
         "description": "",
         "link": "https://github.com/facebookresearch/llama/blob/main/LICENSE"
       }
@@ -111,30 +117,37 @@
     "values": [
       {
         "name": "Audio",
+        "icon": "icon-dl-audio",
         "description": ""
       },
       {
         "name": "Image",
+        "icon": "icon-dl-item-outline",
         "description": ""
       },
       {
         "name": "Text",
+        "icon": "icon-dl-text",
         "description": ""
       },
       {
         "name": "Video",
+        "icon": "icon-dl-youtube",
         "description": ""
       },
       {
         "name": "Multi Modal",
+        "icon": "icon-dl-multi-modal",
         "description": ""
       },
       {
         "name": "Feature extraction",
+        "icon": "",
         "description": ""
       },
       {
         "name": "Other",
+        "icon": "icon-dl-query",
         "description": ""
       }
     ],
@@ -148,32 +161,32 @@
     "values": [
       {
         "name": "Object Detection",
-        "icon": "",
+        "icon": "icon-dl-focus",
         "description": ""
       },
       {
         "name": "Classification",
-        "icon": "",
+        "icon": "icon-dl-classification",
         "description": ""
       },
       {
         "name": "OCR",
-        "icon": "",
+        "icon": "icon-dl-ocr",
         "description": ""
       },
       {
         "name": "Semantic Segmentation",
-        "icon": "",
+        "icon": "icon-dl-brush",
         "description": ""
       },
       {
         "name": "Video classification",
-        "icon": "",
+        "icon": "icon-dl-youtube",
         "description": ""
       },
       {
         "name": "Other",
-        "icon": "",
+        "icon": "icon-dl-query",
         "description": ""
       }
     ],
