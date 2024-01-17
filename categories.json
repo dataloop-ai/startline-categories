@@ -200,27 +200,27 @@
     "values": [
       {
         "name": "Text Classification",
-        "icon": "",
+        "icon": "icon-dl-text",
         "description": ""
       },
       {
         "name": "Token Classification",
-        "icon": "",
+        "icon": "icon-dl-classification",
         "description": ""
       },
       {
         "name": "Translation",
-        "icon": "",
+        "icon": "icon-dl-translate",
         "description": ""
       },
       {
         "name": "Conversational",
-        "icon": "",
+        "icon": "icon-dl-conversation",
         "description": ""
       },
       {
         "name": "Other",
-        "icon": "",
+        "icon": "icon-dl-query",
         "description": ""
       }
     ],
@@ -234,22 +234,22 @@
     "values": [
       {
         "name": "Auto Speech Recognition",
-        "icon": "",
+        "icon": "icon-dl-approve",
         "description": ""
       },
       {
         "name": "Text to speech",
-        "icon": "",
+        "icon": "icon-dl-text",
         "description": ""
       },
       {
         "name": "Audio classification",
-        "icon": "",
+        "icon": "icon-dl-audio",
         "description": ""
       },
       {
         "name": "Other",
-        "icon": "",
+        "icon": "icon-dl-query",
         "description": ""
       }
     ],
@@ -265,27 +265,27 @@
     "values": [
       {
         "name": "Torch",
-        "icon": "",
+        "icon": "icon-dl-python",
         "description": ""
       },
       {
         "name": "TensorFlow",
-        "icon": "",
+        "icon": "icon-dl-python",
         "description": ""
       },
       {
         "name": "Timm",
-        "icon": "",
+        "icon": "icon-dl-python",
         "description": ""
       },
       {
         "name": "ImgAug",
-        "icon": "",
+        "icon": "icon-dl-python",
         "description": ""
       },
       {
         "name": "Other",
-        "icon": "",
+        "icon": "icon-dl-query",
         "description": ""
       }
     ],
@@ -299,32 +299,32 @@
     "values": [
       {
         "name": "COCO",
-        "icon": "",
+        "icon": "icon-dl-refresh",
         "description": ""
       },
       {
         "name": "YOLO",
-        "icon": "",
+        "icon": "icon-dl-refresh",
         "description": ""
       },
       {
         "name": "VOC",
-        "icon": "",
+        "icon": "icon-dl-refresh",
         "description": ""
       },
       {
         "name": "DICOM",
-        "icon": "",
+        "icon": "icon-dl-refresh",
         "description": ""
       },
       {
         "name": "HEIC",
-        "icon": "",
+        "icon": "icon-dl-refresh",
         "description": ""
       },
       {
         "name": "Custom",
-        "icon": "",
+        "icon": "icon-dl-refresh",
         "description": ""
       }
     ],
@@ -338,11 +338,11 @@
     "values": [
       {
         "name": "Node",
-        "icon": ""
+        "icon": "icon-dl-related"
       },
       {
         "name": "Template",
-        "icon": ""
+        "icon": "icon-dl-content-media"
       }
     ]
   },
@@ -354,23 +354,23 @@
     "values": [
       {
         "name": "Data",
-        "icon": ""
+        "icon": "icon-dl-dataset"
       },
       {
         "name": "Image Utils",
-        "icon": ""
+        "icon": "icon-dl-item-outline"
       },
       {
         "name": "Models",
-        "icon": ""
+        "icon": "icon-dl-models"
       },
       {
         "name": "Video Utils",
-        "icon": ""
+        "icon": "icon-dl-youtube"
       },
       {
         "name": "Other",
-        "icon": ""
+        "icon": "icon-dl-query"
       }
     ]
   },
@@ -382,23 +382,23 @@
     "values": [
       {
         "name": "Data Engineering",
-        "icon": ""
+        "icon": "icon-dl-dataset"
       },
       {
         "name": "MLOps",
-        "icon": ""
+        "icon": "icon-dl-models/"
       },
       {
         "name": "Project Management",
-        "icon": ""
+        "icon": "icon-dl-project"
       },
       {
         "name": "Labeling Workflow",
-        "icon": ""
+        "icon": "icon-dl-task"
       },
       {
         "name": "Other",
-        "icon": ""
+        "icon": "icon-dl-query"
       }
     ]
   },
@@ -412,37 +412,37 @@
     "values": [
       {
         "name": "Studio",
-        "icon": "",
+        "icon": "icon-dl-annotation-studio",
         "description": ""
       },
       {
         "name": "Model",
-        "icon": "",
+        "icon": "icon-dl-models",
         "description": ""
       },
       {
         "name": "Pipeline Node",
-        "icon": "",
+        "icon": "icon-dl-related",
         "description": ""
       },
       {
         "name": "Pipeline Template",
-        "icon": "",
+        "icon": "icon-dl-pipeline",
         "description": ""
       },
       {
         "name": "Notification Channel",
-        "icon": "",
+        "icon": "icon-dl-notification",
         "description": ""
       },
       {
         "name": "Function",
-        "icon": "",
+        "icon": "icon-dl-faas-outline",
         "description": ""
       },
       {
         "name": "Other",
-        "icon": "",
+        "icon": "icon-dl-query",
         "description": ""
       }
     ],
@@ -456,12 +456,12 @@
     "values": [
       {
         "name": "LLM",
-        "icon": "",
+        "icon": "icon-dl-models-management",
         "description": "Large Language Models"
       },
       {
         "name": "LMM",
-        "icon": "",
+        "icon": "icon-dl-multi-modal",
         "description": "Large Multimodal Models"
       }
     ],
