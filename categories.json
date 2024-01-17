@@ -1,220 +1,470 @@
 [
-    {
-       "key":"provider",
-       "values":[
-          {
-             "name":"Hugging Face",
-             "icon":"color_lens",
-             "description":"The color of the product",
-             "link":"https://huggingface.co"
-          },
-          {
-             "name":"NVIDIA",
-             "icon":"",
-             "description":"",
-             "link":""
-          },
-          {
-             "name":"HF",
-             "icon":"",
-             "description":"",
-             "link":""
-          },
-          {
-             "name":"Other",
-             "icon":"",
-             "description":"",
-             "link":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"license",
-       "values":[
-          {
-             "name":"MIT",
-             "icon":"mit",
-             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-          },
-          {
-             "name":"Apache 2.0",
-             "icon":"apache",
-             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"taskType",
-       "values":[
-          {
-             "name":"Audio",
-             "description":""
-          },
-          {
-             "name":"Image",
-             "description":""
-          },
-          {
-             "name":"Text",
-             "description":""
-          },
-          {
-             "name":"Video",
-             "description":""
-          },
-          {
-             "name":"Other",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"category",
-       "values":[
-          {
-             "name":"Model",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Pipeline",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Element",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":false
-    },
-    {
-       "key":"type",
-       "values":[
-          {
-             "name":"Studio",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Model",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Dataset",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Solution",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Pipeline",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Function",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Other",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Model Management",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"libraries",
-       "values":[
-          {
-             "name":"Torch",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"TensorFlow",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Timm",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Other",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"NPL",
-       "values":[
-          {
-             "name":"TextClassification",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Translation",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Other",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"Computer Vision",
-       "values":[
-          {
-             "name":"Object Detection",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Classification",
-             "icon":"",
-             "description":""
-          },
-          {
-             "name":"Other",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    },
-    {
-       "key":"PCD",
-       "values":[
-          {
-             "name":"Other",
-             "icon":"",
-             "description":""
-          }
-       ],
-       "isMultiple":true
-    }
- ]
+  {
+    "key": "Category",
+    "values": [
+      {
+        "name": "Model"
+      },
+      {
+        "name": "Pipeline"
+      },
+      {
+        "name": "Element"
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "Provider",
+    "categories": [
+      "Model",
+      "Pipeline",
+      "Element"
+    ],
+    "values": [
+      {
+        "name": "Hugging Face",
+        "icon": "icon-dl-hugging-face",
+        "description": "Provided by Hugging Face",
+        "link": "https://huggingface.co"
+      },
+      {
+        "name": "Nvidia",
+        "icon": "icon-dl-nvidia",
+        "description": "Provided by Nvidia",
+        "link": "https://catalog.ngc.nvidia.com/models"
+      },
+      {
+        "name": "Google",
+        "icon": "icon-dl-google",
+        "description": "Provided by Google",
+        "link": "https://cloud.google.com/vision?hl=en"
+      },
+      {
+        "name": "AWS",
+        "icon": ["icon-dl-aws-light","icon-dl-aws-dark"]
+        "description": "Provided by AWS",
+        "link": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
+      },
+      {
+        "name": "Open AI",
+        "icon": "icon-dl-open-ai",
+        "description": "Provided by Open AI",
+        "link": "https://openai.com/blog/openai-api"
+      },
+      {
+        "name": "OpenMMLabs",
+        "icon": "icon-dl-open-mm-labs",
+        "description": "Provided by OpenMMLabs",
+        "link": "https://openmmlab.com/"
+      },
+      {
+        "name": "Dataloop",
+        "icon": "icon-dl-dataloop",
+        "description": "Provided by Dataloop",
+        "link": "https://dataloop.ai"
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "License",
+    "values": [
+      {
+        "name": "MIT",
+        "icon": "icon-dl-license",
+        "description": "",
+        "link": "https://opensource.org/licenses/MIT"
+      },
+      {
+        "name": "Apache 2.0",
+        "icon": "icon-dl-license",
+        "description": "",
+        "link": "https://opensource.org/licenses/Apache-2.0"
+      },
+      {
+        "name": "GPL 2.0",
+        "icon": "icon-dl-license",
+        "description": "",
+        "link": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"
+      },
+      {
+        "name": "GPL 3.0",
+        "icon": "icon-dl-license",
+        "description": "",
+        "link": "https://www.gnu.org/licenses/gpl-3.0.html"
+      },
+      {
+        "name": "AGPL-3.0",
+        "icon": "icon-dl-license",
+        "description": "",
+        "link": "https://www.gnu.org/licenses/agpl-3.0.en.html"
+      },
+      {
+        "name": "Llama 2",
+        "icon": "icon-dl-license",
+        "description": "",
+        "link": "https://github.com/facebookresearch/llama/blob/main/LICENSE"
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "Task Type",
+    "categories": [
+      "Model"
+    ],
+    "values": [
+      {
+        "name": "Audio",
+        "icon": "icon-dl-audio",
+        "description": ""
+      },
+      {
+        "name": "Image",
+        "icon": "icon-dl-item-outline",
+        "description": ""
+      },
+      {
+        "name": "Text",
+        "icon": "icon-dl-text",
+        "description": ""
+      },
+      {
+        "name": "Video",
+        "icon": "icon-dl-youtube",
+        "description": ""
+      },
+      {
+        "name": "Multi Modal",
+        "icon": "icon-dl-multi-modal",
+        "description": ""
+      },
+      {
+        "name": "Feature extraction",
+        "icon": "icon-dl-table",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "icon-dl-query",
+        "description": ""
+      }
+    ],
+    "isMultiple": true
+  },
+  {
+    "key": "Computer Vision",
+    "categories": [
+      "Model"
+    ],
+    "values": [
+      {
+        "name": "Object Detection",
+        "icon": "icon-dl-focus",
+        "description": ""
+      },
+      {
+        "name": "Classification",
+        "icon": "icon-dl-classification",
+        "description": ""
+      },
+      {
+        "name": "OCR",
+        "icon": "icon-dl-ocr",
+        "description": ""
+      },
+      {
+        "name": "Semantic Segmentation",
+        "icon": "icon-dl-brush",
+        "description": ""
+      },
+      {
+        "name": "Video classification",
+        "icon": "icon-dl-youtube",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "icon-dl-query",
+        "description": ""
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "NLP",
+    "categories": [
+      "Model"
+    ],
+    "values": [
+      {
+        "name": "Text Classification",
+        "icon": "icon-dl-text",
+        "description": ""
+      },
+      {
+        "name": "Token Classification",
+        "icon": "icon-dl-classification",
+        "description": ""
+      },
+      {
+        "name": "Translation",
+        "icon": "icon-dl-translate",
+        "description": ""
+      },
+      {
+        "name": "Conversational",
+        "icon": "icon-dl-conversation",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "icon-dl-query",
+        "description": ""
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "Audio",
+    "categories": [
+      "Model"
+    ],
+    "values": [
+      {
+        "name": "Auto Speech Recognition",
+        "icon": "icon-dl-approve",
+        "description": ""
+      },
+      {
+        "name": "Text to speech",
+        "icon": "icon-dl-text",
+        "description": ""
+      },
+      {
+        "name": "Audio classification",
+        "icon": "icon-dl-audio",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "icon-dl-query",
+        "description": ""
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "Libraries",
+    "Category": [
+      "Pipeline",
+      "Model",
+      "Element"
+    ],
+    "values": [
+      {
+        "name": "Torch",
+        "icon": "icon-dl-python",
+        "description": ""
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "icon-dl-python",
+        "description": ""
+      },
+      {
+        "name": "Timm",
+        "icon": "icon-dl-python",
+        "description": ""
+      },
+      {
+        "name": "ImgAug",
+        "icon": "icon-dl-python",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "icon-dl-query",
+        "description": ""
+      }
+    ],
+    "isMultiple": true
+  },
+  {
+    "key": "Converters",
+    "categories": [
+      "Element"
+    ],
+    "values": [
+      {
+        "name": "COCO",
+        "icon": "icon-dl-refresh",
+        "description": ""
+      },
+      {
+        "name": "YOLO",
+        "icon": "icon-dl-refresh",
+        "description": ""
+      },
+      {
+        "name": "VOC",
+        "icon": "icon-dl-refresh",
+        "description": ""
+      },
+      {
+        "name": "DICOM",
+        "icon": "icon-dl-refresh",
+        "description": ""
+      },
+      {
+        "name": "HEIC",
+        "icon": "icon-dl-refresh",
+        "description": ""
+      },
+      {
+        "name": "Custom",
+        "icon": "icon-dl-refresh",
+        "description": ""
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "Pipeline Type",
+    "categories": [
+      "Pipeline"
+    ],
+    "values": [
+      {
+        "name": "Node",
+        "icon": "icon-dl-related"
+      },
+      {
+        "name": "Template",
+        "icon": "icon-dl-content-media"
+      }
+    ]
+  },
+  {
+    "key": "Node Type",
+    "categories": [
+      "Pipeline"
+    ],
+    "values": [
+      {
+        "name": "Data",
+        "icon": "icon-dl-dataset"
+      },
+      {
+        "name": "Image Utils",
+        "icon": "icon-dl-item-outline"
+      },
+      {
+        "name": "Models",
+        "icon": "icon-dl-models"
+      },
+      {
+        "name": "Video Utils",
+        "icon": "icon-dl-youtube"
+      },
+      {
+        "name": "Other",
+        "icon": "icon-dl-query"
+      }
+    ]
+  },
+  {
+    "key": "Template Type",
+    "categories": [
+      "Pipeline"
+    ],
+    "values": [
+      {
+        "name": "Data Engineering",
+        "icon": "icon-dl-dataset"
+      },
+      {
+        "name": "MLOps",
+        "icon": "icon-dl-models/"
+      },
+      {
+        "name": "Project Management",
+        "icon": "icon-dl-project"
+      },
+      {
+        "name": "Labeling Workflow",
+        "icon": "icon-dl-task"
+      },
+      {
+        "name": "Other",
+        "icon": "icon-dl-query"
+      }
+    ]
+  },
+  {
+    "key": "Type",
+    "categories": [
+      "Model",
+      "Pipeline",
+      "Element"
+    ],
+    "values": [
+      {
+        "name": "Studio",
+        "icon": "icon-dl-annotation-studio",
+        "description": ""
+      },
+      {
+        "name": "Model",
+        "icon": "icon-dl-models",
+        "description": ""
+      },
+      {
+        "name": "Pipeline Node",
+        "icon": "icon-dl-related",
+        "description": ""
+      },
+      {
+        "name": "Pipeline Template",
+        "icon": "icon-dl-pipeline",
+        "description": ""
+      },
+      {
+        "name": "Notification Channel",
+        "icon": "icon-dl-notification",
+        "description": ""
+      },
+      {
+        "name": "Function",
+        "icon": "icon-dl-faas-outline",
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": "icon-dl-query",
+        "description": ""
+      }
+    ],
+    "isMultiple": true
+  },
+  {
+    "key": "Gen AI",
+    "categories": [
+      "Model"
+    ],
+    "values": [
+      {
+        "name": "LLM",
+        "icon": "icon-dl-models-management",
+        "description": "Large Language Models"
+      },
+      {
+        "name": "LMM",
+        "icon": "icon-dl-multi-modal",
+        "description": "Large Multimodal Models"
+      }
+    ],
+    "isMultiple": false
+  }
+]
