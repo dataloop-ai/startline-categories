@@ -42,7 +42,7 @@
       },
       {
         "name": "AWS",
-        "icon": ["icon-dl-aws-light","icon-dl-aws-dark"]
+        "icon": ["icon-dl-aws-light","icon-dl-aws-dark"],
         "description": "Provided by AWS",
         "link": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
       },
@@ -257,7 +257,7 @@
   },
   {
     "key": "Libraries",
-    "Category": [
+    "categories": [
       "Pipeline",
       "Model",
       "Element"
