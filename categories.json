@@ -3,13 +3,37 @@
     "key": "Category",
     "values": [
       {
-        "name": "Model"
+        "name": "Model",
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#7C8CFF",
+          "light": "#3452FF"
+        }
       },
       {
-        "name": "Pipeline"
+        "name": "Pipeline",
+        "icon": {
+          "dark": "icon-dl-pipeline",
+          "light": "icon-dl-pipeline"
+        },
+        "color": {
+          "dark": "#7C8CFF",
+          "light": "#3452FF"
+        }
       },
       {
-        "name": "Element"
+        "name": "Element",
+        "icon": {
+          "dark": "icon-dl-faas-outline",
+          "light": "icon-dl-faas-outline"
+        },
+        "color": {
+          "dark": "#7C8CFF",
+          "light": "#3452FF"
+        }
       }
     ],
     "isMultiple": false
@@ -24,43 +48,92 @@
     "values": [
       {
         "name": "Hugging Face",
-        "icon": "icon-dl-hugging-face",
+        "icon": {
+          "dark": "icon-dl-hugging-face",
+          "light": "icon-dl-hugging-face"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
         "description": "Provided by Hugging Face",
         "link": "https://huggingface.co"
       },
       {
         "name": "Nvidia",
-        "icon": "icon-dl-nvidia",
+        "icon": {
+          "dark": "icon-dl-nvidia",
+          "light": "icon-dl-nvidia"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
         "description": "Provided by Nvidia",
         "link": "https://catalog.ngc.nvidia.com/models"
       },
       {
         "name": "Google",
-        "icon": "icon-dl-google",
+        "icon": {
+          "dark": "icon-dl-google",
+          "light": "icon-dl-google"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
         "description": "Provided by Google",
         "link": "https://cloud.google.com/vision?hl=en"
       },
       {
         "name": "AWS",
-        "icon": ["icon-dl-aws-light","icon-dl-aws-dark"],
+        "icon": {
+          "dark": "icon-dl-aws-dark",
+          "light": "icon-dl-aws-light"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
         "description": "Provided by AWS",
         "link": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
       },
       {
         "name": "Open AI",
-        "icon": "icon-dl-open-ai",
+        "icon": {
+          "dark": "icon-dl-open-ai",
+          "light": "icon-dl-open-ai"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
         "description": "Provided by Open AI",
         "link": "https://openai.com/blog/openai-api"
       },
       {
         "name": "OpenMMLabs",
-        "icon": "icon-dl-open-mm-labs",
+        "icon": {
+          "dark": "icon-dl-open-mm-labs",
+          "light": "icon-dl-open-mm-labs"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
         "description": "Provided by OpenMMLabs",
         "link": "https://openmmlab.com/"
       },
       {
         "name": "Dataloop",
-        "icon": "icon-dl-dataloop",
+        "icon": {
+          "dark": "icon-dl-dataloop",
+          "light": "icon-dl-dataloop"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
         "description": "Provided by Dataloop",
         "link": "https://dataloop.ai"
       }
@@ -71,38 +144,93 @@
     "key": "License",
     "values": [
       {
+        "name": "EULA",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": "https://www.nvidia.com/en-us/data-center/products/nvidia-ai-enterprise/eula/"
+      },
+      {
         "name": "MIT",
-        "icon": "icon-dl-license",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
         "description": "",
         "link": "https://opensource.org/licenses/MIT"
       },
       {
         "name": "Apache 2.0",
-        "icon": "icon-dl-license",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
         "description": "",
         "link": "https://opensource.org/licenses/Apache-2.0"
       },
       {
         "name": "GPL 2.0",
-        "icon": "icon-dl-license",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
         "description": "",
         "link": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"
       },
       {
         "name": "GPL 3.0",
-        "icon": "icon-dl-license",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
         "description": "",
         "link": "https://www.gnu.org/licenses/gpl-3.0.html"
       },
       {
         "name": "AGPL-3.0",
-        "icon": "icon-dl-license",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
         "description": "",
         "link": "https://www.gnu.org/licenses/agpl-3.0.en.html"
       },
       {
         "name": "Llama 2",
-        "icon": "icon-dl-license",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
         "description": "",
         "link": "https://github.com/facebookresearch/llama/blob/main/LICENSE"
       }
@@ -117,37 +245,86 @@
     "values": [
       {
         "name": "Audio",
-        "icon": "icon-dl-audio",
+        "icon": {
+          "dark": "icon-dl-audio",
+          "light": "icon-dl-audio"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        },
         "description": ""
       },
       {
         "name": "Image",
-        "icon": "icon-dl-item-outline",
+        "icon": {
+          "dark": "icon-dl-item-outline",
+          "light": "icon-dl-item-outline"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        },
         "description": ""
       },
       {
         "name": "Text",
-        "icon": "icon-dl-text",
+        "icon": {
+          "dark": "icon-dl-text",
+          "light": "icon-dl-text"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        },
         "description": ""
       },
       {
         "name": "Video",
-        "icon": "icon-dl-youtube",
+        "icon": {
+          "dark": "icon-dl-youtube",
+          "light": "icon-dl-youtube"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        },
         "description": ""
       },
       {
         "name": "Multi Modal",
-        "icon": "icon-dl-multi-modal",
+        "icon": {
+          "dark": "icon-dl-multi-modal",
+          "light": "icon-dl-multi-modal"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        },
         "description": ""
       },
       {
         "name": "Feature extraction",
-        "icon": "icon-dl-table",
+        "icon": {
+          "dark": "icon-dl-table",
+          "light": "icon-dl-table"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        },
         "description": ""
       },
       {
         "name": "Other",
-        "icon": "icon-dl-query",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        },
         "description": ""
       }
     ],
@@ -161,32 +338,74 @@
     "values": [
       {
         "name": "Object Detection",
-        "icon": "icon-dl-focus",
+        "icon": {
+          "dark": "icon-dl-focus",
+          "light": "icon-dl-focus"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       },
       {
         "name": "Classification",
-        "icon": "icon-dl-classification",
+        "icon": {
+          "dark": "icon-dl-classification",
+          "light": "icon-dl-classification"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       },
       {
         "name": "OCR",
-        "icon": "icon-dl-ocr",
+        "icon": {
+          "dark": "icon-dl-ocr",
+          "light": "icon-dl-ocr"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       },
       {
         "name": "Semantic Segmentation",
-        "icon": "icon-dl-brush",
+        "icon": {
+          "dark": "icon-dl-brush",
+          "light": "icon-dl-brush"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       },
       {
         "name": "Video classification",
-        "icon": "icon-dl-youtube",
+        "icon": {
+          "dark": "icon-dl-youtube",
+          "light": "icon-dl-youtube"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       },
       {
         "name": "Other",
-        "icon": "icon-dl-query",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       }
     ],
@@ -200,27 +419,62 @@
     "values": [
       {
         "name": "Text Classification",
-        "icon": "icon-dl-text",
+        "icon": {
+          "dark": "icon-dl-text",
+          "light": "icon-dl-text"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        },
         "description": ""
       },
       {
         "name": "Token Classification",
-        "icon": "icon-dl-classification",
+        "icon": {
+          "dark": "icon-dl-classification",
+          "light": "icon-dl-classification"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        },
         "description": ""
       },
       {
         "name": "Translation",
-        "icon": "icon-dl-translate",
+        "icon": {
+          "dark": "icon-dl-translate",
+          "light": "icon-dl-translate"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        },
         "description": ""
       },
       {
         "name": "Conversational",
-        "icon": "icon-dl-conversation",
+        "icon": {
+          "dark": "icon-dl-conversation",
+          "light": "icon-dl-conversation"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        },
         "description": ""
       },
       {
         "name": "Other",
-        "icon": "icon-dl-query",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        },
         "description": ""
       }
     ],
@@ -234,22 +488,50 @@
     "values": [
       {
         "name": "Auto Speech Recognition",
-        "icon": "icon-dl-approve",
+        "icon": {
+          "dark": "icon-dl-approve",
+          "light": "icon-dl-approve"
+        },
+        "color": {
+          "dark": "#FF5C5C",
+          "light": "#FE5252"
+        },
         "description": ""
       },
       {
         "name": "Text to speech",
-        "icon": "icon-dl-text",
+        "icon": {
+          "dark": "icon-dl-text",
+          "light": "icon-dl-text"
+        },
+        "color": {
+          "dark": "#FF5C5C",
+          "light": "#FE5252"
+        },
         "description": ""
       },
       {
         "name": "Audio classification",
-        "icon": "icon-dl-audio",
+        "icon": {
+          "dark": "icon-dl-audio",
+          "light": "icon-dl-audio"
+        },
+        "color": {
+          "dark": "#FF5C5C",
+          "light": "#FE5252"
+        },
         "description": ""
       },
       {
         "name": "Other",
-        "icon": "icon-dl-query",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FF5C5C",
+          "light": "#FE5252"
+        },
         "description": ""
       }
     ],
@@ -265,27 +547,62 @@
     "values": [
       {
         "name": "Torch",
-        "icon": "icon-dl-python",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
         "description": ""
       },
       {
         "name": "TensorFlow",
-        "icon": "icon-dl-python",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
         "description": ""
       },
       {
         "name": "Timm",
-        "icon": "icon-dl-python",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
         "description": ""
       },
       {
         "name": "ImgAug",
-        "icon": "icon-dl-python",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
         "description": ""
       },
       {
         "name": "Other",
-        "icon": "icon-dl-query",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
         "description": ""
       }
     ],
@@ -299,32 +616,74 @@
     "values": [
       {
         "name": "COCO",
-        "icon": "icon-dl-refresh",
+        "icon": {
+          "dark": "icon-dl-refresh",
+          "light": "icon-dl-refresh"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       },
       {
         "name": "YOLO",
-        "icon": "icon-dl-refresh",
+        "icon": {
+          "dark": "icon-dl-refresh",
+          "light": "icon-dl-refresh"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       },
       {
         "name": "VOC",
-        "icon": "icon-dl-refresh",
+        "icon": {
+          "dark": "icon-dl-refresh",
+          "light": "icon-dl-refresh"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       },
       {
         "name": "DICOM",
-        "icon": "icon-dl-refresh",
+        "icon": {
+          "dark": "icon-dl-refresh",
+          "light": "icon-dl-refresh"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       },
       {
         "name": "HEIC",
-        "icon": "icon-dl-refresh",
+        "icon": {
+          "dark": "icon-dl-refresh",
+          "light": "icon-dl-refresh"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       },
       {
         "name": "Custom",
-        "icon": "icon-dl-refresh",
+        "icon": {
+          "dark": "icon-dl-refresh",
+          "light": "icon-dl-refresh"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        },
         "description": ""
       }
     ],
@@ -338,11 +697,25 @@
     "values": [
       {
         "name": "Node",
-        "icon": "icon-dl-related"
+        "icon": {
+          "dark": "icon-dl-related",
+          "light": "icon-dl-related"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        }
       },
       {
         "name": "Template",
-        "icon": "icon-dl-content-media"
+        "icon": {
+          "dark": "icon-dl-content-media",
+          "light": "icon-dl-content-media"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        }
       }
     ]
   },
@@ -354,23 +727,58 @@
     "values": [
       {
         "name": "Data",
-        "icon": "icon-dl-dataset"
+        "icon": {
+          "dark": "icon-dl-dataset",
+          "light": "icon-dl-dataset"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": ""
+        }
       },
       {
         "name": "Image Utils",
-        "icon": "icon-dl-item-outline"
+        "icon": {
+          "dark": "icon-dl-item-outline",
+          "light": "icon-dl-item-outline"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        }
       },
       {
         "name": "Models",
-        "icon": "icon-dl-models"
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        }
       },
       {
         "name": "Video Utils",
-        "icon": "icon-dl-youtube"
+        "icon": {
+          "dark": "icon-dl-youtube",
+          "light": "icon-dl-youtube"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        }
       },
       {
         "name": "Other",
-        "icon": "icon-dl-query"
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        }
       }
     ]
   },
@@ -382,23 +790,58 @@
     "values": [
       {
         "name": "Data Engineering",
-        "icon": "icon-dl-dataset"
+        "icon": {
+          "dark": "icon-dl-dataset",
+          "light": "icon-dl-dataset"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
       },
       {
         "name": "MLOps",
-        "icon": "icon-dl-models/"
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
       },
       {
         "name": "Project Management",
-        "icon": "icon-dl-project"
+        "icon": {
+          "dark": "icon-dl-project",
+          "light": "icon-dl-project"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": ""
+        }
       },
       {
         "name": "Labeling Workflow",
-        "icon": "icon-dl-task"
+        "icon": {
+          "dark": "icon-dl-task",
+          "light": "icon-dl-task"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
       },
       {
         "name": "Other",
-        "icon": "icon-dl-query"
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
       }
     ]
   },
@@ -412,37 +855,86 @@
     "values": [
       {
         "name": "Studio",
-        "icon": "icon-dl-annotation-studio",
+        "icon": {
+          "dark": "icon-dl-annotation-studio",
+          "light": "icon-dl-annotation-studio"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
         "description": ""
       },
       {
         "name": "Model",
-        "icon": "icon-dl-models",
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
         "description": ""
       },
       {
         "name": "Pipeline Node",
-        "icon": "icon-dl-related",
+        "icon": {
+          "dark": "icon-dl-related",
+          "light": "icon-dl-related"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
         "description": ""
       },
       {
         "name": "Pipeline Template",
-        "icon": "icon-dl-pipeline",
+        "icon": {
+          "dark": "icon-dl-pipeline",
+          "light": "icon-dl-pipeline"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
         "description": ""
       },
       {
         "name": "Notification Channel",
-        "icon": "icon-dl-notification",
+        "icon": {
+          "dark": "icon-dl-notification",
+          "light": "icon-dl-notification"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
         "description": ""
       },
       {
         "name": "Function",
-        "icon": "icon-dl-faas-outline",
+        "icon": {
+          "dark": "icon-dl-faas-outline",
+          "light": "icon-dl-faas-outline"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
         "description": ""
       },
       {
         "name": "Other",
-        "icon": "icon-dl-query",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
         "description": ""
       }
     ],
@@ -456,12 +948,26 @@
     "values": [
       {
         "name": "LLM",
-        "icon": "icon-dl-models-management",
+        "icon": {
+          "dark": "icon-dl-models-management",
+          "light": "icon-dl-models-management"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
         "description": "Large Language Models"
       },
       {
         "name": "LMM",
-        "icon": "icon-dl-multi-modal",
+        "icon": {
+          "dark": "icon-dl-multi-modal",
+          "light": "icon-dl-multi-modal"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
         "description": "Large Multimodal Models"
       }
     ],
