@@ -319,8 +319,8 @@
       {
         "name": "Feature extraction",
         "icon": {
-          "dark": "icon-dl-table",
-          "light": "icon-dl-table"
+          "dark": "icon-dl-usage",
+          "light": "icon-dl-usage"
         },
         "color": {
           "dark": "#FFF1B2",
