@@ -114,8 +114,8 @@
       {
         "name": "Intel",
         "icon": {
-          "dark": "",
-          "light": ""
+          "dark": "icon-dl-intel",
+          "light": "icon-dl-intel"
         },
         "color": {
           "dark": "",
