@@ -112,6 +112,19 @@
         "link": "https://openai.com/blog/openai-api"
       },
       {
+        "name": "Intel",
+        "icon": {
+          "dark": "",
+          "light": ""
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Intel",
+        "link": ""
+      },
+      {
         "name": "OpenMMLabs",
         "icon": {
           "dark": "icon-dl-open-mm-labs",
@@ -238,7 +251,7 @@
     "isMultiple": false
   },
   {
-    "key": "Task Type",
+    "key": "Media Type",
     "categories": [
       "Model"
     ],
@@ -306,8 +319,8 @@
       {
         "name": "Feature extraction",
         "icon": {
-          "dark": "icon-dl-table",
-          "light": "icon-dl-table"
+          "dark": "icon-dl-usage",
+          "light": "icon-dl-usage"
         },
         "color": {
           "dark": "#FFF1B2",
