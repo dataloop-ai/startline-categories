@@ -125,6 +125,32 @@
         "link": ""
       },
       {
+        "name": "Qualcomm",
+        "icon": {
+          "dark": "icon-dl-qualcomm",
+          "light": "icon-dl-qualcomm"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Qualcomm",
+        "link": ""
+      },
+      {
+        "name": "AMD",
+        "icon": {
+          "dark": "icon-dl-amd",
+          "light": "icon-dl-amd"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by AMD",
+        "link": ""
+      },
+      {
         "name": "OpenMMLabs",
         "icon": {
           "dark": "icon-dl-open-mm-labs",
@@ -297,6 +323,18 @@
         "icon": {
           "dark": "icon-dl-youtube",
           "light": "icon-dl-youtube"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        },
+        "description": ""
+      },
+      {
+        "name": "LiDAR",
+        "icon": {
+          "dark": "icon-dl-lidar",
+          "light": "icon-dl-lidar"
         },
         "color": {
           "dark": "#FFF1B2",
