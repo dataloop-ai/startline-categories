@@ -112,19 +112,6 @@
         "link": "https://openai.com/blog/openai-api"
       },
       {
-        "name": "Intel",
-        "icon": {
-          "dark": "icon-dl-intel",
-          "light": "icon-dl-intel"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Intel",
-        "link": ""
-      },
-      {
         "name": "Qualcomm",
         "icon": {
           "dark": "icon-dl-qualcomm",
@@ -135,6 +122,19 @@
           "light": ""
         },
         "description": "Provided by Qualcomm",
+        "link": ""
+      },
+      {
+        "name": "Intel",
+        "icon": {
+          "dark": "icon-dl-intel",
+          "light": "icon-dl-intel"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Intel",
         "link": ""
       },
       {
@@ -175,103 +175,6 @@
         },
         "description": "Provided by Dataloop",
         "link": "https://dataloop.ai"
-      }
-    ],
-    "isMultiple": false
-  },
-  {
-    "key": "License",
-    "values": [
-      {
-        "name": "EULA",
-        "icon": {
-          "dark": "icon-dl-license",
-          "light": "icon-dl-license"
-        },
-        "color": {
-          "dark": "#7BD679",
-          "light": "#4CC34A"
-        },
-        "description": "",
-        "link": "https://www.nvidia.com/en-us/data-center/products/nvidia-ai-enterprise/eula/"
-      },
-      {
-        "name": "MIT",
-        "icon": {
-          "dark": "icon-dl-license",
-          "light": "icon-dl-license"
-        },
-        "color": {
-          "dark": "#7BD679",
-          "light": "#4CC34A"
-        },
-        "description": "",
-        "link": "https://opensource.org/licenses/MIT"
-      },
-      {
-        "name": "Apache 2.0",
-        "icon": {
-          "dark": "icon-dl-license",
-          "light": "icon-dl-license"
-        },
-        "color": {
-          "dark": "#7BD679",
-          "light": "#4CC34A"
-        },
-        "description": "",
-        "link": "https://opensource.org/licenses/Apache-2.0"
-      },
-      {
-        "name": "GPL 2.0",
-        "icon": {
-          "dark": "icon-dl-license",
-          "light": "icon-dl-license"
-        },
-        "color": {
-          "dark": "#7BD679",
-          "light": "#4CC34A"
-        },
-        "description": "",
-        "link": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"
-      },
-      {
-        "name": "GPL 3.0",
-        "icon": {
-          "dark": "icon-dl-license",
-          "light": "icon-dl-license"
-        },
-        "color": {
-          "dark": "#7BD679",
-          "light": "#4CC34A"
-        },
-        "description": "",
-        "link": "https://www.gnu.org/licenses/gpl-3.0.html"
-      },
-      {
-        "name": "AGPL-3.0",
-        "icon": {
-          "dark": "icon-dl-license",
-          "light": "icon-dl-license"
-        },
-        "color": {
-          "dark": "#7BD679",
-          "light": "#4CC34A"
-        },
-        "description": "",
-        "link": "https://www.gnu.org/licenses/agpl-3.0.en.html"
-      },
-      {
-        "name": "Llama 2",
-        "icon": {
-          "dark": "icon-dl-license",
-          "light": "icon-dl-license"
-        },
-        "color": {
-          "dark": "#7BD679",
-          "light": "#4CC34A"
-        },
-        "description": "",
-        "link": "https://github.com/facebookresearch/llama/blob/main/LICENSE"
       }
     ],
     "isMultiple": false
@@ -1020,6 +923,103 @@
           "light": "#A57BFE"
         },
         "description": "Large Multimodal Models"
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "License",
+    "values": [
+      {
+        "name": "EULA",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": "https://www.nvidia.com/en-us/data-center/products/nvidia-ai-enterprise/eula/"
+      },
+      {
+        "name": "MIT",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": "https://opensource.org/licenses/MIT"
+      },
+      {
+        "name": "Apache 2.0",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": "https://opensource.org/licenses/Apache-2.0"
+      },
+      {
+        "name": "GPL 2.0",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"
+      },
+      {
+        "name": "GPL 3.0",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": "https://www.gnu.org/licenses/gpl-3.0.html"
+      },
+      {
+        "name": "AGPL-3.0",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": "https://www.gnu.org/licenses/agpl-3.0.en.html"
+      },
+      {
+        "name": "Llama 2",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": "https://github.com/facebookresearch/llama/blob/main/LICENSE"
       }
     ],
     "isMultiple": false
