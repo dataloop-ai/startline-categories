@@ -384,6 +384,18 @@
         "description": ""
       },
       {
+        "name": "Conversational",
+        "icon": {
+          "dark": "icon-dl-conversation",
+          "light": "icon-dl-conversation"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        },
+        "description": ""
+      },
+      {
         "name": "Token Classification",
         "icon": {
           "dark": "icon-dl-classification",
@@ -400,18 +412,6 @@
         "icon": {
           "dark": "icon-dl-translate",
           "light": "icon-dl-translate"
-        },
-        "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
-        },
-        "description": ""
-      },
-      {
-        "name": "Conversational",
-        "icon": {
-          "dark": "icon-dl-conversation",
-          "light": "icon-dl-conversation"
         },
         "color": {
           "dark": "#48D5E8",
@@ -441,18 +441,6 @@
     ],
     "values": [
       {
-        "name": "Auto Speech Recognition",
-        "icon": {
-          "dark": "icon-dl-approve",
-          "light": "icon-dl-approve"
-        },
-        "color": {
-          "dark": "#FF5C5C",
-          "light": "#FE5252"
-        },
-        "description": ""
-      },
-      {
         "name": "Text to speech",
         "icon": {
           "dark": "icon-dl-text",
@@ -469,6 +457,18 @@
         "icon": {
           "dark": "icon-dl-audio",
           "light": "icon-dl-audio"
+        },
+        "color": {
+          "dark": "#FF5C5C",
+          "light": "#FE5252"
+        },
+        "description": ""
+      },
+      {
+        "name": "Auto Speech Recognition",
+        "icon": {
+          "dark": "icon-dl-approve",
+          "light": "icon-dl-approve"
         },
         "color": {
           "dark": "#FF5C5C",
@@ -802,7 +802,6 @@
   {
     "key": "Type",
     "categories": [
-      "Model",
       "Pipeline",
       "Element"
     ],
