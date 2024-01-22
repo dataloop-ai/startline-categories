@@ -928,6 +928,9 @@
   },
   {
     "key": "License",
+    "categories": [
+      "Model"
+    ],
     "values": [
       {
         "name": "EULA",
