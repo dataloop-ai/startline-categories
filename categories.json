@@ -60,6 +60,32 @@
         "link": "https://huggingface.co"
       },
       {
+        "name": "Meta",
+        "icon": {
+          "dark": "",
+          "light": ""
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Meta",
+        "link": "https://ai.meta.com/"
+      },
+      {
+        "name": "Ultralytics",
+        "icon": {
+          "dark": "",
+          "light": ""
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by UltraLytics",
+        "link": "https://www.ultralytics.com"
+      },
+      {
         "name": "Nvidia",
         "icon": {
           "dark": "icon-dl-nvidia",
@@ -175,6 +201,19 @@
         },
         "description": "Provided by Dataloop",
         "link": "https://dataloop.ai"
+      },
+      {
+        "name": "Other",
+        "icon": {
+          "dark": "",
+          "light": ""
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "",
+        "link": ""
       }
     ],
     "isMultiple": false
