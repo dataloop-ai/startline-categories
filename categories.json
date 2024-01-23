@@ -62,8 +62,8 @@
       {
         "name": "Meta",
         "icon": {
-          "dark": "",
-          "light": ""
+          "dark": "icon-dl-meta",
+          "light": "icon-dl-meta"
         },
         "color": {
           "dark": "",
@@ -75,8 +75,8 @@
       {
         "name": "Ultralytics",
         "icon": {
-          "dark": "",
-          "light": ""
+          "dark": "icon-dl-ultralytics",
+          "light": "icon-dl-ultralytics"
         },
         "color": {
           "dark": "",
