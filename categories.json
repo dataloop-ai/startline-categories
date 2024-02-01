@@ -205,8 +205,8 @@
       {
         "name": "Other",
         "icon": {
-          "dark": "",
-          "light": ""
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
         },
         "color": {
           "dark": "",
