@@ -60,6 +60,19 @@
         "link": "https://huggingface.co"
       },
       {
+        "name": "Microsoft",
+        "icon": {
+          "dark": "icon-dl-microsoft",
+          "light": "icon-dl-microsoft"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Microsoft",
+        "link": ""
+      },
+      {
         "name": "Meta",
         "icon": {
           "dark": "icon-dl-meta",
