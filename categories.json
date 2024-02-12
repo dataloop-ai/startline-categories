@@ -232,6 +232,129 @@
     "isMultiple": false
   },
   {
+    "key": "Pipeline Type",
+    "categories": [
+      "Pipeline"
+    ],
+    "values": [
+      {
+        "name": "Template",
+        "icon": {
+          "dark": "icon-dl-content-media",
+          "light": "icon-dl-content-media"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        }
+      },
+      {
+        "name": "Node",
+        "icon": {
+          "dark": "icon-dl-related",
+          "light": "icon-dl-related"
+        },
+        "color": {
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
+        }
+      }
+    ]
+  },
+  {
+    "key": "Type",
+    "categories": [
+      "Element"
+    ],
+    "values": [
+      {
+        "name": "Studio",
+        "icon": {
+          "dark": "icon-dl-annotation-studio",
+          "light": "icon-dl-annotation-studio"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
+        "description": ""
+      },
+      {
+        "name": "Model",
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
+        "description": ""
+      },
+      {
+        "name": "Pipeline Node",
+        "icon": {
+          "dark": "icon-dl-related",
+          "light": "icon-dl-related"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
+        "description": ""
+      },
+      {
+        "name": "Pipeline Template",
+        "icon": {
+          "dark": "icon-dl-pipeline",
+          "light": "icon-dl-pipeline"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
+        "description": ""
+      },
+      {
+        "name": "Notification Channel",
+        "icon": {
+          "dark": "icon-dl-notification",
+          "light": "icon-dl-notification"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
+        "description": ""
+      },
+      {
+        "name": "Function",
+        "icon": {
+          "dark": "icon-dl-faas-outline",
+          "light": "icon-dl-faas-outline"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        },
+        "description": ""
+      }
+    ],
+    "isMultiple": true
+  },
+  {
     "key": "Media Type",
     "categories": [
       "Model"
@@ -696,36 +819,6 @@
     "isMultiple": false
   },
   {
-    "key": "Pipeline Type",
-    "categories": [
-      "Pipeline"
-    ],
-    "values": [
-      {
-        "name": "Node",
-        "icon": {
-          "dark": "icon-dl-related",
-          "light": "icon-dl-related"
-        },
-        "color": {
-          "dark": "#7EE2B8",
-          "light": "#1DB079"
-        }
-      },
-      {
-        "name": "Template",
-        "icon": {
-          "dark": "icon-dl-content-media",
-          "light": "icon-dl-content-media"
-        },
-        "color": {
-          "dark": "#7EE2B8",
-          "light": "#1DB079"
-        }
-      }
-    ]
-  },
-  {
     "key": "Node Type",
     "categories": [
       "Pipeline"
@@ -850,100 +943,6 @@
         }
       }
     ]
-  },
-  {
-    "key": "Type",
-    "categories": [
-      "Pipeline",
-      "Element"
-    ],
-    "values": [
-      {
-        "name": "Studio",
-        "icon": {
-          "dark": "icon-dl-annotation-studio",
-          "light": "icon-dl-annotation-studio"
-        },
-        "color": {
-          "dark": "#FF6FC8",
-          "light": "#FD4CB9"
-        },
-        "description": ""
-      },
-      {
-        "name": "Model",
-        "icon": {
-          "dark": "icon-dl-models",
-          "light": "icon-dl-models"
-        },
-        "color": {
-          "dark": "#FF6FC8",
-          "light": "#FD4CB9"
-        },
-        "description": ""
-      },
-      {
-        "name": "Pipeline Node",
-        "icon": {
-          "dark": "icon-dl-related",
-          "light": "icon-dl-related"
-        },
-        "color": {
-          "dark": "#FF6FC8",
-          "light": "#FD4CB9"
-        },
-        "description": ""
-      },
-      {
-        "name": "Pipeline Template",
-        "icon": {
-          "dark": "icon-dl-pipeline",
-          "light": "icon-dl-pipeline"
-        },
-        "color": {
-          "dark": "#FF6FC8",
-          "light": "#FD4CB9"
-        },
-        "description": ""
-      },
-      {
-        "name": "Notification Channel",
-        "icon": {
-          "dark": "icon-dl-notification",
-          "light": "icon-dl-notification"
-        },
-        "color": {
-          "dark": "#FF6FC8",
-          "light": "#FD4CB9"
-        },
-        "description": ""
-      },
-      {
-        "name": "Function",
-        "icon": {
-          "dark": "icon-dl-faas-outline",
-          "light": "icon-dl-faas-outline"
-        },
-        "color": {
-          "dark": "#FF6FC8",
-          "light": "#FD4CB9"
-        },
-        "description": ""
-      },
-      {
-        "name": "Other",
-        "icon": {
-          "dark": "icon-dl-query",
-          "light": "icon-dl-query"
-        },
-        "color": {
-          "dark": "#FF6FC8",
-          "light": "#FD4CB9"
-        },
-        "description": ""
-      }
-    ],
-    "isMultiple": true
   },
   {
     "key": "Gen AI",
