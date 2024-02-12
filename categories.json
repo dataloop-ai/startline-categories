@@ -316,10 +316,10 @@
         "description": ""
       },
       {
-        "name": "Notification Channel",
+        "name": "Function",
         "icon": {
-          "dark": "icon-dl-notification",
-          "light": "icon-dl-notification"
+          "dark": "icon-dl-faas-outline",
+          "light": "icon-dl-faas-outline"
         },
         "color": {
           "dark": "#FF6FC8",
@@ -328,10 +328,10 @@
         "description": ""
       },
       {
-        "name": "Function",
+        "name": "Notification Channel",
         "icon": {
-          "dark": "icon-dl-faas-outline",
-          "light": "icon-dl-faas-outline"
+          "dark": "icon-dl-notification",
+          "light": "icon-dl-notification"
         },
         "color": {
           "dark": "#FF6FC8",
