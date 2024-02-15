@@ -201,6 +201,18 @@
         },
         "description": "Provided by OpenMMLabs",
         "link": "https://openmmlab.com/"
+      }, {
+        "name": "NetApp",
+        "icon": {
+          "dark": "icon-dl-netapp",
+          "light": "icon-dl-netapp"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by NetApp",
+        "link": "https://www.netapp.com/"
       },
       {
         "name": "Dataloop",
