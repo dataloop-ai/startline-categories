@@ -244,7 +244,7 @@
     "isMultiple": false
   },
   {
-    "key": "Pipeline Type",
+    "key": "Type",
     "categories": [
       "Pipeline"
     ],
@@ -274,7 +274,7 @@
     ]
   },
   {
-    "key": "Type",
+    "key": "Element Type",
     "categories": [
       "Element"
     ],
