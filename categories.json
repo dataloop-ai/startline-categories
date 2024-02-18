@@ -679,77 +679,6 @@
     "isMultiple": false
   },
   {
-    "key": "Libraries",
-    "categories": [
-      "Pipeline",
-      "Model",
-      "Element"
-    ],
-    "values": [
-      {
-        "name": "Torch",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "TensorFlow",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "Timm",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "ImgAug",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "Other",
-        "icon": {
-          "dark": "icon-dl-query",
-          "light": "icon-dl-query"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      }
-    ],
-    "isMultiple": true
-  },
-  {
     "key": "Converters",
     "categories": [
       "Element"
@@ -988,6 +917,77 @@
       }
     ],
     "isMultiple": false
+  },
+  {
+    "key": "Libraries",
+    "categories": [
+      "Pipeline",
+      "Model",
+      "Element"
+    ],
+    "values": [
+      {
+        "name": "Torch",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
+        "description": ""
+      },
+      {
+        "name": "TensorFlow",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
+        "description": ""
+      },
+      {
+        "name": "Timm",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
+        "description": ""
+      },
+      {
+        "name": "ImgAug",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
+        "description": ""
+      }
+    ],
+    "isMultiple": true
   },
   {
     "key": "License",
