@@ -234,8 +234,8 @@
           "light": "icon-dl-query"
         },
         "color": {
-          "dark": "",
-          "light": ""
+          "dark": "#ffffff",
+          "light": "#000000"
         },
         "description": "",
         "link": ""
