@@ -304,30 +304,6 @@
         "description": ""
       },
       {
-        "name": "Pipeline Node",
-        "icon": {
-          "dark": "icon-dl-related",
-          "light": "icon-dl-related"
-        },
-        "color": {
-          "dark": "#FF6FC8",
-          "light": "#FD4CB9"
-        },
-        "description": ""
-      },
-      {
-        "name": "Pipeline Template",
-        "icon": {
-          "dark": "icon-dl-pipeline",
-          "light": "icon-dl-pipeline"
-        },
-        "color": {
-          "dark": "#FF6FC8",
-          "light": "#FD4CB9"
-        },
-        "description": ""
-      },
-      {
         "name": "Function",
         "icon": {
           "dark": "icon-dl-faas-outline",
