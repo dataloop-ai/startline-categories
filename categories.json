@@ -125,6 +125,19 @@
         "link": "https://cloud.google.com/vision?hl=en"
       },
       {
+        "name": "Getty Images",
+        "icon": {
+          "dark": "icon-dl-getty-images-dark",
+          "light": "icon-dl-getty-images-light"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Getty Images",
+        "link": "https://www.gettyimages.com/"
+      },
+      {
         "name": "AWS",
         "icon": {
           "dark": "icon-dl-aws-dark",
@@ -201,7 +214,8 @@
         },
         "description": "Provided by OpenMMLabs",
         "link": "https://openmmlab.com/"
-      }, {
+      },
+      {
         "name": "NetApp",
         "icon": {
           "dark": "icon-dl-netapp",
