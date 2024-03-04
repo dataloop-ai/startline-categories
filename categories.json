@@ -878,7 +878,8 @@
   {
     "key": "Gen AI",
     "categories": [
-      "Model"
+      "Model",
+      "Element"
     ],
     "values": [
       {
@@ -904,6 +905,18 @@
           "light": "#A57BFE"
         },
         "description": "Large Multimodal Models"
+      },
+      {
+        "name": "Synthetic Data",
+        "icon": {
+          "dark": "icon-dl-dataset",
+          "light": "icon-dl-dataset"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": "Synthetic Data Generation"
       }
     ],
     "isMultiple": false
