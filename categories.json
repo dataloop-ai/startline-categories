@@ -34,6 +34,28 @@
           "dark": "#7C8CFF",
           "light": "#3452FF"
         }
+      },
+      {
+        "name": "Dataset",
+        "icon": {
+          "dark": "icon-dl-faas-outline",
+          "light": "icon-dl-faas-outline"
+        },
+        "color": {
+          "dark": "#7C8CFF",
+          "light": "#3452FF"
+        }
+      },
+      {
+        "name": "Solution",
+        "icon": {
+          "dark": "icon-dl-faas-outline",
+          "light": "icon-dl-faas-outline"
+        },
+        "color": {
+          "dark": "#7C8CFF",
+          "light": "#3452FF"
+        }
       }
     ],
     "isMultiple": false
@@ -43,6 +65,8 @@
     "categories": [
       "Model",
       "Pipeline",
+      "Dataset",
+      "Solution",
       "Element"
     ],
     "values": [
