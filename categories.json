@@ -1019,7 +1019,11 @@
   {
     "key": "License",
     "categories": [
-      "Model"
+      "Pipeline",
+      "Model",
+      "Element",
+      "Dataset",
+      "Solution"
     ],
     "values": [
       {
