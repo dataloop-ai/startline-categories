@@ -34,6 +34,28 @@
           "dark": "#7C8CFF",
           "light": "#3452FF"
         }
+      },
+      {
+        "name": "Dataset",
+        "icon": {
+          "dark": "icon-dl-faas-outline",
+          "light": "icon-dl-faas-outline"
+        },
+        "color": {
+          "dark": "#7C8CFF",
+          "light": "#3452FF"
+        }
+      },
+      {
+        "name": "Solution",
+        "icon": {
+          "dark": "icon-dl-faas-outline",
+          "light": "icon-dl-faas-outline"
+        },
+        "color": {
+          "dark": "#7C8CFF",
+          "light": "#3452FF"
+        }
       }
     ],
     "isMultiple": false
@@ -43,6 +65,8 @@
     "categories": [
       "Model",
       "Pipeline",
+      "Dataset",
+      "Solution",
       "Element"
     ],
     "values": [
@@ -125,6 +149,19 @@
         "link": "https://cloud.google.com/vision?hl=en"
       },
       {
+        "name": "Getty Images",
+        "icon": {
+          "dark": "icon-dl-getty-images-dark",
+          "light": "icon-dl-getty-images-light"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Getty Images",
+        "link": "https://www.gettyimages.com/"
+      },
+      {
         "name": "AWS",
         "icon": {
           "dark": "icon-dl-aws-dark",
@@ -201,7 +238,8 @@
         },
         "description": "Provided by OpenMMLabs",
         "link": "https://openmmlab.com/"
-      }, {
+      },
+      {
         "name": "NetApp",
         "icon": {
           "dark": "icon-dl-netapp",
@@ -234,8 +272,8 @@
           "light": "icon-dl-query"
         },
         "color": {
-          "dark": "",
-          "light": ""
+          "dark": "#ffffff",
+          "light": "#000000"
         },
         "description": "",
         "link": ""
@@ -274,7 +312,7 @@
     ]
   },
   {
-    "key": "Type",
+    "key": "Element Type",
     "categories": [
       "Element"
     ],
@@ -296,30 +334,6 @@
         "icon": {
           "dark": "icon-dl-models",
           "light": "icon-dl-models"
-        },
-        "color": {
-          "dark": "#FF6FC8",
-          "light": "#FD4CB9"
-        },
-        "description": ""
-      },
-      {
-        "name": "Pipeline Node",
-        "icon": {
-          "dark": "icon-dl-related",
-          "light": "icon-dl-related"
-        },
-        "color": {
-          "dark": "#FF6FC8",
-          "light": "#FD4CB9"
-        },
-        "description": ""
-      },
-      {
-        "name": "Pipeline Template",
-        "icon": {
-          "dark": "icon-dl-pipeline",
-          "light": "icon-dl-pipeline"
         },
         "color": {
           "dark": "#FF6FC8",
@@ -679,77 +693,6 @@
     "isMultiple": false
   },
   {
-    "key": "Libraries",
-    "categories": [
-      "Pipeline",
-      "Model",
-      "Element"
-    ],
-    "values": [
-      {
-        "name": "Torch",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "TensorFlow",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "Timm",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "ImgAug",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "Other",
-        "icon": {
-          "dark": "icon-dl-query",
-          "light": "icon-dl-query"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      }
-    ],
-    "isMultiple": true
-  },
-  {
     "key": "Converters",
     "categories": [
       "Element"
@@ -844,7 +787,7 @@
         },
         "color": {
           "dark": "#48D5E8",
-          "light": ""
+          "light": "#3491FF"
         }
       },
       {
@@ -929,7 +872,7 @@
         },
         "color": {
           "dark": "#FFF1B2",
-          "light": ""
+          "light": "#ECC416"
         }
       },
       {
@@ -959,7 +902,8 @@
   {
     "key": "Gen AI",
     "categories": [
-      "Model"
+      "Model",
+      "Element"
     ],
     "values": [
       {
@@ -985,14 +929,101 @@
           "light": "#A57BFE"
         },
         "description": "Large Multimodal Models"
+      },
+      {
+        "name": "Synthetic Data",
+        "icon": {
+          "dark": "icon-dl-dataset",
+          "light": "icon-dl-dataset"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": "Synthetic Data Generation"
       }
     ],
     "isMultiple": false
   },
   {
+    "key": "Libraries",
+    "categories": [
+      "Pipeline",
+      "Model",
+      "Element"
+    ],
+    "values": [
+      {
+        "name": "Torch",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
+        "description": ""
+      },
+      {
+        "name": "TensorFlow",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
+        "description": ""
+      },
+      {
+        "name": "Timm",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
+        "description": ""
+      },
+      {
+        "name": "ImgAug",
+        "icon": {
+          "dark": "icon-dl-python",
+          "light": "icon-dl-python"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
+        "description": ""
+      },
+      {
+        "name": "Other",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#F78923",
+          "light": "#D97314"
+        },
+        "description": ""
+      }
+    ],
+    "isMultiple": true
+  },
+  {
     "key": "License",
     "categories": [
-      "Model"
+      "Pipeline",
+      "Model",
+      "Element",
+      "Dataset",
+      "Solution"
     ],
     "values": [
       {
