@@ -1053,6 +1053,19 @@
         "link": "https://opensource.org/licenses/MIT"
       },
       {
+        "name": "CC BY 4.0",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
         "name": "Apache 2.0",
         "icon": {
           "dark": "icon-dl-license",
