@@ -585,6 +585,18 @@
         "description": ""
       },
       {
+        "name": "Sentiment Analysis",
+        "icon": {
+          "dark": "icon-dl-statistics",
+          "light": "icon-dl-statistics"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        },
+        "description": ""
+      },
+      {
         "name": "Conversational",
         "icon": {
           "dark": "icon-dl-conversation",
