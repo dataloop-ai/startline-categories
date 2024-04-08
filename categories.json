@@ -383,7 +383,8 @@
   {
     "key": "Media Type",
     "categories": [
-      "Model"
+      "Model",
+      "Dataset"
     ],
     "values": [
       {
@@ -912,6 +913,69 @@
     ]
   },
   {
+    "key": "Solution Type",
+    "categories": [
+      "Solution"
+    ],
+    "values": [
+      {
+        "name": "Data Engineering",
+        "icon": {
+          "dark": "icon-dl-dataset",
+          "light": "icon-dl-dataset"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "MLOps",
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Project Management",
+        "icon": {
+          "dark": "icon-dl-project",
+          "light": "icon-dl-project"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Labeling Workflow",
+        "icon": {
+          "dark": "icon-dl-task",
+          "light": "icon-dl-task"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Other",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      }
+    ]
+  },
+  {
     "key": "Gen AI",
     "categories": [
       "Model",
@@ -980,6 +1044,124 @@
       }
     ],
     "isMultiple": true
+  },
+  {
+    "key": "Annotation Type",
+    "categories": [
+      "Dataset"
+    ],
+    "values": [
+      {
+        "name": "Bounding Box",
+        "icon": {
+          "dark": "icon-dl-box",
+          "light": "icon-dl-box"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Polygon",
+        "icon": {
+          "dark": "icon-dl-polygon",
+          "light": "icon-dl-polygon"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Semantic Segmentation",
+        "icon": {
+          "dark": "icon-dl-brush",
+          "light": "icon-dl-brush"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Classification",
+        "icon": {
+          "dark": "icon-dl-classification",
+          "light": "icon-dl-classification"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Cuboid",
+        "icon": {
+          "dark": "icon-dl-cubiod",
+          "light": "icon-dl-cubiod"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Polyline",
+        "icon": {
+          "dark": "icon-dl-polyline",
+          "light": "icon-dl-polyline"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Text Tool",
+        "icon": {
+          "dark": "icon-dl-marker",
+          "light": "icon-dl-marker"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Ellipse",
+        "icon": {
+          "dark": "icon-dl-ellipse",
+          "light": "icon-dl-ellipse"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Point",
+        "icon": {
+          "dark": "icon-dl-point",
+          "light": "icon-dl-point"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Other",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      }
+    ]
   },
   {
     "key": "Libraries",
