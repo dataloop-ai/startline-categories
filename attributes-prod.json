@@ -979,7 +979,7 @@
         "description": "Image Modification"
       }
     ],
-    "isMultiple": false
+    "isMultiple": true
   },
   {
     "key": "Libraries",
