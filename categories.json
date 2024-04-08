@@ -953,6 +953,30 @@
           "light": "#A57BFE"
         },
         "description": "Synthetic Data Generation"
+      },
+      {
+        "name": "Image Generation",
+        "icon": {
+          "dark": "icon-dl-image-generation-outline",
+          "light": "icon-dl-image-generation-outline"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": "Image Generation"
+      },
+      {
+        "name": "Image Modification",
+        "icon": {
+          "dark": "icon-dl-image-modification-outline",
+          "light": "icon-dl-image-modification-outline"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": "Image Modification"
       }
     ],
     "isMultiple": false

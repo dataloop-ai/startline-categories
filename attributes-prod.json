@@ -585,6 +585,18 @@
         "description": ""
       },
       {
+        "name": "Sentiment Analysis",
+        "icon": {
+          "dark": "icon-dl-statistics",
+          "light": "icon-dl-statistics"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        },
+        "description": ""
+      },
+      {
         "name": "Conversational",
         "icon": {
           "dark": "icon-dl-conversation",
@@ -941,6 +953,30 @@
           "light": "#A57BFE"
         },
         "description": "Synthetic Data Generation"
+      },
+      {
+        "name": "Image Generation",
+        "icon": {
+          "dark": "icon-dl-image-generation-outline",
+          "light": "icon-dl-image-generation-outline"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": "Image Generation"
+      },
+      {
+        "name": "Image Modification",
+        "icon": {
+          "dark": "icon-dl-image-modification-outline",
+          "light": "icon-dl-image-modification-outline"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": "Image Modification"
       }
     ],
     "isMultiple": false
@@ -1051,6 +1087,19 @@
         },
         "description": "",
         "link": "https://opensource.org/licenses/MIT"
+      },
+      {
+        "name": "CC BY 4.0",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
         "name": "Apache 2.0",
