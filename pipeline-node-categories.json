@@ -1,11 +1,5 @@
 {
   "Google Vision": {
     "color": "dl-color-negative"
-  },
-  "data": {
-    "color": "dl-color-info"
-  },
-  "automation": {
-    "color": "dl-color-positive"
   }
 }
