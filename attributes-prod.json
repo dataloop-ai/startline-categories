@@ -25,7 +25,7 @@
         }
       },
       {
-        "name": "Element",
+        "name": "Application",
         "icon": {
           "dark": "icon-dl-faas-outline",
           "light": "icon-dl-faas-outline"
@@ -67,7 +67,7 @@
       "Pipeline",
       "Dataset",
       "Solution",
-      "Element"
+      "Application"
     ],
     "values": [
       {
@@ -312,9 +312,9 @@
     ]
   },
   {
-    "key": "Element Type",
+    "key": "Application Type",
     "categories": [
-      "Element"
+      "Application"
     ],
     "values": [
       {
@@ -720,7 +720,7 @@
   {
     "key": "Converters",
     "categories": [
-      "Element"
+      "Application"
     ],
     "values": [
       {
@@ -991,7 +991,7 @@
     "key": "Gen AI",
     "categories": [
       "Model",
-      "Element"
+      "Application"
     ],
     "values": [
       {
@@ -1180,7 +1180,7 @@
     "categories": [
       "Pipeline",
       "Model",
-      "Element"
+      "Application"
     ],
     "values": [
       {
@@ -1251,7 +1251,7 @@
     "categories": [
       "Pipeline",
       "Model",
-      "Element",
+      "Application",
       "Dataset",
       "Solution"
     ],
