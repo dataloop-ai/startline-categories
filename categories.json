@@ -25,7 +25,7 @@
         }
       },
       {
-        "name": "Element",
+        "name": "Application",
         "icon": {
           "dark": "icon-dl-faas-outline",
           "light": "icon-dl-faas-outline"
@@ -67,7 +67,7 @@
       "Pipeline",
       "Dataset",
       "Solution",
-      "Element"
+      "Application"
     ],
     "values": [
       {
@@ -312,9 +312,9 @@
     ]
   },
   {
-    "key": "Element Type",
+    "key": "Application Type",
     "categories": [
-      "Element"
+      "Application"
     ],
     "values": [
       {
@@ -383,7 +383,8 @@
   {
     "key": "Media Type",
     "categories": [
-      "Model"
+      "Model",
+      "Dataset"
     ],
     "values": [
       {
@@ -451,18 +452,6 @@
         "icon": {
           "dark": "icon-dl-multi-modal",
           "light": "icon-dl-multi-modal"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        },
-        "description": ""
-      },
-      {
-        "name": "Feature extraction",
-        "icon": {
-          "dark": "icon-dl-usage",
-          "light": "icon-dl-usage"
         },
         "color": {
           "dark": "#FFF1B2",
@@ -585,6 +574,18 @@
         "description": ""
       },
       {
+        "name": "Translation",
+        "icon": {
+          "dark": "icon-dl-translate",
+          "light": "icon-dl-translate"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        },
+        "description": ""
+      },
+      {
         "name": "Sentiment Analysis",
         "icon": {
           "dark": "icon-dl-statistics",
@@ -621,10 +622,22 @@
         "description": ""
       },
       {
-        "name": "Translation",
+        "name": "Summarization",
         "icon": {
-          "dark": "icon-dl-translate",
-          "light": "icon-dl-translate"
+          "dark": "icon-dl-file",
+          "light": "icon-dl-file"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        },
+        "description": ""
+      },
+      {
+        "name": "Feature extraction",
+        "icon": {
+          "dark": "icon-dl-usage",
+          "light": "icon-dl-usage"
         },
         "color": {
           "dark": "#48D5E8",
@@ -707,7 +720,7 @@
   {
     "key": "Converters",
     "categories": [
-      "Element"
+      "Application"
     ],
     "values": [
       {
@@ -912,10 +925,73 @@
     ]
   },
   {
+    "key": "Solution Type",
+    "categories": [
+      "Solution"
+    ],
+    "values": [
+      {
+        "name": "Data Engineering",
+        "icon": {
+          "dark": "icon-dl-dataset",
+          "light": "icon-dl-dataset"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "MLOps",
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Project Management",
+        "icon": {
+          "dark": "icon-dl-project",
+          "light": "icon-dl-project"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Labeling Workflow",
+        "icon": {
+          "dark": "icon-dl-task",
+          "light": "icon-dl-task"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Other",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      }
+    ]
+  },
+  {
     "key": "Gen AI",
     "categories": [
       "Model",
-      "Element"
+      "Application"
     ],
     "values": [
       {
@@ -953,16 +1029,158 @@
           "light": "#A57BFE"
         },
         "description": "Synthetic Data Generation"
+      },
+      {
+        "name": "Image Generation",
+        "icon": {
+          "dark": "icon-dl-image-generation-outline",
+          "light": "icon-dl-image-generation-outline"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": "Image Generation"
+      },
+      {
+        "name": "Image Modification",
+        "icon": {
+          "dark": "icon-dl-image-modification-outline",
+          "light": "icon-dl-image-modification-outline"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": "Image Modification"
       }
     ],
-    "isMultiple": false
+    "isMultiple": true
+  },
+  {
+    "key": "Annotation Type",
+    "categories": [
+      "Dataset"
+    ],
+    "values": [
+      {
+        "name": "Bounding Box",
+        "icon": {
+          "dark": "icon-dl-box",
+          "light": "icon-dl-box"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Polygon",
+        "icon": {
+          "dark": "icon-dl-polygon",
+          "light": "icon-dl-polygon"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Semantic Segmentation",
+        "icon": {
+          "dark": "icon-dl-brush",
+          "light": "icon-dl-brush"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Polyline",
+        "icon": {
+          "dark": "icon-dl-polyline",
+          "light": "icon-dl-polyline"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Classification",
+        "icon": {
+          "dark": "icon-dl-classification",
+          "light": "icon-dl-classification"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Cuboid",
+        "icon": {
+          "dark": "icon-dl-cubiod",
+          "light": "icon-dl-cubiod"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Text Tool",
+        "icon": {
+          "dark": "icon-dl-marker",
+          "light": "icon-dl-marker"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Ellipse",
+        "icon": {
+          "dark": "icon-dl-ellipse",
+          "light": "icon-dl-ellipse"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Point",
+        "icon": {
+          "dark": "icon-dl-point",
+          "light": "icon-dl-point"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Other",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      }
+    ]
   },
   {
     "key": "Libraries",
     "categories": [
       "Pipeline",
       "Model",
-      "Element"
+      "Application"
     ],
     "values": [
       {
@@ -1033,7 +1251,7 @@
     "categories": [
       "Pipeline",
       "Model",
-      "Element",
+      "Application",
       "Dataset",
       "Solution"
     ],
