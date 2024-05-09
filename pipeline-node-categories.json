@@ -1,11 +1,5 @@
 {
   "Google Vision": {
     "color": "dl-color-negative"
-  },
-  "data": { 
-    "color": "#00FFD8"  
-  },
-  "workflow": { 
-    "color": "#FF00EC"  
   }
 }
