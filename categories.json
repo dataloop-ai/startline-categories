@@ -86,6 +86,36 @@
         ]
     },
     {
+         "key": "Onboarding_Category",
+         "values": [
+            {
+                "name": "Data Management"
+            },
+            {
+                "name": "Pipelines"
+            },
+            {
+                "name": "GenAI"
+            },
+            {
+                "name": "MLOps"
+            },
+            {
+                "name": "Annotation Platform"
+            }
+        ],
+         "isMultiple": true
+    },
+    {
+         "key": "Onbaording_Card",
+         "values": [
+            {
+                "name": "Use Dataloop Example"
+            }
+        ],
+         "isMultiple": true
+    },
+    {
         "key": "Provider",
         "hubs": [
             "Dataloop",
