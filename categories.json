@@ -422,16 +422,27 @@
                 "description": ""
             },
             {
-                "name": "Notification Channel",
+                "name": "Pipeline Node",
                 "icon": {
-                    "dark": "icon-dl-notification",
-                    "light": "icon-dl-notification"
+                    "dark": "icon-dl-related",
+                    "light": "icon-dl-related"
                 },
                 "color": {
                     "dark": "#FF6FC8",
                     "light": "#FD4CB9"
                 },
                 "description": ""
+            },
+            {
+                "name": "Data Management",
+                "icon": {
+                    "dark": "icon-dl-project",
+                    "light": "icon-dl-project"
+                },
+                "color": {
+                    "dark": "#FF6FC8",
+                    "light": "#FD4CB9"
+                }
             },
             {
                 "name": "Other",
@@ -885,8 +896,8 @@
         ],
         "isMultiple": false
     },
-    {
-        "key": "Node Type",
+    { 
+        "key": "Node Type", 
         "hubs": [
             "Dataloop"
         ],
@@ -1287,8 +1298,7 @@
         ],
         "categories": [
             "Pipeline",
-            "Model",
-            "Application"
+            "Model"
         ],
         "values": [
             {
@@ -1362,7 +1372,6 @@
         "categories": [
             "Pipeline",
             "Model",
-            "Application",
             "Dataset",
             "Solution"
         ],
