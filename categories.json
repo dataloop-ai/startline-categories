@@ -83,7 +83,9 @@
             {
                 "name": "Microsoft"
             }
-        ]
+        ],
+        "isMultiple": true
+
     },
     {
          "key": "Onboarding_Category",
