@@ -128,7 +128,8 @@
             "Pipeline",
             "Dataset",
             "Solution",
-            "Application"
+            "Application",
+            "NIM"
         ],
         "values": [
             {
@@ -149,6 +150,9 @@
             },
             {
                 "name": "Microsoft",
+                "categories": [
+                    "Model"
+                ],
                 "icon": {
                     "dark": "icon-dl-microsoft",
                     "light": "icon-dl-microsoft"
