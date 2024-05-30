@@ -567,7 +567,8 @@
     {
         "key": "Computer Vision",
         "hubs": [
-            "Dataloop"
+            "Dataloop",
+            "Nvidia"
         ],
         "categories": [
             "Model"
