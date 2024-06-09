@@ -321,6 +321,19 @@
                 "link": "https://www.netapp.com/"
             },
             {
+                "name": "Databricks",
+                "icon": {
+                    "dark": "icon-dl-databricks",
+                    "light": "icon-dl-databricks"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by Databricks",
+                "link": "https://www.databricks.com/"
+            },
+            {
                 "name": "Dataloop",
                 "icon": {
                     "dark": "icon-dl-dataloop",
