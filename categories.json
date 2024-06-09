@@ -327,8 +327,8 @@
                     "light": "icon-dl-databricks"
                 },
                 "color": {
-                    "dark": "",
-                    "light": ""
+                    "dark": "#EE3D2C",
+                    "light": "#EE3D2C"
                 },
                 "description": "Provided by Databricks",
                 "link": "https://www.databricks.com/"
