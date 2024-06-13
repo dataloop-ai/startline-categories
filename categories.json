@@ -113,6 +113,12 @@
          "values": [
             {
                 "name": "Use Dataloop Example"
+            },
+            {
+                "name": "Annotation Tools"
+            },
+            {
+                "name": "Annotation Workflow"
             }
         ],
          "isMultiple": true
