@@ -14,6 +14,17 @@
         }
       },
       {
+        "name": "NIM",
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#7C8CFF",
+          "light": "#3452FF"
+        }
+      },
+      {
         "name": "Pipeline",
         "icon": {
           "dark": "icon-dl-pipeline",
@@ -61,17 +72,76 @@
     "isMultiple": false
   },
   {
+    "key": "Hub",
+    "values": [
+      {
+        "name": "Dataloop"
+      },
+      {
+        "name": "Nvidia"
+      },
+      {
+        "name": "Microsoft"
+      }
+    ],
+    "isMultiple": true
+  },
+  {
+    "key": "Onboarding_Category",
+    "values": [
+      {
+        "name": "Data Management"
+      },
+      {
+        "name": "Pipelines"
+      },
+      {
+        "name": "GenAI"
+      },
+      {
+        "name": "MLOps"
+      },
+      {
+        "name": "Annotation Platform"
+      }
+    ],
+    "isMultiple": true
+  },
+  {
+    "key": "Onbaording_Card",
+    "values": [
+      {
+        "name": "Use Dataloop Example"
+      },
+      {
+        "name": "Annotation Tools"
+      },
+      {
+        "name": "Annotation Workflow"
+      }
+    ],
+    "isMultiple": true
+  },
+  {
     "key": "Provider",
+    "hubs": [
+      "Dataloop",
+      "Nvidia"
+    ],
     "categories": [
       "Model",
       "Pipeline",
       "Dataset",
       "Solution",
-      "Application"
+      "Application",
+      "NIM"
     ],
     "values": [
       {
         "name": "Hugging Face",
+        "hubs": [
+          "Dataloop"
+        ],
         "icon": {
           "dark": "icon-dl-hugging-face",
           "light": "icon-dl-hugging-face"
@@ -85,6 +155,9 @@
       },
       {
         "name": "Microsoft",
+        "categories": [
+          "Model"
+        ],
         "icon": {
           "dark": "icon-dl-microsoft",
           "light": "icon-dl-microsoft"
@@ -123,7 +196,7 @@
         "link": "https://www.ultralytics.com"
       },
       {
-        "name": "Nvidia",
+        "name": "NVIDIA",
         "icon": {
           "dark": "icon-dl-nvidia",
           "light": "icon-dl-nvidia"
@@ -253,6 +326,32 @@
         "link": "https://www.netapp.com/"
       },
       {
+        "name": "Databricks",
+        "icon": {
+          "dark": "icon-dl-databricks",
+          "light": "icon-dl-databricks"
+        },
+        "color": {
+          "dark": "#EE3D2C",
+          "light": "#EE3D2C"
+        },
+        "description": "Provided by Databricks",
+        "link": "https://www.databricks.com/"
+      },
+      {
+        "name": "IBM",
+        "icon": {
+          "dark": "icon-dl-ibm",
+          "light": "icon-dl-ibm"
+        },
+        "color": {
+          "dark": "#EE3D2C",
+          "light": "#EE3D2C"
+        },
+        "description": "Provided by IBM",
+        "link": "https://www.ibm.com/us-en"
+      },
+      {
         "name": "Dataloop",
         "icon": {
           "dark": "icon-dl-dataloop",
@@ -283,6 +382,9 @@
   },
   {
     "key": "Pipeline Type",
+    "hubs": [
+      "Dataloop"
+    ],
     "categories": [
       "Pipeline"
     ],
@@ -313,6 +415,9 @@
   },
   {
     "key": "Application Type",
+    "hubs": [
+      "Dataloop"
+    ],
     "categories": [
       "Application"
     ],
@@ -354,16 +459,27 @@
         "description": ""
       },
       {
-        "name": "Notification Channel",
+        "name": "Pipeline Node",
         "icon": {
-          "dark": "icon-dl-notification",
-          "light": "icon-dl-notification"
+          "dark": "icon-dl-related",
+          "light": "icon-dl-related"
         },
         "color": {
           "dark": "#FF6FC8",
           "light": "#FD4CB9"
         },
         "description": ""
+      },
+      {
+        "name": "Data Management",
+        "icon": {
+          "dark": "icon-dl-project",
+          "light": "icon-dl-project"
+        },
+        "color": {
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
+        }
       },
       {
         "name": "Other",
@@ -382,7 +498,12 @@
   },
   {
     "key": "Media Type",
+    "hubs": [
+      "Dataloop",
+      "Nvidia"
+    ],
     "categories": [
+      "NIM",
       "Model",
       "Dataset"
     ],
@@ -476,6 +597,10 @@
   },
   {
     "key": "Computer Vision",
+    "hubs": [
+      "Dataloop",
+      "Nvidia"
+    ],
     "categories": [
       "Model"
     ],
@@ -557,8 +682,13 @@
   },
   {
     "key": "NLP",
+    "hubs": [
+      "Dataloop",
+      "Nvidia"
+    ],
     "categories": [
-      "Model"
+      "Model",
+      "NIM"
     ],
     "values": [
       {
@@ -662,6 +792,9 @@
   },
   {
     "key": "Audio",
+    "hubs": [
+      "Dataloop"
+    ],
     "categories": [
       "Model"
     ],
@@ -719,6 +852,9 @@
   },
   {
     "key": "Converters",
+    "hubs": [
+      "Dataloop"
+    ],
     "categories": [
       "Application"
     ],
@@ -796,10 +932,13 @@
         "description": ""
       }
     ],
-    "isMultiple": false
+    "isMultiple": true
   },
   {
     "key": "Node Type",
+    "hubs": [
+      "Dataloop"
+    ],
     "categories": [
       "Pipeline"
     ],
@@ -863,6 +1002,9 @@
   },
   {
     "key": "Template Type",
+    "hubs": [
+      "Dataloop"
+    ],
     "categories": [
       "Pipeline"
     ],
@@ -926,6 +1068,10 @@
   },
   {
     "key": "Solution Type",
+    "hubs": [
+      "Dataloop",
+      "Nvidia"
+    ],
     "categories": [
       "Solution"
     ],
@@ -989,9 +1135,14 @@
   },
   {
     "key": "Gen AI",
+    "hubs": [
+      "Dataloop",
+      "Nvidia"
+    ],
     "categories": [
       "Model",
-      "Application"
+      "Application",
+      "NIM"
     ],
     "values": [
       {
@@ -1059,6 +1210,9 @@
   },
   {
     "key": "Annotation Type",
+    "hubs": [
+      "Dataloop"
+    ],
     "categories": [
       "Dataset"
     ],
@@ -1173,14 +1327,17 @@
           "light": "#ECC416"
         }
       }
-    ]
+    ],
+    "isMultiple": true
   },
   {
     "key": "Libraries",
+    "hubs": [
+      "Dataloop"
+    ],
     "categories": [
       "Pipeline",
-      "Model",
-      "Application"
+      "Model"
     ],
     "values": [
       {
@@ -1248,10 +1405,12 @@
   },
   {
     "key": "License",
+    "hubs": [
+      "Dataloop"
+    ],
     "categories": [
       "Pipeline",
       "Model",
-      "Application",
       "Dataset",
       "Solution"
     ],

@@ -14,6 +14,17 @@
         }
       },
       {
+        "name": "Nim",
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#7C8CFF",
+          "light": "#3452FF"
+        }
+      },
+      {
         "name": "Pipeline",
         "icon": {
           "dark": "icon-dl-pipeline",
@@ -61,7 +72,25 @@
     "isMultiple": false
   },
   {
+    "key": "Hub",
+    "values": [
+      {
+        "name": "Dataloop"
+      },
+      {
+        "name": "Nvidia"
+      },
+      {
+        "name": "Microsoft"
+      }
+    ],
+    "isMultiple": true
+  },
+  {
     "key": "Provider",
+    "hubs": [
+      "Dataloop"
+    ],
     "categories": [
       "Model",
       "Pipeline",
@@ -286,6 +315,9 @@
     "categories": [
       "Pipeline"
     ],
+    "hubs": [
+      "Dataloop"
+    ],
     "values": [
       {
         "name": "Template",
@@ -315,6 +347,9 @@
     "key": "Application Type",
     "categories": [
       "Application"
+    ],
+    "hubs": [
+      "Dataloop"
     ],
     "values": [
       {
@@ -384,7 +419,12 @@
     "key": "Media Type",
     "categories": [
       "Model",
+      "Nim",
       "Dataset"
+    ],
+    "hubs": [
+      "Dataloop",
+      "Nvidia"
     ],
     "values": [
       {
