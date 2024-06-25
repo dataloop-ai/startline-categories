@@ -341,12 +341,12 @@
       {
         "name": "IBM",
         "icon": {
-          "dark": "icon-dl-ibm",
-          "light": "icon-dl-ibm"
+          "dark": "icon-dl-ibm-dark",
+          "light": "icon-dl-ibm-light"
         },
         "color": {
-          "dark": "dl-color-darker",
-          "light": "dl-color-darker"
+          "dark": "",
+          "light": ""
         },
         "description": "Provided by IBM",
         "link": "https://www.ibm.com/us-en"
