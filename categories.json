@@ -352,6 +352,45 @@
         "link": "https://www.ibm.com/us-en"
       },
       {
+        "name": "MistralAI",
+        "icon": {
+          "dark": "",
+          "light": ""
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by MistralAI",
+        "link": "https://mistral.ai/"
+      },
+      {
+        "name": "AI21",
+        "icon": {
+          "dark": "",
+          "light": ""
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by AI21",
+        "link": "https://www.ai21.com/"
+      },
+      {
+        "name": "Cohere",
+        "icon": {
+          "dark": "",
+          "light": ""
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Cohere",
+        "link": "https://cohere.com/"
+      },
+      {
         "name": "Dataloop",
         "icon": {
           "dark": "icon-dl-dataloop",
