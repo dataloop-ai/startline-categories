@@ -276,8 +276,8 @@
       {
         "name": "Intel",
         "icon": {
-          "dark": "icon-dl-intel",
-          "light": "icon-dl-intel"
+          "dark": "icon-dl-intel-dark",
+          "light": "icon-dl-intel-light"
         },
         "color": {
           "dark": "",
@@ -341,12 +341,12 @@
       {
         "name": "IBM",
         "icon": {
-          "dark": "icon-dl-ibm",
-          "light": "icon-dl-ibm"
+          "dark": "icon-dl-ibm-dark",
+          "light": "icon-dl-ibm-light"
         },
         "color": {
-          "dark": "#EE3D2C",
-          "light": "#EE3D2C"
+          "dark": "",
+          "light": ""
         },
         "description": "Provided by IBM",
         "link": "https://www.ibm.com/us-en"
