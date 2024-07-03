@@ -1,5 +1,9 @@
 {
   "Google Vision": {
-    "color": "dl-color-negative"
-  }
+    "color": "dl-color-rainbow-9"
+  },
+  "Text-Preprocessing": {
+    "color": "dl-color-rainbow-1"
+  },
 }
+
