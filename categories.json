@@ -92,7 +92,7 @@
         "isMultiple": true
     },
     {
-        "key": "Onboarding Category",
+        "key": "Onboarding Tab",
         "parent": "Onboarding",
         "values": [
             {
