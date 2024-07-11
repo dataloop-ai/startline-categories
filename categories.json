@@ -130,265 +130,6 @@
     "isMultiple": true
   },
   {
-    "key": "Deployed By",
-    "parent": null,
-    "hubs": [
-      "Dataloop",
-      "Nvidia"
-    ],
-    "categories": [
-      "Model",
-      "Pipeline",
-      "Dataset",
-      "Solution",
-      "Application",
-      "NIM"
-    ],
-    "values": [
-      {
-        "name": "Hugging Face",
-        "hubs": [
-          "Dataloop"
-        ],
-        "icon": {
-          "dark": "icon-dl-hugging-face",
-          "light": "icon-dl-hugging-face"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Hugging Face",
-        "link": "https://huggingface.co"
-      },
-      {
-        "name": "Microsoft",
-        "categories": [
-          "Model"
-        ],
-        "icon": {
-          "dark": "icon-dl-microsoft",
-          "light": "icon-dl-microsoft"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Microsoft",
-        "link": ""
-      },
-      {
-        "name": "Meta",
-        "icon": {
-          "dark": "icon-dl-meta",
-          "light": "icon-dl-meta"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Meta",
-        "link": "https://ai.meta.com/"
-      },
-      {
-        "name": "Ultralytics",
-        "icon": {
-          "dark": "icon-dl-ultralytics",
-          "light": "icon-dl-ultralytics"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by UltraLytics",
-        "link": "https://www.ultralytics.com"
-      },
-      {
-        "name": "NVIDIA",
-        "icon": {
-          "dark": "icon-dl-nvidia",
-          "light": "icon-dl-nvidia"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Nvidia",
-        "link": "https://catalog.ngc.nvidia.com/models"
-      },
-      {
-        "name": "Google",
-        "icon": {
-          "dark": "icon-dl-google",
-          "light": "icon-dl-google"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Google",
-        "link": "https://cloud.google.com/vision?hl=en"
-      },
-      {
-        "name": "Getty Images",
-        "icon": {
-          "dark": "icon-dl-getty-images-dark",
-          "light": "icon-dl-getty-images-light"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Getty Images",
-        "link": "https://www.gettyimages.com/"
-      },
-      {
-        "name": "AWS",
-        "icon": {
-          "dark": "icon-dl-aws-dark",
-          "light": "icon-dl-aws-light"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by AWS",
-        "link": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
-      },
-      {
-        "name": "Open AI",
-        "icon": {
-          "dark": "icon-dl-open-ai",
-          "light": "icon-dl-open-ai"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Open AI",
-        "link": "https://openai.com/blog/openai-api"
-      },
-      {
-        "name": "Qualcomm",
-        "icon": {
-          "dark": "icon-dl-qualcomm",
-          "light": "icon-dl-qualcomm"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Qualcomm",
-        "link": ""
-      },
-      {
-        "name": "Intel",
-        "icon": {
-          "dark": "icon-dl-intel",
-          "light": "icon-dl-intel"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Intel",
-        "link": ""
-      },
-      {
-        "name": "AMD",
-        "icon": {
-          "dark": "icon-dl-amd",
-          "light": "icon-dl-amd"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by AMD",
-        "link": ""
-      },
-      {
-        "name": "OpenMMLab",
-        "icon": {
-          "dark": "icon-dl-open-mm-labs",
-          "light": "icon-dl-open-mm-labs"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by OpenMMLabs",
-        "link": "https://openmmlab.com/"
-      },
-      {
-        "name": "NetApp",
-        "icon": {
-          "dark": "icon-dl-netapp",
-          "light": "icon-dl-netapp"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by NetApp",
-        "link": "https://www.netapp.com/"
-      },
-      {
-        "name": "Databricks",
-        "icon": {
-          "dark": "icon-dl-databricks",
-          "light": "icon-dl-databricks"
-        },
-        "color": {
-          "dark": "#EE3D2C",
-          "light": "#EE3D2C"
-        },
-        "description": "Provided by Databricks",
-        "link": "https://www.databricks.com/"
-      },
-      {
-        "name": "IBM",
-        "icon": {
-          "dark": "icon-dl-ibm-dark",
-          "light": "icon-dl-ibm-light"
-        },
-        "color": {
-          "dark": "#EE3D2C",
-          "light": "#EE3D2C"
-        },
-        "description": "Provided by IBM",
-        "link": "https://www.ibm.com/us-en"
-      },
-      {
-        "name": "Dataloop",
-        "icon": {
-          "dark": "icon-dl-dataloop",
-          "light": "icon-dl-dataloop"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Dataloop",
-        "link": "https://dataloop.ai"
-      },
-      {
-        "name": "Other",
-        "icon": {
-          "dark": "icon-dl-query",
-          "light": "icon-dl-query"
-        },
-        "color": {
-          "dark": "#ffffff",
-          "light": "#000000"
-        },
-        "description": "",
-        "link": ""
-      }
-    ],
-    "isMultiple": false
-  },
-  {
     "key": "Provider",
     "parent": null,
     "hubs": [
@@ -682,6 +423,200 @@
         },
         "description": "",
         "link": ""
+      }
+    ],
+    "isMultiple": false
+  },
+  {
+    "key": "Deployed By",
+    "parent": null,
+    "hubs": [
+      "Dataloop",
+      "Nvidia"
+    ],
+    "categories": [
+      "Model",
+      "Pipeline",
+      "Dataset",
+      "Solution",
+      "Application",
+      "NIM"
+    ],
+    "values": [
+      {
+        "name": "Hugging Face",
+        "hubs": [
+          "Dataloop"
+        ],
+        "icon": {
+          "dark": "icon-dl-hugging-face",
+          "light": "icon-dl-hugging-face"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Deployed by Hugging Face",
+        "link": "https://huggingface.co"
+      },
+      {
+        "name": "Microsoft",
+        "categories": [
+          "Model"
+        ],
+        "icon": {
+          "dark": "icon-dl-microsoft",
+          "light": "icon-dl-microsoft"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Microsoft",
+        "link": ""
+      },
+      {
+        "name": "Meta",
+        "icon": {
+          "dark": "icon-dl-meta",
+          "light": "icon-dl-meta"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Meta",
+        "link": "https://ai.meta.com/"
+      },
+      {
+        "name": "NVIDIA",
+        "icon": {
+          "dark": "icon-dl-nvidia",
+          "light": "icon-dl-nvidia"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Nvidia",
+        "link": "https://catalog.ngc.nvidia.com/models"
+      },
+      {
+        "name": "Google",
+        "icon": {
+          "dark": "icon-dl-google",
+          "light": "icon-dl-google"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Google",
+        "link": "https://cloud.google.com/vision?hl=en"
+      },
+      {
+        "name": "AWS",
+        "icon": {
+          "dark": "icon-dl-aws-dark",
+          "light": "icon-dl-aws-light"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by AWS",
+        "link": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
+      },
+      {
+        "name": "Qualcomm",
+        "icon": {
+          "dark": "icon-dl-qualcomm",
+          "light": "icon-dl-qualcomm"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Qualcomm",
+        "link": ""
+      },
+      {
+        "name": "Intel",
+        "icon": {
+          "dark": "icon-dl-intel",
+          "light": "icon-dl-intel"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Intel",
+        "link": ""
+      },
+      {
+        "name": "AMD",
+        "icon": {
+          "dark": "icon-dl-amd",
+          "light": "icon-dl-amd"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by AMD",
+        "link": ""
+      },
+      {
+        "name": "NetApp",
+        "icon": {
+          "dark": "icon-dl-netapp",
+          "light": "icon-dl-netapp"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by NetApp",
+        "link": "https://www.netapp.com/"
+      },
+      {
+        "name": "Databricks",
+        "icon": {
+          "dark": "icon-dl-databricks",
+          "light": "icon-dl-databricks"
+        },
+        "color": {
+          "dark": "#EE3D2C",
+          "light": "#EE3D2C"
+        },
+        "description": "Provided by Databricks",
+        "link": "https://www.databricks.com/"
+      },
+      {
+        "name": "IBM",
+        "icon": {
+          "dark": "icon-dl-ibm-dark",
+          "light": "icon-dl-ibm-light"
+        },
+        "color": {
+          "dark": "#EE3D2C",
+          "light": "#EE3D2C"
+        },
+        "description": "Provided by IBM",
+        "link": "https://www.ibm.com/us-en"
+      },
+      {
+        "name": "Dataloop",
+        "icon": {
+          "dark": "icon-dl-dataloop",
+          "light": "icon-dl-dataloop"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Dataloop",
+        "link": "https://dataloop.ai"
       }
     ],
     "isMultiple": false
