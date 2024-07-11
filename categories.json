@@ -1120,8 +1120,8 @@
           "light": "icon-dl-text"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
@@ -1133,8 +1133,8 @@
           "light": "icon-dl-translate"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
@@ -1146,8 +1146,8 @@
           "light": "icon-dl-statistics"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
@@ -1159,8 +1159,8 @@
           "light": "icon-dl-conversation"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
@@ -1172,8 +1172,8 @@
           "light": "icon-dl-classification"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
@@ -1185,8 +1185,8 @@
           "light": "icon-dl-file"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
@@ -1198,8 +1198,8 @@
           "light": "icon-dl-usage"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
@@ -1211,8 +1211,8 @@
           "light": "icon-dl-query"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       }
@@ -1399,8 +1399,8 @@
           "light": "icon-dl-models-management"
         },
         "color": {
-          "dark": "#C8AEFF",
-          "light": "#A57BFE"
+          "dark": "#48D5E8",
+          "light": "#3491FF"
         },
         "description": "Large Language Models"
       },
@@ -1412,8 +1412,8 @@
           "light": "icon-dl-multi-modal"
         },
         "color": {
-          "dark": "#C8AEFF",
-          "light": "#A57BFE"
+          "dark": "#48D5E8",
+          "light": "#3491FF"
         },
         "description": "Large Multimodal Models"
       },
@@ -1425,8 +1425,8 @@
           "light": "icon-dl-dataset"
         },
         "color": {
-          "dark": "#C8AEFF",
-          "light": "#A57BFE"
+          "dark": "#48D5E8",
+          "light": "#3491FF"
         },
         "description": "Synthetic Data Generation"
       },
@@ -1438,8 +1438,8 @@
           "light": "icon-dl-image-generation-outline"
         },
         "color": {
-          "dark": "#C8AEFF",
-          "light": "#A57BFE"
+          "dark": "#48D5E8",
+          "light": "#3491FF"
         },
         "description": "Image Generation"
       },
@@ -1451,8 +1451,8 @@
           "light": "icon-dl-image-modification-outline"
         },
         "color": {
-          "dark": "#C8AEFF",
-          "light": "#A57BFE"
+          "dark": "#48D5E8",
+          "light": "#3491FF"
         },
         "description": "Image Modification"
       }
