@@ -307,6 +307,20 @@
         "link": ""
       },
       {
+        "name": "MistralAI",
+        "displayName": "MistralAI",
+        "icon": {
+          "dark": "icon-dl-mistral-ai",
+          "light": "icon-dl-mistral-ai"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by MistralAI",
+        "link": "https://mistral.ai/"
+      },
+      {
         "name": "AMD",
         "displayName": "AMD",
         "icon": {
@@ -349,6 +363,20 @@
         "link": "https://www.netapp.com/"
       },
       {
+        "name": "Cohere",
+        "displayName": "Cohere",
+        "icon": {
+          "dark": "icon-dl-cohere",
+          "light": "icon-dl-cohere"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Cohere",
+        "link": "https://cohere.com/"
+      },
+      {
         "name": "Databricks",
         "displayName": "Databricks",
         "icon": {
@@ -377,20 +405,6 @@
         "link": "https://www.ibm.com/us-en"
       },
       {
-        "name": "MistralAI",
-        "displayName": "MistralAI",
-        "icon": {
-          "dark": "icon-dl-mistral-ai",
-          "light": "icon-dl-mistral-ai"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by MistralAI",
-        "link": "https://mistral.ai/"
-      },
-      {
         "name": "AI21",
         "displayName": "AI21",
         "icon": {
@@ -403,20 +417,6 @@
         },
         "description": "Provided by AI21",
         "link": "https://www.ai21.com/"
-      },
-      {
-        "name": "Cohere",
-        "displayName": "Cohere",
-        "icon": {
-          "dark": "icon-dl-cohere",
-          "light": "icon-dl-cohere"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by Cohere",
-        "link": "https://cohere.com/"
       },
       {
         "name": "Dataloop",
