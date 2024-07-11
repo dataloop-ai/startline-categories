@@ -557,6 +557,20 @@
         "link": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
       },
       {
+        "name": "AMD",
+        "displayName": "AMD",
+        "icon": {
+          "dark": "icon-dl-amd",
+          "light": "icon-dl-amd"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by AMD",
+        "link": ""
+      },
+      {
         "name": "Qualcomm",
         "displayName": "Qualcomm",
         "icon": {
@@ -582,20 +596,6 @@
           "light": ""
         },
         "description": "Provided by Intel",
-        "link": ""
-      },
-      {
-        "name": "AMD",
-        "displayName": "AMD",
-        "icon": {
-          "dark": "icon-dl-amd",
-          "light": "icon-dl-amd"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by AMD",
         "link": ""
       },
       {
@@ -749,6 +749,153 @@
     "isMultiple": true
   },
   {
+    "key": "Template Type",
+    "displayName": "Template Type",
+    "parent": "Template",
+    "hubs": [
+      "Dataloop"
+    ],
+    "categories": [
+      "Pipeline"
+    ],
+    "values": [
+      {
+        "name": "Data Engineering",
+        "displayName": "Data Engineering",
+        "icon": {
+          "dark": "icon-dl-dataset",
+          "light": "icon-dl-dataset"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "MLOps",
+        "displayName": "MLOps",
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Project Management",
+        "displayName": "Project Management",
+        "icon": {
+          "dark": "icon-dl-project",
+          "light": "icon-dl-project"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Labeling Workflow",
+        "displayName": "Labeling Workflow",
+        "icon": {
+          "dark": "icon-dl-task",
+          "light": "icon-dl-task"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Other",
+        "displayName": "Other",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      }
+    ]
+  },
+  {
+    "key": "Solution Type",
+    "displayName": "Solution Type",
+    "parent": "Solution",
+    "hubs": [
+      "Dataloop",
+      "Nvidia"
+    ],
+    "categories": [
+      "Solution"
+    ],
+    "values": [
+      {
+        "name": "Data Engineering",
+        "displayName": "Data Engineering",
+        "icon": {
+          "dark": "icon-dl-dataset",
+          "light": "icon-dl-dataset"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "MLOps",
+        "displayName": "MLOps",
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Project Management",
+        "displayName": "Project Management",
+        "icon": {
+          "dark": "icon-dl-project",
+          "light": "icon-dl-project"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Labeling Workflow",
+        "displayName": "Labeling Workflow",
+        "icon": {
+          "dark": "icon-dl-task",
+          "light": "icon-dl-task"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Other",
+        "displayName": "Other",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      }
+    ]
+  },
+  {
     "key": "Media Type",
     "displayName": "Media Type",
     "parent": null,
@@ -773,8 +920,8 @@
           "light": "icon-dl-audio"
         },
         "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
         },
         "description": ""
       },
@@ -786,8 +933,8 @@
           "light": "icon-dl-item-outline"
         },
         "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
         },
         "description": ""
       },
@@ -799,8 +946,8 @@
           "light": "icon-dl-text"
         },
         "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
         },
         "description": ""
       },
@@ -812,8 +959,8 @@
           "light": "icon-dl-youtube"
         },
         "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
         },
         "description": ""
       },
@@ -825,8 +972,8 @@
           "light": "icon-dl-lidar"
         },
         "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
         },
         "description": ""
       },
@@ -838,8 +985,8 @@
           "light": "icon-dl-multi-modal"
         },
         "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
         },
         "description": ""
       },
@@ -851,8 +998,8 @@
           "light": "icon-dl-query"
         },
         "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
         },
         "description": ""
       }
@@ -1229,153 +1376,6 @@
       }
     ],
     "isMultiple": true
-  },
-  {
-    "key": "Template Type",
-    "displayName": "Template Type",
-    "parent": "Template",
-    "hubs": [
-      "Dataloop"
-    ],
-    "categories": [
-      "Pipeline"
-    ],
-    "values": [
-      {
-        "name": "Data Engineering",
-        "displayName": "Data Engineering",
-        "icon": {
-          "dark": "icon-dl-dataset",
-          "light": "icon-dl-dataset"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "MLOps",
-        "displayName": "MLOps",
-        "icon": {
-          "dark": "icon-dl-models",
-          "light": "icon-dl-models"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Project Management",
-        "displayName": "Project Management",
-        "icon": {
-          "dark": "icon-dl-project",
-          "light": "icon-dl-project"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Labeling Workflow",
-        "displayName": "Labeling Workflow",
-        "icon": {
-          "dark": "icon-dl-task",
-          "light": "icon-dl-task"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Other",
-        "displayName": "Other",
-        "icon": {
-          "dark": "icon-dl-query",
-          "light": "icon-dl-query"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      }
-    ]
-  },
-  {
-    "key": "Solution Type",
-    "displayName": "Solution Type",
-    "parent": "Solution",
-    "hubs": [
-      "Dataloop",
-      "Nvidia"
-    ],
-    "categories": [
-      "Solution"
-    ],
-    "values": [
-      {
-        "name": "Data Engineering",
-        "displayName": "Data Engineering",
-        "icon": {
-          "dark": "icon-dl-dataset",
-          "light": "icon-dl-dataset"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "MLOps",
-        "displayName": "MLOps",
-        "icon": {
-          "dark": "icon-dl-models",
-          "light": "icon-dl-models"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Project Management",
-        "displayName": "Project Management",
-        "icon": {
-          "dark": "icon-dl-project",
-          "light": "icon-dl-project"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Labeling Workflow",
-        "displayName": "Labeling Workflow",
-        "icon": {
-          "dark": "icon-dl-task",
-          "light": "icon-dl-task"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Other",
-        "displayName": "Other",
-        "icon": {
-          "dark": "icon-dl-query",
-          "light": "icon-dl-query"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      }
-    ]
   },
   {
     "key": "Gen AI",
