@@ -1084,6 +1084,19 @@
         "description": ""
       },
       {
+        "name": "Embeddings",
+        "displayName": "Embeddings",
+        "icon": {
+          "dark": "icon-dl-embeddings",
+          "light": "icon-dl-embeddings"
+        },
+        "color": {
+          "dark": "#FF5C5C",
+          "light": "#FE5252"
+        },
+        "description": ""
+      },
+      {
         "name": "Other",
         "displayName": "Other",
         "icon": {
@@ -1191,11 +1204,11 @@
         "description": ""
       },
       {
-        "name": "Feature extraction",
-        "displayName": "Feature extraction",
+        "name": "Embeddings",
+        "displayName": "Embeddings",
         "icon": {
-          "dark": "icon-dl-usage",
-          "light": "icon-dl-usage"
+          "dark": "icon-dl-embeddings",
+          "light": "icon-dl-embeddings"
         },
         "color": {
           "dark": "#FF6FC8",
@@ -1262,6 +1275,19 @@
         "icon": {
           "dark": "icon-dl-approve",
           "light": "icon-dl-approve"
+        },
+        "color": {
+          "dark": "#FF5C5C",
+          "light": "#FE5252"
+        },
+        "description": ""
+      },
+      {
+        "name": "Embeddings",
+        "displayName": "Embeddings",
+        "icon": {
+          "dark": "icon-dl-embeddings",
+          "light": "icon-dl-embeddings"
         },
         "color": {
           "dark": "#FF5C5C",
