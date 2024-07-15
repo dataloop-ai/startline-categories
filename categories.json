@@ -433,6 +433,20 @@
         "link": "https://dataloop.ai"
       },
       {
+        "name": "FID move",
+        "displayName": "FID move",
+        "icon": {
+          "dark": "icon-dl-dataloop",
+          "light": "icon-dl-dataloop"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Dataloop",
+        "link": "https://dataloop.ai"
+      },
+      {
         "name": "Other",
         "displayName": "Other",
         "icon": {
