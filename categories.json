@@ -436,14 +436,14 @@
         "name": "FID move",
         "displayName": "FID move",
         "icon": {
-          "dark": "icon-dl-dataloop",
-          "light": "icon-dl-dataloop"
+          "dark": "",
+          "light": ""
         },
         "color": {
           "dark": "",
           "light": ""
         },
-        "description": "Provided by Dataloop",
+        "description": "Provided by FID move",
         "link": "https://dataloop.ai"
       },
       {
@@ -1005,11 +1005,11 @@
         "description": ""
       },
       {
-        "name": "Other",
-        "displayName": "Other",
+        "name": "All",
+        "displayName": "All",
         "icon": {
-          "dark": "icon-dl-query",
-          "light": "icon-dl-query"
+          "dark": "icon-dl-oval",
+          "light": "icon-dl-oval"
         },
         "color": {
           "dark": "#C8AEFF",
