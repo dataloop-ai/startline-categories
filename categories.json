@@ -1005,11 +1005,11 @@
         "description": ""
       },
       {
-        "name": "All",
-        "displayName": "All",
+        "name": "All Types",
+        "displayName": "All Types",
         "icon": {
-          "dark": "icon-dl-oval",
-          "light": "icon-dl-oval"
+          "dark": "icon-dl-all-type-outline",
+          "light": "icon-dl-all-type-outline"
         },
         "color": {
           "dark": "#C8AEFF",
