@@ -447,6 +447,20 @@
         "link": "https://dataloop.ai"
       },
       {
+        "name": "Core42",
+        "displayName": "Core42",
+        "icon": {
+          "dark": "icon-dl-core42",
+          "light": "icon-dl-core42"
+        },
+        "color": {
+          "dark": "#7C8CFF",
+          "light": "#3452FF"
+        },
+        "description": "Artificial Intelligence and Cloud Computing company",
+        "link": "https://core42.ai"
+      },
+      {
         "name": "Other",
         "displayName": "Other",
         "icon": {
@@ -1127,7 +1141,6 @@
     "isMultiple": false
   },
   {
-    "key": "NLP",
     "key": "NLP",
     "parent": "Model",
     "hubs": [
