@@ -332,8 +332,8 @@
           "light": "icon-dl-databricks"
         },
         "color": {
-          "dark": "#EE3D2C",
-          "light": "#EE3D2C"
+          "dark": "",
+          "light": ""
         },
         "description": "Provided by Databricks",
         "link": "https://www.databricks.com/"
@@ -345,8 +345,8 @@
           "light": "icon-dl-ibm"
         },
         "color": {
-          "dark": "#EE3D2C",
-          "light": "#EE3D2C"
+          "dark": "",
+          "light": ""
         },
         "description": "Provided by IBM",
         "link": "https://www.ibm.com/us-en"
