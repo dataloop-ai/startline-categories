@@ -384,8 +384,8 @@
           "light": "icon-dl-databricks"
         },
         "color": {
-          "dark": "#EE3D2C",
-          "light": "#EE3D2C"
+          "dark": "",
+          "light": ""
         },
         "description": "Provided by Databricks",
         "link": "https://www.databricks.com/"
@@ -395,7 +395,7 @@
         "displayName": "IBM",
         "icon": {
           "dark": "icon-dl-ibm-dark",
-          "light": "icon-dl-ibm-light"
+          "light": "icon-dl-ibm-dark"
         },
         "color": {
           "dark": "",
@@ -433,20 +433,6 @@
         "link": "https://dataloop.ai"
       },
       {
-        "name": "FID move",
-        "displayName": "FID move",
-        "icon": {
-          "dark": "",
-          "light": ""
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Provided by FID move",
-        "link": "https://dataloop.ai"
-      },
-      {
         "name": "Core42",
         "displayName": "Core42",
         "icon": {
@@ -454,8 +440,8 @@
           "light": "icon-dl-core42"
         },
         "color": {
-          "dark": "#7C8CFF",
-          "light": "#3452FF"
+          "dark": "",
+          "light": ""
         },
         "description": "Artificial Intelligence and Cloud Computing company",
         "link": "https://core42.ai"
@@ -648,8 +634,8 @@
           "light": "icon-dl-databricks"
         },
         "color": {
-          "dark": "#EE3D2C",
-          "light": "#EE3D2C"
+          "dark": "",
+          "light": ""
         },
         "description": "Provided by Databricks",
         "link": "https://www.databricks.com/"
@@ -662,8 +648,8 @@
           "light": "icon-dl-ibm-light"
         },
         "color": {
-          "dark": "#EE3D2C",
-          "light": "#EE3D2C"
+          "dark": "",
+          "light": ""
         },
         "description": "Provided by IBM",
         "link": "https://www.ibm.com/us-en"
