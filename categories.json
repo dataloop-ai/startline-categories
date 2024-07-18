@@ -341,8 +341,8 @@
       {
         "name": "IBM",
         "icon": {
-          "dark": "icon-dl-ibm",
-          "light": "icon-dl-ibm"
+          "dark": "icon-dl-ibm-dark",
+          "light": "icon-dl-ibm-light"
         },
         "color": {
           "dark": "",
