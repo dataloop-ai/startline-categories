@@ -1005,8 +1005,8 @@
         "description": ""
       },
       {
-        "name": "All Types",
-        "displayName": "All Types",
+        "name": "All Media Types",
+        "displayName": "All Media Types",
         "icon": {
           "dark": "icon-dl-all-type-outline",
           "light": "icon-dl-all-type-outline"
