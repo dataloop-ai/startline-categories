@@ -395,7 +395,7 @@
         "displayName": "IBM",
         "icon": {
           "dark": "icon-dl-ibm-dark",
-          "light": "icon-dl-ibm-dark"
+          "light": "icon-dl-ibm-light"
         },
         "color": {
           "dark": "",
