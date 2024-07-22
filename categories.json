@@ -1,6 +1,7 @@
 [
   {
     "key": "Category",
+    "parent": null,
     "values": [
       {
         "name": "Model",
@@ -67,12 +68,16 @@
           "dark": "#7C8CFF",
           "light": "#3452FF"
         }
+      },
+      {
+        "name": "Onboarding"
       }
     ],
     "isMultiple": false
   },
   {
     "key": "Hub",
+    "parent": null,
     "values": [
       {
         "name": "Dataloop"
@@ -87,7 +92,8 @@
     "isMultiple": true
   },
   {
-    "key": "Onboarding_Category",
+    "key": "Onboarding Tab",
+    "parent": "Onboarding",
     "values": [
       {
         "name": "Data Management"
@@ -108,7 +114,8 @@
     "isMultiple": true
   },
   {
-    "key": "Onbaording_Card",
+    "key": "Onboarding Card",
+    "parent": "Onboarding",
     "values": [
       {
         "name": "Use Dataloop Example"
@@ -124,6 +131,8 @@
   },
   {
     "key": "Provider",
+    "displayName": "Provider",
+    "parent": null,
     "hubs": [
       "Dataloop",
       "Nvidia"
@@ -139,6 +148,7 @@
     "values": [
       {
         "name": "Hugging Face",
+        "displayName": "Hugging Face",
         "hubs": [
           "Dataloop"
         ],
@@ -155,6 +165,7 @@
       },
       {
         "name": "Microsoft",
+        "displayName": "Microsoft",
         "categories": [
           "Model"
         ],
@@ -171,6 +182,7 @@
       },
       {
         "name": "Meta",
+        "displayName": "Meta",
         "icon": {
           "dark": "icon-dl-meta",
           "light": "icon-dl-meta"
@@ -184,6 +196,7 @@
       },
       {
         "name": "Ultralytics",
+        "displayName": "Ultralytics",
         "icon": {
           "dark": "icon-dl-ultralytics",
           "light": "icon-dl-ultralytics"
@@ -197,6 +210,7 @@
       },
       {
         "name": "NVIDIA",
+        "displayName": "NVIDIA",
         "icon": {
           "dark": "icon-dl-nvidia",
           "light": "icon-dl-nvidia"
@@ -210,6 +224,7 @@
       },
       {
         "name": "Google",
+        "displayName": "Google",
         "icon": {
           "dark": "icon-dl-google",
           "light": "icon-dl-google"
@@ -223,6 +238,7 @@
       },
       {
         "name": "Getty Images",
+        "displayName": "Getty Images",
         "icon": {
           "dark": "icon-dl-getty-images-dark",
           "light": "icon-dl-getty-images-light"
@@ -236,6 +252,7 @@
       },
       {
         "name": "AWS",
+        "displayName": "AWS",
         "icon": {
           "dark": "icon-dl-aws-dark",
           "light": "icon-dl-aws-light"
@@ -249,6 +266,7 @@
       },
       {
         "name": "Open AI",
+        "displayName": "Open AI",
         "icon": {
           "dark": "icon-dl-open-ai",
           "light": "icon-dl-open-ai"
@@ -262,6 +280,7 @@
       },
       {
         "name": "Qualcomm",
+        "displayName": "Qualcomm",
         "icon": {
           "dark": "icon-dl-qualcomm",
           "light": "icon-dl-qualcomm"
@@ -275,6 +294,7 @@
       },
       {
         "name": "Intel",
+        "displayName": "Intel",
         "icon": {
           "dark": "icon-dl-intel-dark",
           "light": "icon-dl-intel-light"
@@ -287,7 +307,22 @@
         "link": ""
       },
       {
+        "name": "MistralAI",
+        "displayName": "MistralAI",
+        "icon": {
+          "dark": "icon-dl-mistral-ai",
+          "light": "icon-dl-mistral-ai"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by MistralAI",
+        "link": "https://mistral.ai/"
+      },
+      {
         "name": "AMD",
+        "displayName": "AMD",
         "icon": {
           "dark": "icon-dl-amd",
           "light": "icon-dl-amd"
@@ -301,6 +336,7 @@
       },
       {
         "name": "OpenMMLab",
+        "displayName": "OpenMMLab",
         "icon": {
           "dark": "icon-dl-open-mm-labs",
           "light": "icon-dl-open-mm-labs"
@@ -314,6 +350,7 @@
       },
       {
         "name": "NetApp",
+        "displayName": "NetApp",
         "icon": {
           "dark": "icon-dl-netapp",
           "light": "icon-dl-netapp"
@@ -326,7 +363,22 @@
         "link": "https://www.netapp.com/"
       },
       {
+        "name": "Cohere",
+        "displayName": "Cohere",
+        "icon": {
+          "dark": "icon-dl-cohere",
+          "light": "icon-dl-cohere"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Cohere",
+        "link": "https://cohere.com/"
+      },
+      {
         "name": "Databricks",
+        "displayName": "Databricks",
         "icon": {
           "dark": "icon-dl-databricks",
           "light": "icon-dl-databricks"
@@ -340,6 +392,7 @@
       },
       {
         "name": "IBM",
+        "displayName": "IBM",
         "icon": {
           "dark": "icon-dl-ibm-dark",
           "light": "icon-dl-ibm-light"
@@ -352,7 +405,22 @@
         "link": "https://www.ibm.com/us-en"
       },
       {
+        "name": "AI21",
+        "displayName": "AI21",
+        "icon": {
+          "dark": "icon-dl-ai21-labs-dark",
+          "light": "icon-dl-ai21-labs-light"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by AI21",
+        "link": "https://www.ai21.com/"
+      },
+      {
         "name": "Dataloop",
+        "displayName": "Dataloop",
         "icon": {
           "dark": "icon-dl-dataloop",
           "light": "icon-dl-dataloop"
@@ -365,7 +433,22 @@
         "link": "https://dataloop.ai"
       },
       {
+        "name": "Core42",
+        "displayName": "Core42",
+        "icon": {
+          "dark": "icon-dl-core42",
+          "light": "icon-dl-core42"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Artificial Intelligence and Cloud Computing company",
+        "link": "https://core42.ai"
+      },
+      {
         "name": "Other",
+        "displayName": "Other",
         "icon": {
           "dark": "icon-dl-query",
           "light": "icon-dl-query"
@@ -381,40 +464,217 @@
     "isMultiple": false
   },
   {
-    "key": "Pipeline Type",
+    "key": "Deployed By",
+    "displayName": "API Service By",
+    "parent": null,
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Nvidia"
     ],
     "categories": [
-      "Pipeline"
+      "Model",
+      "Pipeline",
+      "Dataset",
+      "Solution",
+      "Application",
+      "NIM"
     ],
     "values": [
       {
-        "name": "Template",
+        "name": "Hugging Face",
+        "displayName": "Hugging Face",
+        "hubs": [
+          "Dataloop"
+        ],
         "icon": {
-          "dark": "icon-dl-content-media",
-          "light": "icon-dl-content-media"
+          "dark": "icon-dl-hugging-face",
+          "light": "icon-dl-hugging-face"
         },
         "color": {
-          "dark": "#7EE2B8",
-          "light": "#1DB079"
-        }
+          "dark": "",
+          "light": ""
+        },
+        "description": "Deployed by Hugging Face",
+        "link": "https://huggingface.co"
       },
       {
-        "name": "Node",
+        "name": "Microsoft",
+        "displayName": "Microsoft",
+        "categories": [
+          "Model"
+        ],
         "icon": {
-          "dark": "icon-dl-related",
-          "light": "icon-dl-related"
+          "dark": "icon-dl-microsoft",
+          "light": "icon-dl-microsoft"
         },
         "color": {
-          "dark": "#7EE2B8",
-          "light": "#1DB079"
-        }
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Microsoft",
+        "link": ""
+      },
+      {
+        "name": "Meta",
+        "displayName": "Meta",
+        "icon": {
+          "dark": "icon-dl-meta",
+          "light": "icon-dl-meta"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Meta",
+        "link": "https://ai.meta.com/"
+      },
+      {
+        "name": "NVIDIA",
+        "displayName": "NVIDIA",
+        "icon": {
+          "dark": "icon-dl-nvidia",
+          "light": "icon-dl-nvidia"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Nvidia",
+        "link": "https://catalog.ngc.nvidia.com/models"
+      },
+      {
+        "name": "Google",
+        "displayName": "Google",
+        "icon": {
+          "dark": "icon-dl-google",
+          "light": "icon-dl-google"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Google",
+        "link": "https://cloud.google.com/vision?hl=en"
+      },
+      {
+        "name": "AWS",
+        "displayName": "AWS",
+        "icon": {
+          "dark": "icon-dl-aws-dark",
+          "light": "icon-dl-aws-light"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by AWS",
+        "link": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
+      },
+      {
+        "name": "AMD",
+        "displayName": "AMD",
+        "icon": {
+          "dark": "icon-dl-amd",
+          "light": "icon-dl-amd"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by AMD",
+        "link": ""
+      },
+      {
+        "name": "Qualcomm",
+        "displayName": "Qualcomm",
+        "icon": {
+          "dark": "icon-dl-qualcomm",
+          "light": "icon-dl-qualcomm"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Qualcomm",
+        "link": ""
+      },
+      {
+        "name": "Intel",
+        "displayName": "Intel",
+        "icon": {
+          "dark": "icon-dl-intel",
+          "light": "icon-dl-intel"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Intel",
+        "link": ""
+      },
+      {
+        "name": "NetApp",
+        "displayName": "NetApp",
+        "icon": {
+          "dark": "icon-dl-netapp",
+          "light": "icon-dl-netapp"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by NetApp",
+        "link": "https://www.netapp.com/"
+      },
+      {
+        "name": "Databricks",
+        "displayName": "Databricks",
+        "icon": {
+          "dark": "icon-dl-databricks",
+          "light": "icon-dl-databricks"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Databricks",
+        "link": "https://www.databricks.com/"
+      },
+      {
+        "name": "IBM",
+        "displayName": "IBM",
+        "icon": {
+          "dark": "icon-dl-ibm-dark",
+          "light": "icon-dl-ibm-light"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by IBM",
+        "link": "https://www.ibm.com/us-en"
+      },
+      {
+        "name": "Dataloop",
+        "displayName": "Dataloop",
+        "icon": {
+          "dark": "icon-dl-dataloop",
+          "light": "icon-dl-dataloop"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Dataloop",
+        "link": "https://dataloop.ai"
       }
-    ]
+    ],
+    "isMultiple": false
   },
   {
     "key": "Application Type",
+    "displayName": "Application Type",
+    "parent": "Application",
     "hubs": [
       "Dataloop"
     ],
@@ -424,6 +684,7 @@
     "values": [
       {
         "name": "Studio",
+        "displayName": "Studio",
         "icon": {
           "dark": "icon-dl-annotation-studio",
           "light": "icon-dl-annotation-studio"
@@ -436,6 +697,7 @@
       },
       {
         "name": "Model",
+        "displayName": "Model",
         "icon": {
           "dark": "icon-dl-models",
           "light": "icon-dl-models"
@@ -448,6 +710,7 @@
       },
       {
         "name": "Function",
+        "displayName": "Function",
         "icon": {
           "dark": "icon-dl-faas-outline",
           "light": "icon-dl-faas-outline"
@@ -460,6 +723,7 @@
       },
       {
         "name": "Pipeline Node",
+        "displayName": "Pipeline Node",
         "icon": {
           "dark": "icon-dl-related",
           "light": "icon-dl-related"
@@ -472,6 +736,7 @@
       },
       {
         "name": "Data Management",
+        "displayName": "Data Management",
         "icon": {
           "dark": "icon-dl-project",
           "light": "icon-dl-project"
@@ -483,6 +748,7 @@
       },
       {
         "name": "Other",
+        "displayName": "Other",
         "icon": {
           "dark": "icon-dl-query",
           "light": "icon-dl-query"
@@ -497,91 +763,67 @@
     "isMultiple": true
   },
   {
-    "key": "Media Type",
+    "key": "Template Type",
+    "displayName": "Template Type",
+    "parent": "Template",
     "hubs": [
-      "Dataloop",
-      "Nvidia"
+      "Dataloop"
     ],
     "categories": [
-      "NIM",
-      "Model",
-      "Dataset"
+      "Pipeline"
     ],
     "values": [
       {
-        "name": "Audio",
+        "name": "Data Engineering",
+        "displayName": "Data Engineering",
         "icon": {
-          "dark": "icon-dl-audio",
-          "light": "icon-dl-audio"
+          "dark": "icon-dl-dataset",
+          "light": "icon-dl-dataset"
         },
         "color": {
           "dark": "#FFF1B2",
           "light": "#ECC416"
-        },
-        "description": ""
+        }
       },
       {
-        "name": "Image",
+        "name": "MLOps",
+        "displayName": "MLOps",
         "icon": {
-          "dark": "icon-dl-item-outline",
-          "light": "icon-dl-item-outline"
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
         },
         "color": {
           "dark": "#FFF1B2",
           "light": "#ECC416"
-        },
-        "description": ""
+        }
       },
       {
-        "name": "Text",
+        "name": "Project Management",
+        "displayName": "Project Management",
         "icon": {
-          "dark": "icon-dl-text",
-          "light": "icon-dl-text"
+          "dark": "icon-dl-project",
+          "light": "icon-dl-project"
         },
         "color": {
           "dark": "#FFF1B2",
           "light": "#ECC416"
-        },
-        "description": ""
+        }
       },
       {
-        "name": "Video",
+        "name": "Labeling Workflow",
+        "displayName": "Labeling Workflow",
         "icon": {
-          "dark": "icon-dl-youtube",
-          "light": "icon-dl-youtube"
+          "dark": "icon-dl-task",
+          "light": "icon-dl-task"
         },
         "color": {
           "dark": "#FFF1B2",
           "light": "#ECC416"
-        },
-        "description": ""
-      },
-      {
-        "name": "LiDAR",
-        "icon": {
-          "dark": "icon-dl-lidar",
-          "light": "icon-dl-lidar"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        },
-        "description": ""
-      },
-      {
-        "name": "Multi Modal",
-        "icon": {
-          "dark": "icon-dl-multi-modal",
-          "light": "icon-dl-multi-modal"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        },
-        "description": ""
+        }
       },
       {
         "name": "Other",
+        "displayName": "Other",
         "icon": {
           "dark": "icon-dl-query",
           "light": "icon-dl-query"
@@ -589,6 +831,189 @@
         "color": {
           "dark": "#FFF1B2",
           "light": "#ECC416"
+        }
+      }
+    ]
+  },
+  {
+    "key": "Solution Type",
+    "displayName": "Solution Type",
+    "parent": "Solution",
+    "hubs": [
+      "Dataloop",
+      "Nvidia"
+    ],
+    "categories": [
+      "Solution"
+    ],
+    "values": [
+      {
+        "name": "Data Engineering",
+        "displayName": "Data Engineering",
+        "icon": {
+          "dark": "icon-dl-dataset",
+          "light": "icon-dl-dataset"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "MLOps",
+        "displayName": "MLOps",
+        "icon": {
+          "dark": "icon-dl-models",
+          "light": "icon-dl-models"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Project Management",
+        "displayName": "Project Management",
+        "icon": {
+          "dark": "icon-dl-project",
+          "light": "icon-dl-project"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Labeling Workflow",
+        "displayName": "Labeling Workflow",
+        "icon": {
+          "dark": "icon-dl-task",
+          "light": "icon-dl-task"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      },
+      {
+        "name": "Other",
+        "displayName": "Other",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#FFF1B2",
+          "light": "#ECC416"
+        }
+      }
+    ]
+  },
+  {
+    "key": "Media Type",
+    "displayName": "Media Type",
+    "parent": null,
+    "hubs": [
+      "Dataloop",
+      "Nvidia"
+    ],
+    "categories": [
+      "NIM",
+      "Model",
+      "Dataset",
+      "Solution",
+      "Pipeline",
+      "Application"
+    ],
+    "values": [
+      {
+        "name": "Audio",
+        "displayName": "Audio",
+        "icon": {
+          "dark": "icon-dl-audio",
+          "light": "icon-dl-audio"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": ""
+      },
+      {
+        "name": "Image",
+        "displayName": "Image",
+        "icon": {
+          "dark": "icon-dl-item-outline",
+          "light": "icon-dl-item-outline"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": ""
+      },
+      {
+        "name": "Text",
+        "displayName": "Text",
+        "icon": {
+          "dark": "icon-dl-text",
+          "light": "icon-dl-text"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": ""
+      },
+      {
+        "name": "Video",
+        "displayName": "Video",
+        "icon": {
+          "dark": "icon-dl-youtube",
+          "light": "icon-dl-youtube"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": ""
+      },
+      {
+        "name": "LiDAR",
+        "displayName": "LiDAR",
+        "icon": {
+          "dark": "icon-dl-lidar",
+          "light": "icon-dl-lidar"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": ""
+      },
+      {
+        "name": "Multi Modal",
+        "displayName": "Multi Modal",
+        "icon": {
+          "dark": "icon-dl-multi-modal",
+          "light": "icon-dl-multi-modal"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
+        },
+        "description": ""
+      },
+      {
+        "name": "All Media Types",
+        "displayName": "All Media Types",
+        "icon": {
+          "dark": "icon-dl-all-type-outline",
+          "light": "icon-dl-all-type-outline"
+        },
+        "color": {
+          "dark": "#C8AEFF",
+          "light": "#A57BFE"
         },
         "description": ""
       }
@@ -597,6 +1022,8 @@
   },
   {
     "key": "Computer Vision",
+    "displayName": "Computer Vision",
+    "parent": "Model",
     "hubs": [
       "Dataloop",
       "Nvidia"
@@ -607,6 +1034,7 @@
     "values": [
       {
         "name": "Object Detection",
+        "displayName": "Object Detection",
         "icon": {
           "dark": "icon-dl-focus",
           "light": "icon-dl-focus"
@@ -619,6 +1047,7 @@
       },
       {
         "name": "Classification",
+        "displayName": "Classification",
         "icon": {
           "dark": "icon-dl-classification",
           "light": "icon-dl-classification"
@@ -631,6 +1060,7 @@
       },
       {
         "name": "OCR",
+        "displayName": "OCR",
         "icon": {
           "dark": "icon-dl-ocr",
           "light": "icon-dl-ocr"
@@ -643,6 +1073,7 @@
       },
       {
         "name": "Semantic Segmentation",
+        "displayName": "Semantic Segmentation",
         "icon": {
           "dark": "icon-dl-brush",
           "light": "icon-dl-brush"
@@ -655,6 +1086,7 @@
       },
       {
         "name": "Video classification",
+        "displayName": "Video classification",
         "icon": {
           "dark": "icon-dl-youtube",
           "light": "icon-dl-youtube"
@@ -666,7 +1098,21 @@
         "description": ""
       },
       {
+        "name": "Embeddings",
+        "displayName": "Embeddings",
+        "icon": {
+          "dark": "icon-dl-embeddings",
+          "light": "icon-dl-embeddings"
+        },
+        "color": {
+          "dark": "#FF5C5C",
+          "light": "#FE5252"
+        },
+        "description": ""
+      },
+      {
         "name": "Other",
+        "displayName": "Other",
         "icon": {
           "dark": "icon-dl-query",
           "light": "icon-dl-query"
@@ -682,6 +1128,7 @@
   },
   {
     "key": "NLP",
+    "parent": "Model",
     "hubs": [
       "Dataloop",
       "Nvidia"
@@ -693,97 +1140,105 @@
     "values": [
       {
         "name": "Text Classification",
+        "displayName": "Text Classification",
         "icon": {
           "dark": "icon-dl-text",
           "light": "icon-dl-text"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
       {
         "name": "Translation",
+        "displayName": "Translation",
         "icon": {
           "dark": "icon-dl-translate",
           "light": "icon-dl-translate"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
       {
         "name": "Sentiment Analysis",
+        "displayName": "Sentiment Analysis",
         "icon": {
           "dark": "icon-dl-statistics",
           "light": "icon-dl-statistics"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
       {
         "name": "Conversational",
+        "displayName": "Conversational",
         "icon": {
           "dark": "icon-dl-conversation",
           "light": "icon-dl-conversation"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
       {
         "name": "Token Classification",
+        "displayName": "Token Classification",
         "icon": {
           "dark": "icon-dl-classification",
           "light": "icon-dl-classification"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
       {
         "name": "Summarization",
+        "displayName": "Summarization",
         "icon": {
           "dark": "icon-dl-file",
           "light": "icon-dl-file"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
       {
-        "name": "Feature extraction",
+        "name": "Embeddings",
+        "displayName": "Embeddings",
         "icon": {
-          "dark": "icon-dl-usage",
-          "light": "icon-dl-usage"
+          "dark": "icon-dl-embeddings",
+          "light": "icon-dl-embeddings"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       },
       {
         "name": "Other",
+        "displayName": "Other",
         "icon": {
           "dark": "icon-dl-query",
           "light": "icon-dl-query"
         },
         "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
+          "dark": "#FF6FC8",
+          "light": "#FD4CB9"
         },
         "description": ""
       }
@@ -792,6 +1247,8 @@
   },
   {
     "key": "Audio",
+    "displayName": "Audio",
+    "parent": "Model",
     "hubs": [
       "Dataloop"
     ],
@@ -801,6 +1258,7 @@
     "values": [
       {
         "name": "Text to speech",
+        "displayName": "Text to speech",
         "icon": {
           "dark": "icon-dl-text",
           "light": "icon-dl-text"
@@ -813,6 +1271,7 @@
       },
       {
         "name": "Audio classification",
+        "displayName": "Audio Classification",
         "icon": {
           "dark": "icon-dl-audio",
           "light": "icon-dl-audio"
@@ -825,6 +1284,7 @@
       },
       {
         "name": "Auto Speech Recognition",
+        "displayName": "Auto Speech Recognition",
         "icon": {
           "dark": "icon-dl-approve",
           "light": "icon-dl-approve"
@@ -836,7 +1296,21 @@
         "description": ""
       },
       {
+        "name": "Embeddings",
+        "displayName": "Embeddings",
+        "icon": {
+          "dark": "icon-dl-embeddings",
+          "light": "icon-dl-embeddings"
+        },
+        "color": {
+          "dark": "#FF5C5C",
+          "light": "#FE5252"
+        },
+        "description": ""
+      },
+      {
         "name": "Other",
+        "displayName": "Other",
         "icon": {
           "dark": "icon-dl-query",
           "light": "icon-dl-query"
@@ -852,6 +1326,8 @@
   },
   {
     "key": "Converters",
+    "displayName": "Converters",
+    "parent": "Application",
     "hubs": [
       "Dataloop"
     ],
@@ -861,6 +1337,7 @@
     "values": [
       {
         "name": "COCO",
+        "displayName": "COCO",
         "icon": {
           "dark": "icon-dl-refresh",
           "light": "icon-dl-refresh"
@@ -873,6 +1350,7 @@
       },
       {
         "name": "YOLO",
+        "displayName": "YOLO",
         "icon": {
           "dark": "icon-dl-refresh",
           "light": "icon-dl-refresh"
@@ -885,6 +1363,7 @@
       },
       {
         "name": "VOC",
+        "displayName": "VOC",
         "icon": {
           "dark": "icon-dl-refresh",
           "light": "icon-dl-refresh"
@@ -897,6 +1376,7 @@
       },
       {
         "name": "DICOM",
+        "displayName": "DICOM",
         "icon": {
           "dark": "icon-dl-refresh",
           "light": "icon-dl-refresh"
@@ -909,6 +1389,7 @@
       },
       {
         "name": "HEIC",
+        "displayName": "HEIC",
         "icon": {
           "dark": "icon-dl-refresh",
           "light": "icon-dl-refresh"
@@ -921,6 +1402,7 @@
       },
       {
         "name": "Custom",
+        "displayName": "Custom",
         "icon": {
           "dark": "icon-dl-refresh",
           "light": "icon-dl-refresh"
@@ -935,206 +1417,9 @@
     "isMultiple": true
   },
   {
-    "key": "Node Type",
-    "hubs": [
-      "Dataloop"
-    ],
-    "categories": [
-      "Pipeline"
-    ],
-    "values": [
-      {
-        "name": "Data",
-        "icon": {
-          "dark": "icon-dl-dataset",
-          "light": "icon-dl-dataset"
-        },
-        "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
-        }
-      },
-      {
-        "name": "Image Utils",
-        "icon": {
-          "dark": "icon-dl-item-outline",
-          "light": "icon-dl-item-outline"
-        },
-        "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
-        }
-      },
-      {
-        "name": "Models",
-        "icon": {
-          "dark": "icon-dl-models",
-          "light": "icon-dl-models"
-        },
-        "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
-        }
-      },
-      {
-        "name": "Video Utils",
-        "icon": {
-          "dark": "icon-dl-youtube",
-          "light": "icon-dl-youtube"
-        },
-        "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
-        }
-      },
-      {
-        "name": "Other",
-        "icon": {
-          "dark": "icon-dl-query",
-          "light": "icon-dl-query"
-        },
-        "color": {
-          "dark": "#48D5E8",
-          "light": "#3491FF"
-        }
-      }
-    ]
-  },
-  {
-    "key": "Template Type",
-    "hubs": [
-      "Dataloop"
-    ],
-    "categories": [
-      "Pipeline"
-    ],
-    "values": [
-      {
-        "name": "Data Engineering",
-        "icon": {
-          "dark": "icon-dl-dataset",
-          "light": "icon-dl-dataset"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "MLOps",
-        "icon": {
-          "dark": "icon-dl-models",
-          "light": "icon-dl-models"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Project Management",
-        "icon": {
-          "dark": "icon-dl-project",
-          "light": "icon-dl-project"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Labeling Workflow",
-        "icon": {
-          "dark": "icon-dl-task",
-          "light": "icon-dl-task"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Other",
-        "icon": {
-          "dark": "icon-dl-query",
-          "light": "icon-dl-query"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      }
-    ]
-  },
-  {
-    "key": "Solution Type",
-    "hubs": [
-      "Dataloop",
-      "Nvidia"
-    ],
-    "categories": [
-      "Solution"
-    ],
-    "values": [
-      {
-        "name": "Data Engineering",
-        "icon": {
-          "dark": "icon-dl-dataset",
-          "light": "icon-dl-dataset"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "MLOps",
-        "icon": {
-          "dark": "icon-dl-models",
-          "light": "icon-dl-models"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Project Management",
-        "icon": {
-          "dark": "icon-dl-project",
-          "light": "icon-dl-project"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Labeling Workflow",
-        "icon": {
-          "dark": "icon-dl-task",
-          "light": "icon-dl-task"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      },
-      {
-        "name": "Other",
-        "icon": {
-          "dark": "icon-dl-query",
-          "light": "icon-dl-query"
-        },
-        "color": {
-          "dark": "#FFF1B2",
-          "light": "#ECC416"
-        }
-      }
-    ]
-  },
-  {
     "key": "Gen AI",
+    "displayName": "GenAI",
+    "parent": "Model",
     "hubs": [
       "Dataloop",
       "Nvidia"
@@ -1147,61 +1432,66 @@
     "values": [
       {
         "name": "LLM",
+        "displayName": "LLM",
         "icon": {
           "dark": "icon-dl-models-management",
           "light": "icon-dl-models-management"
         },
         "color": {
-          "dark": "#C8AEFF",
-          "light": "#A57BFE"
+          "dark": "#48D5E8",
+          "light": "#3491FF"
         },
         "description": "Large Language Models"
       },
       {
         "name": "LMM",
+        "displayName": "LMM",
         "icon": {
           "dark": "icon-dl-multi-modal",
           "light": "icon-dl-multi-modal"
         },
         "color": {
-          "dark": "#C8AEFF",
-          "light": "#A57BFE"
+          "dark": "#48D5E8",
+          "light": "#3491FF"
         },
         "description": "Large Multimodal Models"
       },
       {
         "name": "Synthetic Data",
+        "displayName": "Synthetic Data",
         "icon": {
           "dark": "icon-dl-dataset",
           "light": "icon-dl-dataset"
         },
         "color": {
-          "dark": "#C8AEFF",
-          "light": "#A57BFE"
+          "dark": "#48D5E8",
+          "light": "#3491FF"
         },
         "description": "Synthetic Data Generation"
       },
       {
         "name": "Image Generation",
+        "displayName": "Image Generation",
         "icon": {
           "dark": "icon-dl-image-generation-outline",
           "light": "icon-dl-image-generation-outline"
         },
         "color": {
-          "dark": "#C8AEFF",
-          "light": "#A57BFE"
+          "dark": "#48D5E8",
+          "light": "#3491FF"
         },
         "description": "Image Generation"
       },
       {
         "name": "Image Modification",
+        "displayName": "Image Modification",
         "icon": {
           "dark": "icon-dl-image-modification-outline",
           "light": "icon-dl-image-modification-outline"
         },
         "color": {
-          "dark": "#C8AEFF",
-          "light": "#A57BFE"
+          "dark": "#48D5E8",
+          "light": "#3491FF"
         },
         "description": "Image Modification"
       }
@@ -1210,6 +1500,8 @@
   },
   {
     "key": "Annotation Type",
+    "displayName": "Annotation Type",
+    "parent": "Dataset",
     "hubs": [
       "Dataloop"
     ],
@@ -1219,6 +1511,7 @@
     "values": [
       {
         "name": "Bounding Box",
+        "displayName": "Bounding Box",
         "icon": {
           "dark": "icon-dl-box",
           "light": "icon-dl-box"
@@ -1230,6 +1523,7 @@
       },
       {
         "name": "Polygon",
+        "displayName": "Polygon",
         "icon": {
           "dark": "icon-dl-polygon",
           "light": "icon-dl-polygon"
@@ -1241,6 +1535,7 @@
       },
       {
         "name": "Semantic Segmentation",
+        "displayName": "Semantic Segmentation",
         "icon": {
           "dark": "icon-dl-brush",
           "light": "icon-dl-brush"
@@ -1252,6 +1547,7 @@
       },
       {
         "name": "Polyline",
+        "displayName": "Polyline",
         "icon": {
           "dark": "icon-dl-polyline",
           "light": "icon-dl-polyline"
@@ -1263,6 +1559,7 @@
       },
       {
         "name": "Classification",
+        "displayName": "Classification",
         "icon": {
           "dark": "icon-dl-classification",
           "light": "icon-dl-classification"
@@ -1274,6 +1571,7 @@
       },
       {
         "name": "Cuboid",
+        "displayName": "Cuboid",
         "icon": {
           "dark": "icon-dl-cubiod",
           "light": "icon-dl-cubiod"
@@ -1285,6 +1583,7 @@
       },
       {
         "name": "Text Tool",
+        "displayName": "Text Tool",
         "icon": {
           "dark": "icon-dl-marker",
           "light": "icon-dl-marker"
@@ -1296,6 +1595,7 @@
       },
       {
         "name": "Ellipse",
+        "displayName": "Ellipse",
         "icon": {
           "dark": "icon-dl-ellipse",
           "light": "icon-dl-ellipse"
@@ -1307,6 +1607,7 @@
       },
       {
         "name": "Point",
+        "displayName": "Point",
         "icon": {
           "dark": "icon-dl-point",
           "light": "icon-dl-point"
@@ -1318,6 +1619,7 @@
       },
       {
         "name": "Other",
+        "displayName": "Other",
         "icon": {
           "dark": "icon-dl-query",
           "light": "icon-dl-query"
@@ -1331,80 +1633,9 @@
     "isMultiple": true
   },
   {
-    "key": "Libraries",
-    "hubs": [
-      "Dataloop"
-    ],
-    "categories": [
-      "Pipeline",
-      "Model"
-    ],
-    "values": [
-      {
-        "name": "Torch",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "TensorFlow",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "Timm",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "ImgAug",
-        "icon": {
-          "dark": "icon-dl-python",
-          "light": "icon-dl-python"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      },
-      {
-        "name": "Other",
-        "icon": {
-          "dark": "icon-dl-query",
-          "light": "icon-dl-query"
-        },
-        "color": {
-          "dark": "#F78923",
-          "light": "#D97314"
-        },
-        "description": ""
-      }
-    ],
-    "isMultiple": true
-  },
-  {
     "key": "License",
+    "displayName": "License",
+    "parent": null,
     "hubs": [
       "Dataloop"
     ],
@@ -1417,6 +1648,7 @@
     "values": [
       {
         "name": "EULA",
+        "displayName": "EULA",
         "icon": {
           "dark": "icon-dl-license",
           "light": "icon-dl-license"
@@ -1430,6 +1662,7 @@
       },
       {
         "name": "MIT",
+        "displayName": "MIT",
         "icon": {
           "dark": "icon-dl-license",
           "light": "icon-dl-license"
@@ -1443,6 +1676,7 @@
       },
       {
         "name": "CC BY 4.0",
+        "displayName": "CC BY 4.0",
         "icon": {
           "dark": "icon-dl-license",
           "light": "icon-dl-license"
@@ -1456,6 +1690,7 @@
       },
       {
         "name": "Apache 2.0",
+        "displayName": "Apache 2.0",
         "icon": {
           "dark": "icon-dl-license",
           "light": "icon-dl-license"
@@ -1469,6 +1704,7 @@
       },
       {
         "name": "GPL 2.0",
+        "displayName": "GPL 2.0",
         "icon": {
           "dark": "icon-dl-license",
           "light": "icon-dl-license"
@@ -1482,6 +1718,7 @@
       },
       {
         "name": "GPL 3.0",
+        "displayName": "GPL 3.0",
         "icon": {
           "dark": "icon-dl-license",
           "light": "icon-dl-license"
@@ -1495,6 +1732,7 @@
       },
       {
         "name": "AGPL-3.0",
+        "displayName": "AGPL-3.0",
         "icon": {
           "dark": "icon-dl-license",
           "light": "icon-dl-license"
@@ -1508,6 +1746,7 @@
       },
       {
         "name": "Llama 2",
+        "displayName": "Llama 2",
         "icon": {
           "dark": "icon-dl-license",
           "light": "icon-dl-license"
