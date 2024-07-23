@@ -447,6 +447,20 @@
         "link": "https://core42.ai"
       },
       {
+        "name": "PyTorch",
+        "displayName": "PyTorch",
+        "icon": {
+          "dark": "icon-dl-pytorch",
+          "light": "icon-dl-pytorch"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "PyTorch is a machine learning library based on the Torch library",
+        "link": "https://pytorch.org/"
+      },
+      {
         "name": "Other",
         "displayName": "Other",
         "icon": {
