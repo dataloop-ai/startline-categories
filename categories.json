@@ -135,7 +135,8 @@
     "parent": null,
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Microsoft"
     ],
     "categories": [
       "Model",
@@ -690,7 +691,8 @@
     "displayName": "Application Type",
     "parent": "Application",
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Application"
@@ -781,7 +783,8 @@
     "displayName": "Template Type",
     "parent": "Template",
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Pipeline"
@@ -855,7 +858,8 @@
     "parent": "Solution",
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Microsoft"
     ],
     "categories": [
       "Solution"
@@ -929,7 +933,8 @@
     "parent": null,
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Microsoft"
     ],
     "categories": [
       "NIM",
@@ -1040,7 +1045,8 @@
     "parent": "Model",
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Microsoft"
     ],
     "categories": [
       "Model"
@@ -1145,7 +1151,8 @@
     "parent": "Model",
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Microsoft"
     ],
     "categories": [
       "Model",
@@ -1264,7 +1271,8 @@
     "displayName": "Audio",
     "parent": "Model",
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Model"
@@ -1343,7 +1351,8 @@
     "displayName": "Converters",
     "parent": "Application",
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Application"
@@ -1517,7 +1526,8 @@
     "displayName": "Annotation Type",
     "parent": "Dataset",
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Dataset"
@@ -1651,7 +1661,8 @@
     "displayName": "License",
     "parent": null,
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Pipeline",
