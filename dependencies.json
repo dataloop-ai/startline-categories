@@ -1,0 +1,94 @@
+[
+    {
+        "if": {
+            "key": "Category",
+            "value": "Application"
+        },
+        "then": {
+            "required_keys": [
+                "Application Type"
+            ]
+        }
+    },
+    {
+        "if": {
+            "key": "Category",
+            "value": "Solution"
+        },
+        "then": {
+            "required_keys": [
+                "Solution Type"
+            ]
+        }
+    },
+    {
+        "if": {
+            "key": "Application Type",
+            "value": "Pipeline Node"
+        },
+        "then": {
+            "required_keys": [
+                "Node Type"
+            ]
+        }
+    },
+    {
+        "if": {
+            "key": "Category",
+            "value": "Pipeline"
+        },
+        "then": {
+            "required_keys": [
+                "Pipeline Type"
+            ]
+        }
+    },
+    {
+        "if": {
+            "key": "Category",
+            "value": "Model"
+        },
+        "then": {
+            "required_keys": [
+                "Computer Vision",
+                "Audio",
+                "Gen AI",
+                "NLP"
+            ]
+        }
+    },
+    {
+        "if": {
+            "key": "Application Type",
+            "value": "Converter"
+        },
+        "then": {
+            "required_keys": [
+                "Converter Format"
+            ]
+        }
+    },
+    {
+        "if": {
+            "key": "Solution Type",
+            "value": "Onboarding"
+        },
+        "then": {
+            "required_keys": [
+                "Onboarding Card",
+                "Onboarding Tab"
+            ]
+        }
+    },
+    {
+        "if": {
+            "key": "Category",
+            "value": "Dataset"
+        },
+        "then": {
+            "required_keys": [
+                "Annotation Type"
+            ]
+        }
+    }
+]
