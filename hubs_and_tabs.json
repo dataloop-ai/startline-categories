@@ -1,0 +1,171 @@
+[
+    {
+        "key": "dataloop",
+        "displayName": "Dataloop",
+        "icon": "",
+        "tabs": [
+            {
+                "displayName": "Model",
+                "filter": "",
+                "icon": "",
+                "filterBy": [
+                    "Media Type",
+                    "Provider",
+                    "Deployed By",
+                    "Computer Vision",
+                    "NLP",
+                    "Audio",
+                    "Gen AI",
+                    "License"
+                ]
+            },
+            {
+                "hub": "dataloop",
+                "displayName": "Pipeline",
+                "filter": "",
+                "icon": "",
+                "filterBy": [
+                    "Media Type",
+                    "Provider",
+                    "Deployed By",
+                    "Pipeline Type"
+                ]
+            },
+            {
+                "hub": "dataloop",
+                "displayName": "Dataset",
+                "filter": "",
+                "icon": "",
+                "filterBy": [
+                    "Media Type",
+                    "Provider",
+                    "Deployed By",
+                    "Annotation Type",
+                    "License"
+                ]
+            },
+            {
+                "hub": "dataloop",
+                "displayName": "Solution",
+                "filter": "",
+                "icon": "",
+                "filterBy": [
+                    "Media Type",
+                    "Provider",
+                    "Deployed By",
+                    "Solution Type",
+                    "License"
+                ]
+            },
+            {
+                "hub": "dataloop",
+                "displayName": "Application",
+                "filter": "",
+                "icon": "",
+                "filterBy": [
+                    "Media Type",
+                    "Provider",
+                    "Deployed By",
+                    "Application Type",
+                    "Gen AI",
+                    "License"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "nvidia",
+        "displayName": "NVIDIA",
+        "icon": "",
+        "tabs": [
+            {
+                "hub": "nvidia",
+                "displayName": "NIMs",
+                "availableFilters": [
+                    "Media Type",
+                    "Provider",
+                    "NLP",
+                    "Gen AI"
+                ],
+                "dropDownFilters": [],
+                "sidePanelFilters": [
+                    {
+                        "Media Type": {
+                            "exclude": [],
+                            "include": []
+                        }
+                    },
+                    "Provider",
+                    "Deployed By",
+                    "NLP",
+                    "Gen AI"
+                ],
+                "query": {
+                    "filter": {
+                        "$and": [
+                            {
+                                "attributes.Category": "Model",
+                                "attributes.Model Type": "NIM"
+                            }
+                        ]
+                    },
+                    "resource": "dpks"
+                }
+            },
+            {
+                "hub": "nvidia",
+                "displayName": "Models",
+                "filterBy": [
+                    "Media Type",
+                    "Provider",
+                    "Deployed By",
+                    "Computer Vision"
+                ],
+                "query": {
+                    "filter": {
+                        "$and": [
+                            {
+                                "scope": "public",
+                                "attributes.Category": "Model",
+                                "attributes.Application Type": "NIM",
+                                "name": "nim*"
+                            }
+                        ]
+                    },
+                    "page": 0,
+                    "pageSize": 1000,
+                    "resource": "dpks"
+                }
+            },
+            {
+                "hub": "nvidia",
+                "displayName": "Solution",
+                "filterBy": [
+                    "Media Type",
+                    "Provider",
+                    "Solution Type"
+                ],
+                "query": {
+                    "filter": {
+                        "$and": [
+                            {
+                                "scope": "public",
+                                "attributes.Category": "Model",
+                                "attributes.Application Type": "NIM",
+                                "name": "nim*"
+                            }
+                        ]
+                    },
+                    "page": 0,
+                    "pageSize": 1000,
+                    "resource": "dpks"
+                }
+            }
+        ]
+    },
+    {
+        "key": "microsoft",
+        "displayName": "Microsoft",
+        "icon": ""
+    }
+]

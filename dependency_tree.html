@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 800px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "DPK", "label": "DPK", "shape": "dot", "title": "DPK"}, {"color": "#97c2fc", "id": "Category", "label": "Category", "shape": "dot", "title": "Category"}, {"color": "#97c2fc", "id": "Provider", "label": "Provider", "shape": "dot", "title": "Provider"}, {"color": "#97c2fc", "id": "Media Type", "label": "Media Type", "shape": "dot", "title": "Media Type"}, {"color": "#97c2fc", "id": "Deployed By", "label": "Deployed By", "shape": "dot", "title": "Deployed By"}, {"color": "#97c2fc", "id": "License", "label": "License", "shape": "dot", "title": "License"}, {"color": "#97c2fc", "id": "Category.Model", "label": "Model", "shape": "dot", "title": "Model"}, {"color": "#97c2fc", "id": "Category.Pipeline", "label": "Pipeline", "shape": "dot", "title": "Pipeline"}, {"color": "#97c2fc", "id": "Category.Application", "label": "Application", "shape": "dot", "title": "Application"}, {"color": "#97c2fc", "id": "Category.Dataset", "label": "Dataset", "shape": "dot", "title": "Dataset"}, {"color": "#97c2fc", "id": "Category.Solution", "label": "Solution", "shape": "dot", "title": "Solution"}, {"color": "#97c2fc", "id": "Onboarding Tab", "label": "Onboarding Tab", "shape": "dot", "title": "Onboarding Tab"}, {"color": "#97c2fc", "id": "Onboarding Tab.Data Management", "label": "Data Management", "shape": "dot", "title": "Data Management"}, {"color": "#97c2fc", "id": "Onboarding Tab.Pipelines", "label": "Pipelines", "shape": "dot", "title": "Pipelines"}, {"color": "#97c2fc", "id": "Onboarding Tab.GenAI", "label": "GenAI", "shape": "dot", "title": "GenAI"}, {"color": "#97c2fc", "id": "Onboarding Tab.MLOps", "label": "MLOps", "shape": "dot", "title": "MLOps"}, {"color": "#97c2fc", "id": "Onboarding Tab.Annotation Platform", "label": "Annotation Platform", "shape": "dot", "title": "Annotation Platform"}, {"color": "#97c2fc", "id": "Onboarding Card", "label": "Onboarding Card", "shape": "dot", "title": "Onboarding Card"}, {"color": "#97c2fc", "id": "Onboarding Card.Use Dataloop Example", "label": "Use Dataloop Example", "shape": "dot", "title": "Use Dataloop Example"}, {"color": "#97c2fc", "id": "Onboarding Card.Annotation Tools", "label": "Annotation Tools", "shape": "dot", "title": "Annotation Tools"}, {"color": "#97c2fc", "id": "Onboarding Card.Annotation Workflow", "label": "Annotation Workflow", "shape": "dot", "title": "Annotation Workflow"}, {"color": "#97c2fc", "id": "Provider.Hugging Face", "label": "Hugging Face", "shape": "dot", "title": "Hugging Face"}, {"color": "#97c2fc", "id": "Provider.Microsoft", "label": "Microsoft", "shape": "dot", "title": "Microsoft"}, {"color": "#97c2fc", "id": "Provider.Meta", "label": "Meta", "shape": "dot", "title": "Meta"}, {"color": "#97c2fc", "id": "Provider.Ultralytics", "label": "Ultralytics", "shape": "dot", "title": "Ultralytics"}, {"color": "#97c2fc", "id": "Provider.NVIDIA", "label": "NVIDIA", "shape": "dot", "title": "NVIDIA"}, {"color": "#97c2fc", "id": "Provider.Google", "label": "Google", "shape": "dot", "title": "Google"}, {"color": "#97c2fc", "id": "Provider.Getty Images", "label": "Getty Images", "shape": "dot", "title": "Getty Images"}, {"color": "#97c2fc", "id": "Provider.AWS", "label": "AWS", "shape": "dot", "title": "AWS"}, {"color": "#97c2fc", "id": "Provider.Open AI", "label": "Open AI", "shape": "dot", "title": "Open AI"}, {"color": "#97c2fc", "id": "Provider.Qualcomm", "label": "Qualcomm", "shape": "dot", "title": "Qualcomm"}, {"color": "#97c2fc", "id": "Provider.Intel", "label": "Intel", "shape": "dot", "title": "Intel"}, {"color": "#97c2fc", "id": "Provider.MistralAI", "label": "MistralAI", "shape": "dot", "title": "MistralAI"}, {"color": "#97c2fc", "id": "Provider.AMD", "label": "AMD", "shape": "dot", "title": "AMD"}, {"color": "#97c2fc", "id": "Provider.OpenMMLab", "label": "OpenMMLab", "shape": "dot", "title": "OpenMMLab"}, {"color": "#97c2fc", "id": "Provider.NetApp", "label": "NetApp", "shape": "dot", "title": "NetApp"}, {"color": "#97c2fc", "id": "Provider.Cohere", "label": "Cohere", "shape": "dot", "title": "Cohere"}, {"color": "#97c2fc", "id": "Provider.Databricks", "label": "Databricks", "shape": "dot", "title": "Databricks"}, {"color": "#97c2fc", "id": "Provider.IBM", "label": "IBM", "shape": "dot", "title": "IBM"}, {"color": "#97c2fc", "id": "Provider.AI21", "label": "AI21", "shape": "dot", "title": "AI21"}, {"color": "#97c2fc", "id": "Provider.Dataloop", "label": "Dataloop", "shape": "dot", "title": "Dataloop"}, {"color": "#97c2fc", "id": "Provider.FID move", "label": "FID move", "shape": "dot", "title": "FID move"}, {"color": "#97c2fc", "id": "Provider.Core42", "label": "Core42", "shape": "dot", "title": "Core42"}, {"color": "#97c2fc", "id": "Provider.Other", "label": "Other", "shape": "dot", "title": "Other"}, {"color": "#97c2fc", "id": "Deployed By.Hugging Face", "label": "Hugging Face", "shape": "dot", "title": "Hugging Face"}, {"color": "#97c2fc", "id": "Deployed By.Microsoft", "label": "Microsoft", "shape": "dot", "title": "Microsoft"}, {"color": "#97c2fc", "id": "Deployed By.Meta", "label": "Meta", "shape": "dot", "title": "Meta"}, {"color": "#97c2fc", "id": "Deployed By.NVIDIA", "label": "NVIDIA", "shape": "dot", "title": "NVIDIA"}, {"color": "#97c2fc", "id": "Deployed By.Google", "label": "Google", "shape": "dot", "title": "Google"}, {"color": "#97c2fc", "id": "Deployed By.AWS", "label": "AWS", "shape": "dot", "title": "AWS"}, {"color": "#97c2fc", "id": "Deployed By.AMD", "label": "AMD", "shape": "dot", "title": "AMD"}, {"color": "#97c2fc", "id": "Deployed By.Qualcomm", "label": "Qualcomm", "shape": "dot", "title": "Qualcomm"}, {"color": "#97c2fc", "id": "Deployed By.Intel", "label": "Intel", "shape": "dot", "title": "Intel"}, {"color": "#97c2fc", "id": "Deployed By.NetApp", "label": "NetApp", "shape": "dot", "title": "NetApp"}, {"color": "#97c2fc", "id": "Deployed By.Databricks", "label": "Databricks", "shape": "dot", "title": "Databricks"}, {"color": "#97c2fc", "id": "Deployed By.IBM", "label": "IBM", "shape": "dot", "title": "IBM"}, {"color": "#97c2fc", "id": "Deployed By.Dataloop", "label": "Dataloop", "shape": "dot", "title": "Dataloop"}, {"color": "#97c2fc", "id": "Application Type", "label": "Application Type", "shape": "dot", "title": "Application Type"}, {"color": "#97c2fc", "id": "Application Type.Studio", "label": "Studio", "shape": "dot", "title": "Studio"}, {"color": "#97c2fc", "id": "Application Type.Model", "label": "Model", "shape": "dot", "title": "Model"}, {"color": "#97c2fc", "id": "Application Type.Function", "label": "Function", "shape": "dot", "title": "Function"}, {"color": "#97c2fc", "id": "Application Type.Pipeline Node", "label": "Pipeline Node", "shape": "dot", "title": "Pipeline Node"}, {"color": "#97c2fc", "id": "Application Type.Data Management", "label": "Data Management", "shape": "dot", "title": "Data Management"}, {"color": "#97c2fc", "id": "Application Type.Converter", "label": "Converter", "shape": "dot", "title": "Converter"}, {"color": "#97c2fc", "id": "Application Type.Other", "label": "Other", "shape": "dot", "title": "Other"}, {"color": "#97c2fc", "id": "Node Type", "label": "Node Type", "shape": "dot", "title": "Node Type"}, {"color": "#97c2fc", "id": "Node Type.Data Engineering", "label": "Data Engineering", "shape": "dot", "title": "Data Engineering"}, {"color": "#97c2fc", "id": "Node Type.MLOps", "label": "MLOps", "shape": "dot", "title": "MLOps"}, {"color": "#97c2fc", "id": "Node Type.Project Management", "label": "Project Management", "shape": "dot", "title": "Project Management"}, {"color": "#97c2fc", "id": "Node Type.Labeling Workflow", "label": "Labeling Workflow", "shape": "dot", "title": "Labeling Workflow"}, {"color": "#97c2fc", "id": "Node Type.Other", "label": "Other", "shape": "dot", "title": "Other"}, {"color": "#97c2fc", "id": "Pipeline Type", "label": "Pipeline Type", "shape": "dot", "title": "Pipeline Type"}, {"color": "#97c2fc", "id": "Pipeline Type.Data Engineering", "label": "Data Engineering", "shape": "dot", "title": "Data Engineering"}, {"color": "#97c2fc", "id": "Pipeline Type.MLOps", "label": "MLOps", "shape": "dot", "title": "MLOps"}, {"color": "#97c2fc", "id": "Pipeline Type.Project Management", "label": "Project Management", "shape": "dot", "title": "Project Management"}, {"color": "#97c2fc", "id": "Pipeline Type.Labeling Workflow", "label": "Labeling Workflow", "shape": "dot", "title": "Labeling Workflow"}, {"color": "#97c2fc", "id": "Pipeline Type.Other", "label": "Other", "shape": "dot", "title": "Other"}, {"color": "#97c2fc", "id": "Solution Type", "label": "Solution Type", "shape": "dot", "title": "Solution Type"}, {"color": "#97c2fc", "id": "Solution Type.Data Engineering", "label": "Data Engineering", "shape": "dot", "title": "Data Engineering"}, {"color": "#97c2fc", "id": "Solution Type.MLOps", "label": "MLOps", "shape": "dot", "title": "MLOps"}, {"color": "#97c2fc", "id": "Solution Type.Project Management", "label": "Project Management", "shape": "dot", "title": "Project Management"}, {"color": "#97c2fc", "id": "Solution Type.Labeling Workflow", "label": "Labeling Workflow", "shape": "dot", "title": "Labeling Workflow"}, {"color": "#97c2fc", "id": "Solution Type.Onboarding", "label": "Onboarding", "shape": "dot", "title": "Onboarding"}, {"color": "#97c2fc", "id": "Solution Type.Other", "label": "Other", "shape": "dot", "title": "Other"}, {"color": "#97c2fc", "id": "Media Type.Audio", "label": "Audio", "shape": "dot", "title": "Audio"}, {"color": "#97c2fc", "id": "Media Type.Image", "label": "Image", "shape": "dot", "title": "Image"}, {"color": "#97c2fc", "id": "Media Type.Text", "label": "Text", "shape": "dot", "title": "Text"}, {"color": "#97c2fc", "id": "Media Type.Video", "label": "Video", "shape": "dot", "title": "Video"}, {"color": "#97c2fc", "id": "Media Type.LiDAR", "label": "LiDAR", "shape": "dot", "title": "LiDAR"}, {"color": "#97c2fc", "id": "Media Type.Multi Modal", "label": "Multi Modal", "shape": "dot", "title": "Multi Modal"}, {"color": "#97c2fc", "id": "Media Type.All Types", "label": "All Types", "shape": "dot", "title": "All Types"}, {"color": "#97c2fc", "id": "Computer Vision", "label": "Computer Vision", "shape": "dot", "title": "Computer Vision"}, {"color": "#97c2fc", "id": "Computer Vision.Object Detection", "label": "Object Detection", "shape": "dot", "title": "Object Detection"}, {"color": "#97c2fc", "id": "Computer Vision.Classification", "label": "Classification", "shape": "dot", "title": "Classification"}, {"color": "#97c2fc", "id": "Computer Vision.OCR", "label": "OCR", "shape": "dot", "title": "OCR"}, {"color": "#97c2fc", "id": "Computer Vision.Semantic Segmentation", "label": "Semantic Segmentation", "shape": "dot", "title": "Semantic Segmentation"}, {"color": "#97c2fc", "id": "Computer Vision.Video classification", "label": "Video classification", "shape": "dot", "title": "Video classification"}, {"color": "#97c2fc", "id": "Computer Vision.Embeddings", "label": "Embeddings", "shape": "dot", "title": "Embeddings"}, {"color": "#97c2fc", "id": "Computer Vision.Other", "label": "Other", "shape": "dot", "title": "Other"}, {"color": "#97c2fc", "id": "NLP", "label": "NLP", "shape": "dot", "title": "NLP"}, {"color": "#97c2fc", "id": "NLP.Text Classification", "label": "Text Classification", "shape": "dot", "title": "Text Classification"}, {"color": "#97c2fc", "id": "NLP.Translation", "label": "Translation", "shape": "dot", "title": "Translation"}, {"color": "#97c2fc", "id": "NLP.Sentiment Analysis", "label": "Sentiment Analysis", "shape": "dot", "title": "Sentiment Analysis"}, {"color": "#97c2fc", "id": "NLP.Conversational", "label": "Conversational", "shape": "dot", "title": "Conversational"}, {"color": "#97c2fc", "id": "NLP.Token Classification", "label": "Token Classification", "shape": "dot", "title": "Token Classification"}, {"color": "#97c2fc", "id": "NLP.Summarization", "label": "Summarization", "shape": "dot", "title": "Summarization"}, {"color": "#97c2fc", "id": "NLP.Embeddings", "label": "Embeddings", "shape": "dot", "title": "Embeddings"}, {"color": "#97c2fc", "id": "NLP.Other", "label": "Other", "shape": "dot", "title": "Other"}, {"color": "#97c2fc", "id": "Audio", "label": "Audio", "shape": "dot", "title": "Audio"}, {"color": "#97c2fc", "id": "Audio.Text to speech", "label": "Text to speech", "shape": "dot", "title": "Text to speech"}, {"color": "#97c2fc", "id": "Audio.Audio classification", "label": "Audio classification", "shape": "dot", "title": "Audio classification"}, {"color": "#97c2fc", "id": "Audio.Auto Speech Recognition", "label": "Auto Speech Recognition", "shape": "dot", "title": "Auto Speech Recognition"}, {"color": "#97c2fc", "id": "Audio.Embeddings", "label": "Embeddings", "shape": "dot", "title": "Embeddings"}, {"color": "#97c2fc", "id": "Audio.Other", "label": "Other", "shape": "dot", "title": "Other"}, {"color": "#97c2fc", "id": "Converter Format", "label": "Converter Format", "shape": "dot", "title": "Converter Format"}, {"color": "#97c2fc", "id": "Converter Format.COCO", "label": "COCO", "shape": "dot", "title": "COCO"}, {"color": "#97c2fc", "id": "Converter Format.YOLO", "label": "YOLO", "shape": "dot", "title": "YOLO"}, {"color": "#97c2fc", "id": "Converter Format.VOC", "label": "VOC", "shape": "dot", "title": "VOC"}, {"color": "#97c2fc", "id": "Converter Format.DICOM", "label": "DICOM", "shape": "dot", "title": "DICOM"}, {"color": "#97c2fc", "id": "Converter Format.HEIC", "label": "HEIC", "shape": "dot", "title": "HEIC"}, {"color": "#97c2fc", "id": "Converter Format.Custom", "label": "Custom", "shape": "dot", "title": "Custom"}, {"color": "#97c2fc", "id": "Gen AI", "label": "Gen AI", "shape": "dot", "title": "Gen AI"}, {"color": "#97c2fc", "id": "Gen AI.LLM", "label": "LLM", "shape": "dot", "title": "LLM"}, {"color": "#97c2fc", "id": "Gen AI.LMM", "label": "LMM", "shape": "dot", "title": "LMM"}, {"color": "#97c2fc", "id": "Gen AI.Synthetic Data", "label": "Synthetic Data", "shape": "dot", "title": "Synthetic Data"}, {"color": "#97c2fc", "id": "Gen AI.Image Generation", "label": "Image Generation", "shape": "dot", "title": "Image Generation"}, {"color": "#97c2fc", "id": "Gen AI.Image Modification", "label": "Image Modification", "shape": "dot", "title": "Image Modification"}, {"color": "#97c2fc", "id": "Annotation Type", "label": "Annotation Type", "shape": "dot", "title": "Annotation Type"}, {"color": "#97c2fc", "id": "Annotation Type.Bounding Box", "label": "Bounding Box", "shape": "dot", "title": "Bounding Box"}, {"color": "#97c2fc", "id": "Annotation Type.Polygon", "label": "Polygon", "shape": "dot", "title": "Polygon"}, {"color": "#97c2fc", "id": "Annotation Type.Semantic Segmentation", "label": "Semantic Segmentation", "shape": "dot", "title": "Semantic Segmentation"}, {"color": "#97c2fc", "id": "Annotation Type.Polyline", "label": "Polyline", "shape": "dot", "title": "Polyline"}, {"color": "#97c2fc", "id": "Annotation Type.Classification", "label": "Classification", "shape": "dot", "title": "Classification"}, {"color": "#97c2fc", "id": "Annotation Type.Cuboid", "label": "Cuboid", "shape": "dot", "title": "Cuboid"}, {"color": "#97c2fc", "id": "Annotation Type.Text Tool", "label": "Text Tool", "shape": "dot", "title": "Text Tool"}, {"color": "#97c2fc", "id": "Annotation Type.Ellipse", "label": "Ellipse", "shape": "dot", "title": "Ellipse"}, {"color": "#97c2fc", "id": "Annotation Type.Point", "label": "Point", "shape": "dot", "title": "Point"}, {"color": "#97c2fc", "id": "Annotation Type.Other", "label": "Other", "shape": "dot", "title": "Other"}, {"color": "#97c2fc", "id": "License.EULA", "label": "EULA", "shape": "dot", "title": "EULA"}, {"color": "#97c2fc", "id": "License.MIT", "label": "MIT", "shape": "dot", "title": "MIT"}, {"color": "#97c2fc", "id": "License.CC BY 4.0", "label": "CC BY 4.0", "shape": "dot", "title": "CC BY 4.0"}, {"color": "#97c2fc", "id": "License.Apache 2.0", "label": "Apache 2.0", "shape": "dot", "title": "Apache 2.0"}, {"color": "#97c2fc", "id": "License.GPL 2.0", "label": "GPL 2.0", "shape": "dot", "title": "GPL 2.0"}, {"color": "#97c2fc", "id": "License.GPL 3.0", "label": "GPL 3.0", "shape": "dot", "title": "GPL 3.0"}, {"color": "#97c2fc", "id": "License.AGPL-3.0", "label": "AGPL-3.0", "shape": "dot", "title": "AGPL-3.0"}, {"color": "#97c2fc", "id": "License.Llama 2", "label": "Llama 2", "shape": "dot", "title": "Llama 2"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "DPK", "to": "Category"}, {"arrows": "to", "from": "DPK", "to": "Provider"}, {"arrows": "to", "from": "DPK", "to": "Media Type"}, {"arrows": "to", "from": "DPK", "to": "Deployed By"}, {"arrows": "to", "from": "DPK", "to": "License"}, {"arrows": "to", "from": "Category", "to": "Category.Model"}, {"arrows": "to", "from": "Category", "to": "Category.Pipeline"}, {"arrows": "to", "from": "Category", "to": "Category.Application"}, {"arrows": "to", "from": "Category", "to": "Category.Dataset"}, {"arrows": "to", "from": "Category", "to": "Category.Solution"}, {"arrows": "to", "from": "Onboarding Tab", "to": "Onboarding Tab.Data Management"}, {"arrows": "to", "from": "Onboarding Tab", "to": "Onboarding Tab.Pipelines"}, {"arrows": "to", "from": "Onboarding Tab", "to": "Onboarding Tab.GenAI"}, {"arrows": "to", "from": "Onboarding Tab", "to": "Onboarding Tab.MLOps"}, {"arrows": "to", "from": "Onboarding Tab", "to": "Onboarding Tab.Annotation Platform"}, {"arrows": "to", "from": "Onboarding Card", "to": "Onboarding Card.Use Dataloop Example"}, {"arrows": "to", "from": "Onboarding Card", "to": "Onboarding Card.Annotation Tools"}, {"arrows": "to", "from": "Onboarding Card", "to": "Onboarding Card.Annotation Workflow"}, {"arrows": "to", "from": "Provider", "to": "Provider.Hugging Face"}, {"arrows": "to", "from": "Provider", "to": "Provider.Microsoft"}, {"arrows": "to", "from": "Provider", "to": "Provider.Meta"}, {"arrows": "to", "from": "Provider", "to": "Provider.Ultralytics"}, {"arrows": "to", "from": "Provider", "to": "Provider.NVIDIA"}, {"arrows": "to", "from": "Provider", "to": "Provider.Google"}, {"arrows": "to", "from": "Provider", "to": "Provider.Getty Images"}, {"arrows": "to", "from": "Provider", "to": "Provider.AWS"}, {"arrows": "to", "from": "Provider", "to": "Provider.Open AI"}, {"arrows": "to", "from": "Provider", "to": "Provider.Qualcomm"}, {"arrows": "to", "from": "Provider", "to": "Provider.Intel"}, {"arrows": "to", "from": "Provider", "to": "Provider.MistralAI"}, {"arrows": "to", "from": "Provider", "to": "Provider.AMD"}, {"arrows": "to", "from": "Provider", "to": "Provider.OpenMMLab"}, {"arrows": "to", "from": "Provider", "to": "Provider.NetApp"}, {"arrows": "to", "from": "Provider", "to": "Provider.Cohere"}, {"arrows": "to", "from": "Provider", "to": "Provider.Databricks"}, {"arrows": "to", "from": "Provider", "to": "Provider.IBM"}, {"arrows": "to", "from": "Provider", "to": "Provider.AI21"}, {"arrows": "to", "from": "Provider", "to": "Provider.Dataloop"}, {"arrows": "to", "from": "Provider", "to": "Provider.FID move"}, {"arrows": "to", "from": "Provider", "to": "Provider.Core42"}, {"arrows": "to", "from": "Provider", "to": "Provider.Other"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.Hugging Face"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.Microsoft"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.Meta"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.NVIDIA"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.Google"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.AWS"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.AMD"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.Qualcomm"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.Intel"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.NetApp"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.Databricks"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.IBM"}, {"arrows": "to", "from": "Deployed By", "to": "Deployed By.Dataloop"}, {"arrows": "to", "from": "Application Type", "to": "Application Type.Studio"}, {"arrows": "to", "from": "Application Type", "to": "Application Type.Model"}, {"arrows": "to", "from": "Application Type", "to": "Application Type.Function"}, {"arrows": "to", "from": "Application Type", "to": "Application Type.Pipeline Node"}, {"arrows": "to", "from": "Application Type", "to": "Application Type.Data Management"}, {"arrows": "to", "from": "Application Type", "to": "Application Type.Converter"}, {"arrows": "to", "from": "Application Type", "to": "Application Type.Other"}, {"arrows": "to", "from": "Node Type", "to": "Node Type.Data Engineering"}, {"arrows": "to", "from": "Node Type", "to": "Node Type.MLOps"}, {"arrows": "to", "from": "Node Type", "to": "Node Type.Project Management"}, {"arrows": "to", "from": "Node Type", "to": "Node Type.Labeling Workflow"}, {"arrows": "to", "from": "Node Type", "to": "Node Type.Other"}, {"arrows": "to", "from": "Pipeline Type", "to": "Pipeline Type.Data Engineering"}, {"arrows": "to", "from": "Pipeline Type", "to": "Pipeline Type.MLOps"}, {"arrows": "to", "from": "Pipeline Type", "to": "Pipeline Type.Project Management"}, {"arrows": "to", "from": "Pipeline Type", "to": "Pipeline Type.Labeling Workflow"}, {"arrows": "to", "from": "Pipeline Type", "to": "Pipeline Type.Other"}, {"arrows": "to", "from": "Solution Type", "to": "Solution Type.Data Engineering"}, {"arrows": "to", "from": "Solution Type", "to": "Solution Type.MLOps"}, {"arrows": "to", "from": "Solution Type", "to": "Solution Type.Project Management"}, {"arrows": "to", "from": "Solution Type", "to": "Solution Type.Labeling Workflow"}, {"arrows": "to", "from": "Solution Type", "to": "Solution Type.Onboarding"}, {"arrows": "to", "from": "Solution Type", "to": "Solution Type.Other"}, {"arrows": "to", "from": "Media Type", "to": "Media Type.Audio"}, {"arrows": "to", "from": "Media Type", "to": "Media Type.Image"}, {"arrows": "to", "from": "Media Type", "to": "Media Type.Text"}, {"arrows": "to", "from": "Media Type", "to": "Media Type.Video"}, {"arrows": "to", "from": "Media Type", "to": "Media Type.LiDAR"}, {"arrows": "to", "from": "Media Type", "to": "Media Type.Multi Modal"}, {"arrows": "to", "from": "Media Type", "to": "Media Type.All Types"}, {"arrows": "to", "from": "Computer Vision", "to": "Computer Vision.Object Detection"}, {"arrows": "to", "from": "Computer Vision", "to": "Computer Vision.Classification"}, {"arrows": "to", "from": "Computer Vision", "to": "Computer Vision.OCR"}, {"arrows": "to", "from": "Computer Vision", "to": "Computer Vision.Semantic Segmentation"}, {"arrows": "to", "from": "Computer Vision", "to": "Computer Vision.Video classification"}, {"arrows": "to", "from": "Computer Vision", "to": "Computer Vision.Embeddings"}, {"arrows": "to", "from": "Computer Vision", "to": "Computer Vision.Other"}, {"arrows": "to", "from": "NLP", "to": "NLP.Text Classification"}, {"arrows": "to", "from": "NLP", "to": "NLP.Translation"}, {"arrows": "to", "from": "NLP", "to": "NLP.Sentiment Analysis"}, {"arrows": "to", "from": "NLP", "to": "NLP.Conversational"}, {"arrows": "to", "from": "NLP", "to": "NLP.Token Classification"}, {"arrows": "to", "from": "NLP", "to": "NLP.Summarization"}, {"arrows": "to", "from": "NLP", "to": "NLP.Embeddings"}, {"arrows": "to", "from": "NLP", "to": "NLP.Other"}, {"arrows": "to", "from": "Audio", "to": "Audio.Text to speech"}, {"arrows": "to", "from": "Audio", "to": "Audio.Audio classification"}, {"arrows": "to", "from": "Audio", "to": "Audio.Auto Speech Recognition"}, {"arrows": "to", "from": "Audio", "to": "Audio.Embeddings"}, {"arrows": "to", "from": "Audio", "to": "Audio.Other"}, {"arrows": "to", "from": "Converter Format", "to": "Converter Format.COCO"}, {"arrows": "to", "from": "Converter Format", "to": "Converter Format.YOLO"}, {"arrows": "to", "from": "Converter Format", "to": "Converter Format.VOC"}, {"arrows": "to", "from": "Converter Format", "to": "Converter Format.DICOM"}, {"arrows": "to", "from": "Converter Format", "to": "Converter Format.HEIC"}, {"arrows": "to", "from": "Converter Format", "to": "Converter Format.Custom"}, {"arrows": "to", "from": "Gen AI", "to": "Gen AI.LLM"}, {"arrows": "to", "from": "Gen AI", "to": "Gen AI.LMM"}, {"arrows": "to", "from": "Gen AI", "to": "Gen AI.Synthetic Data"}, {"arrows": "to", "from": "Gen AI", "to": "Gen AI.Image Generation"}, {"arrows": "to", "from": "Gen AI", "to": "Gen AI.Image Modification"}, {"arrows": "to", "from": "Annotation Type", "to": "Annotation Type.Bounding Box"}, {"arrows": "to", "from": "Annotation Type", "to": "Annotation Type.Polygon"}, {"arrows": "to", "from": "Annotation Type", "to": "Annotation Type.Semantic Segmentation"}, {"arrows": "to", "from": "Annotation Type", "to": "Annotation Type.Polyline"}, {"arrows": "to", "from": "Annotation Type", "to": "Annotation Type.Classification"}, {"arrows": "to", "from": "Annotation Type", "to": "Annotation Type.Cuboid"}, {"arrows": "to", "from": "Annotation Type", "to": "Annotation Type.Text Tool"}, {"arrows": "to", "from": "Annotation Type", "to": "Annotation Type.Ellipse"}, {"arrows": "to", "from": "Annotation Type", "to": "Annotation Type.Point"}, {"arrows": "to", "from": "Annotation Type", "to": "Annotation Type.Other"}, {"arrows": "to", "from": "License", "to": "License.EULA"}, {"arrows": "to", "from": "License", "to": "License.MIT"}, {"arrows": "to", "from": "License", "to": "License.CC BY 4.0"}, {"arrows": "to", "from": "License", "to": "License.Apache 2.0"}, {"arrows": "to", "from": "License", "to": "License.GPL 2.0"}, {"arrows": "to", "from": "License", "to": "License.GPL 3.0"}, {"arrows": "to", "from": "License", "to": "License.AGPL-3.0"}, {"arrows": "to", "from": "License", "to": "License.Llama 2"}, {"arrows": "to", "from": "Category.Application", "to": "Application Type"}, {"arrows": "to", "from": "Category.Solution", "to": "Solution Type"}, {"arrows": "to", "from": "Application Type.Pipeline Node", "to": "Node Type"}, {"arrows": "to", "from": "Category.Pipeline", "to": "Pipeline Type"}, {"arrows": "to", "from": "Category.Model", "to": "Computer Vision"}, {"arrows": "to", "from": "Category.Model", "to": "Audio"}, {"arrows": "to", "from": "Category.Model", "to": "Gen AI"}, {"arrows": "to", "from": "Category.Model", "to": "NLP"}, {"arrows": "to", "from": "Application Type.Converter", "to": "Converter Format"}, {"arrows": "to", "from": "Solution Type.Onboarding", "to": "Onboarding Card"}, {"arrows": "to", "from": "Solution Type.Onboarding", "to": "Onboarding Tab"}, {"arrows": "to", "from": "Category.Dataset", "to": "Annotation Type"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
