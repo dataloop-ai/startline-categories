@@ -1,12 +1,7 @@
 {
     "dl-nvidia-nim-api-key": {
-        "type": "key/value",
-        "description": "",
-        "displayName": "API ey",
-        "optional": false
-    },
-    "nvidia-nim-api-region": {
-        "name": "nvidia-nim-api-region",
+        "to": "NVIDIA",
+        "env": "NVIDIA_NIM_API_KEY",
         "type": "key/value",
         "description": "",
         "displayName": "API key",
