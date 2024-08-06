@@ -2,7 +2,7 @@
     "dl-nvidia-nim-api-key": {
         "to": "NVIDIA",
         "env": "NVIDIA_NIM_API_KEY",
-        "type": "key/value",
+        "type": "key_value",
         "description": "",
         "displayName": "API key",
         "optional": false
