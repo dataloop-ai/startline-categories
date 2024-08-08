@@ -488,8 +488,6 @@
     ],
     "categories": [
       "Model",
-      "Pipeline",
-      "Dataset",
       "Solution",
       "Application",
       "NIM"
@@ -779,8 +777,8 @@
     "isMultiple": true
   },
   {
-    "key": "Template Type",
-    "displayName": "Template Type",
+    "key": "Pipeline Type",
+    "displayName": "Pipeline Type",
     "parent": "Template",
     "hubs": [
       "Dataloop",
