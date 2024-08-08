@@ -1,10 +1,10 @@
 {
-    "dl-nvidia-nim-api-key": {
-        "to": "NVIDIA",
-        "env": "NVIDIA_NIM_API_KEY",
+    "dl-openai-api-key": {
+        "to": "OpenAI",
+        "env": "OPENAI_API_KEY",
         "type": "key_value",
-        "description": "",
-        "displayName": "API key",
+        "description": "API key for OenAI platform",
+        "displayName": "OpenAI API key",
         "optional": false
     }
 }
