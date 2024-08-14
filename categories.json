@@ -481,23 +481,6 @@
     ],
     "values": [
       {
-        "name": "Hugging Face",
-        "displayName": "Hugging Face",
-        "hubs": [
-          "Dataloop"
-        ],
-        "icon": {
-          "dark": "icon-dl-hugging-face",
-          "light": "icon-dl-hugging-face"
-        },
-        "color": {
-          "dark": "",
-          "light": ""
-        },
-        "description": "Deployed by Hugging Face",
-        "link": "https://huggingface.co"
-      },
-      {
         "name": "Microsoft",
         "displayName": "Microsoft",
         "categories": [
