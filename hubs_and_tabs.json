@@ -5,6 +5,7 @@
         "icon": "",
         "tabs": [
             {
+                "key": "model",
                 "displayName": "Model",
                 "filter": "",
                 "icon": "",
@@ -20,7 +21,6 @@
                 ]
             },
             {
-                "hub": "dataloop",
                 "displayName": "Pipeline",
                 "filter": "",
                 "icon": "",
@@ -32,7 +32,6 @@
                 ]
             },
             {
-                "hub": "dataloop",
                 "displayName": "Dataset",
                 "filter": "",
                 "icon": "",
@@ -45,7 +44,6 @@
                 ]
             },
             {
-                "hub": "dataloop",
                 "displayName": "Solution",
                 "filter": "",
                 "icon": "",
@@ -58,7 +56,6 @@
                 ]
             },
             {
-                "hub": "dataloop",
                 "displayName": "Application",
                 "filter": "",
                 "icon": "",
@@ -71,6 +68,15 @@
                     "License"
                 ]
             }
+        ],
+        "dialogs": [
+            {
+                "key": "onboarding",
+                "filterBy": []
+            },
+            {
+                "key": ""
+            }
         ]
     },
     {
@@ -79,7 +85,6 @@
         "icon": "",
         "tabs": [
             {
-                "hub": "nvidia",
                 "displayName": "NIMs",
                 "availableFilters": [
                     "Media Type",
