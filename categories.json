@@ -1106,8 +1106,8 @@
           "light": "icon-dl-embeddings"
         },
         "color": {
-          "dark": "#FF5C5C",
-          "light": "#FE5252"
+          "dark": "#7EE2B8",
+          "light": "#1DB079"
         },
         "description": ""
       },
@@ -1487,6 +1487,19 @@
         "description": "Image Generation"
       },
       {
+        "name": "Code Generation",
+        "displayName": "Code Generation",
+        "icon": {
+          "dark": "icon-dl-code",
+          "light": "icon-dl-code"
+        },
+        "color": {
+          "dark": "#48D5E8",
+          "light": "#3491FF"
+        },
+        "description": "Code Generation"
+      },
+      {
         "name": "Image Modification",
         "displayName": "Image Modification",
         "icon": {
@@ -1763,6 +1776,34 @@
         },
         "description": "",
         "link": "https://github.com/facebookresearch/llama/blob/main/LICENSE"
+      },
+      {
+        "name": "BSD-3-Clause",
+        "displayName": "BSD-3-Clause",
+        "icon": {
+          "dark": "icon-dl-license",
+          "light": "icon-dl-license"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": "https://opensource.org/license/bsd-3-clause"
+      },
+      {
+        "name": "Other",
+        "displayName": "Other",
+        "icon": {
+          "dark": "icon-dl-query",
+          "light": "icon-dl-query"
+        },
+        "color": {
+          "dark": "#7BD679",
+          "light": "#4CC34A"
+        },
+        "description": "",
+        "link": ""
       }
     ],
     "isMultiple": false
