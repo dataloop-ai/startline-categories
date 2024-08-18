@@ -1,0 +1,10 @@
+{
+    "dl-openai-api-key": {
+        "to": "OpenAI",
+        "env": "OPENAI_API_KEY",
+        "type": "key_value",
+        "description": "API key for OenAI platform",
+        "displayName": "OpenAI API key",
+        "optional": false
+    }
+}

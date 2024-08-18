@@ -135,7 +135,8 @@
     "parent": null,
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Microsoft"
     ],
     "categories": [
       "Model",
@@ -447,6 +448,20 @@
         "link": "https://core42.ai"
       },
       {
+        "name": "PyTorch",
+        "displayName": "PyTorch",
+        "icon": {
+          "dark": "icon-dl-pytorch",
+          "light": "icon-dl-pytorch"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "PyTorch is a machine learning library based on the Torch library",
+        "link": "https://pytorch.org/"
+      },
+      {
         "name": "Other",
         "displayName": "Other",
         "icon": {
@@ -473,8 +488,6 @@
     ],
     "categories": [
       "Model",
-      "Pipeline",
-      "Dataset",
       "Solution",
       "Application",
       "NIM"
@@ -659,7 +672,8 @@
     "displayName": "Application Type",
     "parent": "Application",
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Application"
@@ -746,11 +760,12 @@
     "isMultiple": true
   },
   {
-    "key": "Template Type",
-    "displayName": "Template Type",
+    "key": "Pipeline Type",
+    "displayName": "Pipeline Type",
     "parent": "Template",
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Pipeline"
@@ -824,7 +839,8 @@
     "parent": "Solution",
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Microsoft"
     ],
     "categories": [
       "Solution"
@@ -898,7 +914,8 @@
     "parent": null,
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Microsoft"
     ],
     "categories": [
       "NIM",
@@ -1009,7 +1026,8 @@
     "parent": "Model",
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Microsoft"
     ],
     "categories": [
       "Model"
@@ -1114,7 +1132,8 @@
     "parent": "Model",
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Microsoft"
     ],
     "categories": [
       "Model",
@@ -1233,7 +1252,8 @@
     "displayName": "Audio",
     "parent": "Model",
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Model"
@@ -1312,7 +1332,8 @@
     "displayName": "Converters",
     "parent": "Application",
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Application"
@@ -1499,7 +1520,8 @@
     "displayName": "Annotation Type",
     "parent": "Dataset",
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Dataset"
@@ -1633,7 +1655,8 @@
     "displayName": "License",
     "parent": null,
     "hubs": [
-      "Dataloop"
+      "Dataloop",
+      "Microsoft"
     ],
     "categories": [
       "Pipeline",
