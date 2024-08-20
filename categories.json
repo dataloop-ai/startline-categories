@@ -390,6 +390,19 @@
         },
         "description": "Provided by Databricks",
         "link": "https://www.databricks.com/"
+      },      {
+        "name": "BigCode",
+        "displayName": "BigCode",
+        "icon": {
+          "dark": "icon-dl-big-code",
+          "light": "icon-dl-big-code"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by BigCode",
+        "link": "https://huggingface.co/bigcode"
       },
       {
         "name": "IBM",
