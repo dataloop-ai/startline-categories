@@ -3,7 +3,7 @@
         "to": "Open AI",
         "env": "OPENAI_API_KEY",
         "type": "key_value",
-        "description": "API key for OenAI platform",
+        "description": "API key for OpenAI platform",
         "displayName": "OpenAI API key",
         "optional": false
     }
