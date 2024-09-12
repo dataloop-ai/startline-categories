@@ -1,5 +1,11 @@
 {
   "Text-Preprocessing": {
     "color": "dl-color-info"
+  },
+  "query": {
+    "color": "dl-color-rainbow-4"
+  },
+  "Integrations": {
+    "color": "dl-color-rainbow-4"
   }
 }
