@@ -3,9 +3,9 @@
     "color": "dl-color-info"
   },
   "query": {
-    "color": "dl-color-rainbow-4"
+    "color": "dl-color-indigo-foreground"
   },
   "Integrations": {
-    "color": "dl-color-rainbow-4"
+    "color": "dl-color-indigo-foreground"
   }
 }
