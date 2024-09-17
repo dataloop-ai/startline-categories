@@ -3,9 +3,9 @@
     "color": "dl-color-info"
   },
   "query": {
-    "color": "dl-color-indigo-foreground"
+    "color": "library-image-utils-nodes"
   },
   "Integrations": {
-    "color": "dl-color-indigo-foreground"
+    "color": "library-image-utils-nodes"
   }
 }
