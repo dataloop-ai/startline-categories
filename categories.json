@@ -475,6 +475,20 @@
         "link": "https://pytorch.org/"
       },
       {
+        "name": "Anthropic",
+        "displayName": "Anthropic",
+        "icon": {
+          "dark": "icon-dl-anthropic",
+          "light": "icon-dl-anthropic"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Anthropic",
+        "link": "https://www.anthropic.com/"
+      },
+      {
         "name": "Other",
         "displayName": "Other",
         "icon": {
