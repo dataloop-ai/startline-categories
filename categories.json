@@ -87,6 +87,9 @@
       },
       {
         "name": "Microsoft"
+      },
+      {
+        "name": "Databricks"
       }
     ],
     "isMultiple": true
@@ -136,7 +139,8 @@
     "hubs": [
       "Dataloop",
       "Nvidia",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "Model",
@@ -511,7 +515,8 @@
     "parent": null,
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Databricks"
     ],
     "categories": [
       "Model",
@@ -942,7 +947,8 @@
     "hubs": [
       "Dataloop",
       "Nvidia",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "NIM",
@@ -1054,7 +1060,8 @@
     "hubs": [
       "Dataloop",
       "Nvidia",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "Model"
@@ -1160,7 +1167,8 @@
     "hubs": [
       "Dataloop",
       "Nvidia",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "Model",
@@ -1280,7 +1288,8 @@
     "parent": "Model",
     "hubs": [
       "Dataloop",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "Model"
@@ -1453,7 +1462,8 @@
     "parent": "Model",
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Databricks"
     ],
     "categories": [
       "Model",
@@ -1683,7 +1693,8 @@
     "parent": null,
     "hubs": [
       "Dataloop",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "Pipeline",
