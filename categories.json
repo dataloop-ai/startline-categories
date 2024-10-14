@@ -87,6 +87,9 @@
       },
       {
         "name": "Microsoft"
+      },
+      {
+        "name": "Databricks"
       }
     ],
     "isMultiple": true
@@ -136,7 +139,8 @@
     "hubs": [
       "Dataloop",
       "Nvidia",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "Model",
@@ -475,6 +479,20 @@
         "link": "https://pytorch.org/"
       },
       {
+        "name": "Anthropic",
+        "displayName": "Anthropic",
+        "icon": {
+          "dark": "icon-dl-anthropic",
+          "light": "icon-dl-anthropic"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Anthropic",
+        "link": "https://www.anthropic.com/"
+      },
+      {
         "name": "Other",
         "displayName": "Other",
         "icon": {
@@ -497,7 +515,8 @@
     "parent": null,
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Databricks"
     ],
     "categories": [
       "Model",
@@ -928,7 +947,8 @@
     "hubs": [
       "Dataloop",
       "Nvidia",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "NIM",
@@ -1040,7 +1060,8 @@
     "hubs": [
       "Dataloop",
       "Nvidia",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "Model"
@@ -1146,7 +1167,8 @@
     "hubs": [
       "Dataloop",
       "Nvidia",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "Model",
@@ -1266,7 +1288,8 @@
     "parent": "Model",
     "hubs": [
       "Dataloop",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "Model"
@@ -1439,7 +1462,8 @@
     "parent": "Model",
     "hubs": [
       "Dataloop",
-      "Nvidia"
+      "Nvidia",
+      "Databricks"
     ],
     "categories": [
       "Model",
@@ -1669,7 +1693,8 @@
     "parent": null,
     "hubs": [
       "Dataloop",
-      "Microsoft"
+      "Microsoft",
+      "Databricks"
     ],
     "categories": [
       "Pipeline",
