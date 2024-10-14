@@ -15,6 +15,14 @@
     "displayName": "Databricks API key",
     "optional": false
   },
+  "dl-dbrx-client-secret": {
+    "to": "Databricks",
+    "env": "DATABRICKS_CLIENT_SECRET",
+    "type": "key_value",
+    "description": "SECRET for Databricks workspace",
+    "displayName": "Databricks SECRET",
+    "optional": false
+  },
   "dl-azure-api-key": {
     "to": "Microsoft",
     "env": "AZURE_API_KEY",
