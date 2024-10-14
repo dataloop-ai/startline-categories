@@ -15,6 +15,14 @@
     "displayName": "Databricks API key",
     "optional": false
   },
+  "dl-azure-api-key": {
+    "to": "Microsoft",
+    "env": "AZURE_API_KEY",
+    "type": "key_value",
+    "description": "API key for Azure - Model as a Service.",
+    "displayName": "Azure API key",
+    "optional": false
+  },
   "dl-ibm-api-key": {
     "to": "IBM",
     "env": "IBM_API_KEY",
