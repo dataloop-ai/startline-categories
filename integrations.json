@@ -1,10 +1,58 @@
 {
-    "dl-openai-api-key": {
-        "to": "Open AI",
-        "env": "OPENAI_API_KEY",
-        "type": "key_value",
-        "description": "API key for OpenAI platform",
-        "displayName": "OpenAI API key",
-        "optional": false
-    }
+  "dl-openai-api-key": {
+    "to": "Open AI",
+    "env": "OPENAI_API_KEY",
+    "type": "key_value",
+    "description": "API key for OpenAI platform",
+    "displayName": "OpenAI API key",
+    "optional": false
+  },
+  "dl-dbrx-api-key": {
+    "to": "Databricks",
+    "env": "DATABRICKS_API_KEY",
+    "type": "key_value",
+    "description": "API key for Databricks platform",
+    "displayName": "Databricks API key",
+    "optional": false
+  },
+  "dl-dbrx-client-secret": {
+    "to": "Databricks",
+    "env": "DATABRICKS_CLIENT_SECRET",
+    "type": "key_value",
+    "description": "SECRET for Databricks workspace",
+    "displayName": "Databricks SECRET",
+    "optional": false
+  },
+  "dl-azure-api-key": {
+    "to": "Microsoft",
+    "env": "AZURE_API_KEY",
+    "type": "key_value",
+    "description": "API key for Azure - Model as a Service.",
+    "displayName": "Azure API key",
+    "optional": false
+  },
+  "dl-ibm-api-key": {
+    "to": "IBM",
+    "env": "IBM_API_KEY",
+    "type": "key_value",
+    "description": "API key for IBM platform",
+    "displayName": "IBM API key",
+    "optional": false
+  },
+  "dl-aws-integration": {
+    "to": "AWS",
+    "env": "AWS_INTEGRATION",
+    "type": "s3",
+    "description": "AWS Integration",
+    "displayName": "AWS Integration",
+    "optional": false
+  },
+  "dl-ngc-api-key": {
+    "to": "NVIDIA",
+    "env": "NGC_API_KEY",
+    "type": "key_value",
+    "description": "API key for NIM",
+    "displayName": "NGC API key",
+    "optional": false
+  }
 }
