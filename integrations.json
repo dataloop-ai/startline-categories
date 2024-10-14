@@ -42,7 +42,7 @@
   "dl-aws-integration": {
     "to": "AWS",
     "env": "AWS_INTEGRATION",
-    "type": "S3",
+    "type": "s3",
     "description": "AWS Integration",
     "displayName": "AWS Integration",
     "optional": false
