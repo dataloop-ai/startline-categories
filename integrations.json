@@ -54,5 +54,13 @@
     "description": "API key for NIM",
     "displayName": "NGC API key",
     "optional": false
+  },
+  "dl-assemblyai-api-key": {
+    "to": "AssemblyAI",
+    "env": "ASSEMBLYAI_API_KEY",
+    "type": "key_value",
+    "description": "API key for AssemblyAI",
+    "displayName": "AssemblyAI API key",
+    "optional": false
   }
 }
