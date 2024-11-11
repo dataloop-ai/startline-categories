@@ -62,5 +62,13 @@
     "description": "API key for AssemblyAI",
     "displayName": "AssemblyAI API key",
     "optional": false
+  },
+  "dl-humeai-api-key": {
+    "to": "HumeAI",
+    "env": "HUMEAI_API_KEY",
+    "type": "key_value",
+    "description": "API key for HumeAI",
+    "displayName": "HumeAI API key",
+    "optional": false
   }
 }
