@@ -70,5 +70,13 @@
     "description": "API key for HumeAI",
     "displayName": "HumeAI API key",
     "optional": false
+  },
+  "dl-snowflake-password": {
+    "to": "Snowflake",
+    "env": "SNOWFLAKE_PASSWORD",
+    "type": "key_value",
+    "description": "Password for Snowflake account",
+    "displayName": "Snowflake Password",
+    "optional": false
   }
 }
