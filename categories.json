@@ -493,6 +493,20 @@
         "link": "https://www.anthropic.com/"
       },
       {
+        "name": "Snowflake",
+        "displayName": "Snowflake",
+        "icon": {
+          "dark": "icon-dl-snowflake",
+          "light": "icon-dl-snowflake"
+        },
+        "color": {
+          "dark": "",
+          "light": ""
+        },
+        "description": "Provided by Snowflake",
+        "link": ""
+      },
+      {
         "name": "Other",
         "displayName": "Other",
         "icon": {
