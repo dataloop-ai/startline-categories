@@ -78,5 +78,13 @@
     "description": "Password for Snowflake account",
     "displayName": "Snowflake Password",
     "optional": false
+  },
+  "dl-singlestore-password": {
+    "to": "SingleStore",
+    "env": "SINGLESTORE_PASSWORD",
+    "type": "key_value",
+    "description": "Password for SingleStore account",
+    "displayName": "SingleStore Password",
+    "optional": false
   }
 }
