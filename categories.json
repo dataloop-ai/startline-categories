@@ -508,6 +508,20 @@
                 "link": ""
             },
             {
+                "name": "MongoDB",
+                "displayName": "MongoDB",
+                "icon": {
+                    "dark": "icon-dl-mongodb",
+                    "light": "icon-dl-mongodb"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by MongoDB",
+                "link": ""
+            },
+            {
                 "name": "Other",
                 "displayName": "Other",
                 "icon": {
