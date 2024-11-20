@@ -522,6 +522,20 @@
                 "link": ""
             },
             {
+                "name": "SingleStore",
+                "displayName": "SingleStore",
+                "icon": {
+                    "dark": "icon-dl-singlestore",
+                    "light": "icon-dl-singlestore"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by SingleStore",
+                "link": ""
+            },
+            {
                 "name": "Other",
                 "displayName": "Other",
                 "icon": {
