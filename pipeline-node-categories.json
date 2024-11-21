@@ -1,11 +1,11 @@
 {
-  "Text-Preprocessing": {
-    "color": "dl-color-info"
-  },
-  "query": {
-    "color": "library-image-utils-nodes"
-  },
-  "Integrations": {
-    "color": "library-image-utils-nodes"
-  }
+    "Text-Preprocessing": {
+        "color": "dl-color-info"
+    },
+    "query": {
+        "color": "library-image-utils-nodes"
+    },
+    "Integrations": {
+        "color": "library-image-utils-nodes"
+    }
 }
