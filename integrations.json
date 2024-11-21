@@ -79,6 +79,14 @@
     "displayName": "Snowflake Password",
     "optional": false
   },
+  "dl-mongodb-password": {
+    "to": "MongoDB",
+    "env": "MONGODB_PASSWORD",
+    "type": "key_value",
+    "description": "Password for MongoDB account",
+    "displayName": "MongoDB Password",
+    "optional": false
+  },
   "dl-singlestore-password": {
     "to": "SingleStore",
     "env": "SINGLESTORE_PASSWORD",

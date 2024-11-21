@@ -507,6 +507,34 @@
         "link": ""
       },
       {
+                "name": "MongoDB",
+                "displayName": "MongoDB",
+                "icon": {
+                    "dark": "icon-dl-mongodb",
+                    "light": "icon-dl-mongodb"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by MongoDB",
+                "link": ""
+            },
+            {
+                "name": "SingleStore",
+                "displayName": "SingleStore",
+                "icon": {
+                    "dark": "icon-dl-singlestore",
+                    "light": "icon-dl-singlestore"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by SingleStore",
+                "link": ""
+            },
+            {
         "name": "Other",
         "displayName": "Other",
         "icon": {
@@ -1760,6 +1788,20 @@
         "link": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
+                "name": "CC BY-SA 3.0",
+                "displayName": "CC BY-SA 3.0",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt"
+            },
+            {
         "name": "Apache 2.0",
         "displayName": "Apache 2.0",
         "icon": {
