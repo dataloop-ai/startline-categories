@@ -525,8 +525,8 @@
                 "name": "SingleStore",
                 "displayName": "SingleStore",
                 "icon": {
-                    "dark": "icon-dl-singlestore-white",
-                    "light": "icon-dl-singlestore-black"
+                    "dark": "icon-dl-singlestore-dark",
+                    "light": "icon-dl-singlestore-light"
                 },
                 "color": {
                     "dark": "",
