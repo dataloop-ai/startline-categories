@@ -525,8 +525,8 @@
                 "name": "SingleStore",
                 "displayName": "SingleStore",
                 "icon": {
-                    "dark": "icon-dl-singlestore-white",
-                    "light": "icon-dl-singlestore-black"
+                    "dark": "icon-dl-singlestore-dark",
+                    "light": "icon-dl-singlestore-light"
                 },
                 "color": {
                     "dark": "",
@@ -559,7 +559,8 @@
         "hubs": [
             "Dataloop",
             "Nvidia",
-            "Databricks"
+            "Databricks",
+            "Microsoft"
         ],
         "categories": [
             "Model",
@@ -640,6 +641,20 @@
                 },
                 "description": "Provided by AWS",
                 "link": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
+            },
+            {
+                "name": "Open AI",
+                "displayName": "Open AI",
+                "icon": {
+                    "dark": "icon-dl-open-ai",
+                    "light": "icon-dl-open-ai"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by Open AI",
+                "link": "https://openai.com/blog/openai-api"
             },
             {
                 "name": "AMD",
