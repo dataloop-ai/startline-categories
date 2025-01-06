@@ -169,6 +169,20 @@
                 "link": "https://huggingface.co"
             },
             {
+                "name": "OpenCV",
+                "displayName": "OpenCV",
+                "icon": {
+                    "dark": "icon-dl-opencv",
+                    "light": "icon-dl-opencv"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by OpenCV",
+                "link": "https://opencv.org"
+            },
+            {
                 "name": "Microsoft",
                 "displayName": "Microsoft",
                 "categories": [
