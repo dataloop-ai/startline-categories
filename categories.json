@@ -169,6 +169,40 @@
                 "link": "https://huggingface.co"
             },
             {
+                "name": "LangChain",
+                "displayName": "LangChain",
+                "hubs": [
+                    "Dataloop"
+                ],
+                "icon": {
+                    "dark": "icon-dl-langchain",
+                    "light": "icon-dl-langchain"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by LangChain",
+                "link": "https://www.langchain.com/"
+            },
+            {
+                "name": "LlamaIndex",
+                "displayName": "LlamaIndex",
+                "hubs": [
+                    "Dataloop"
+                ],
+                "icon": {
+                    "dark": "icon-dl-llamaindex",
+                    "light": "icon-dl-llamaindex"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by LlamaIndex",
+                "link": "https://www.llamaindex.ai/"
+            },
+            {
                 "name": "OpenCV",
                 "displayName": "OpenCV",
                 "icon": {
