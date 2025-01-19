@@ -98,7 +98,7 @@
     "dl-gcp-service-account": {
         "to": "GCP",
         "env": "GCP_SERVICE_ACCOUNT",
-        "type": "key_value",
+        "type": "gcs",
         "description": "JSON file for GCP Service Account",
         "displayName": "GCP Service Account",
         "optional": false
