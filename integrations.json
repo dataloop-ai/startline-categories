@@ -102,5 +102,13 @@
         "description": "JSON file for GCP Service Account",
         "displayName": "GCP Service Account",
         "optional": false
+    },
+    "dl-azure-storage-account": {
+        "to": "Microsoft",
+        "env": "AZURE_STORAGE_ACCOUNT",
+        "type": "azureblob",
+        "description": "Azure Storage Account in JSON format",
+        "displayName": "Azure Storage Account",
+        "optional": false
     }
 }
