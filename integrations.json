@@ -103,12 +103,12 @@
         "displayName": "GCP Service Account",
         "optional": false
     },
-    "dl-azure-storage-account": {
+    "dl-azure-integration": {
         "to": "Microsoft",
-        "env": "AZURE_STORAGE_ACCOUNT",
+        "env": "AZURE_INTEGRATION",
         "type": "azureblob",
-        "description": "Azure Storage Account in JSON format",
-        "displayName": "Azure Storage Account",
+        "description": "Azure Integration",
+        "displayName": "Azure Integration",
         "optional": false
     }
 }
