@@ -70,6 +70,28 @@
                 }
             },
             {
+                "name": "Agent",
+                "icon": {
+                    "dark": "icon-dl-faas-outline",
+                    "light": "icon-dl-faas-outline"
+                },
+                "color": {
+                    "dark": "#7C8CFF",
+                    "light": "#3452FF"
+                }
+            },
+            {
+                "name": "Blueprint",
+                "icon": {
+                    "dark": "icon-dl-faas-outline",
+                    "light": "icon-dl-faas-outline"
+                },
+                "color": {
+                    "dark": "#7C8CFF",
+                    "light": "#3452FF"
+                }
+            },
+            {
                 "name": "Onboarding"
             }
         ],
