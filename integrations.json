@@ -102,5 +102,13 @@
         "description": "JSON file for GCP Service Account",
         "displayName": "GCP Service Account",
         "optional": false
+    },
+    "dl-azure-integration": {
+        "to": "Microsoft",
+        "env": "AZURE_INTEGRATION",
+        "type": "azureblob",
+        "description": "Azure Integration",
+        "displayName": "Azure Integration",
+        "optional": false
     }
 }
