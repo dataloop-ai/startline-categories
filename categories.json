@@ -773,8 +773,8 @@
                 "name": "Intel",
                 "displayName": "Intel",
                 "icon": {
-                    "dark": "icon-dl-intel",
-                    "light": "icon-dl-intel"
+                    "dark": "icon-dl-intel-dark",
+                    "light": "icon-dl-intel-light"
                 },
                 "color": {
                     "dark": "",

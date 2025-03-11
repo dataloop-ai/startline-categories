@@ -87,6 +87,14 @@
         "displayName": "MongoDB Password",
         "optional": false
     },
+    "dl-couchbase-password": {
+        "to": "Couchbase",
+        "env": "COUCHBASE_PASSWORD",
+        "type": "key_value",
+        "description": "Password for Couchbase account",
+        "displayName": "Couchbase Password",
+        "optional": false
+    },
     "dl-singlestore-password": {
         "to": "SingleStore",
         "env": "SINGLESTORE_PASSWORD",
