@@ -118,5 +118,13 @@
         "description": "Azure Integration",
         "displayName": "Azure Integration",
         "optional": false
+    },
+    "dl-tavily-integration": {
+        "to": "Tavily",
+        "env": "TAVILY_API_KEY",
+        "type": "key_value",
+        "description": "Tavily Integration",
+        "displayName": "Tavily Integration",
+        "optional": false
     }
 }
