@@ -593,6 +593,20 @@
                 "link": ""
             },
             {
+                "name": "Couchbase",
+                "displayName": "Couchbase",
+                "icon": {
+                    "dark": "icon-dl-couchbase",
+                    "light": "icon-dl-couchbase"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by Couchbase",
+                "link": ""
+            },
+            {
                 "name": "SingleStore",
                 "displayName": "SingleStore",
                 "icon": {
