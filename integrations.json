@@ -87,6 +87,14 @@
         "displayName": "MongoDB Password",
         "optional": false
     },
+    "dl-couchbase-password": {
+        "to": "Couchbase",
+        "env": "COUCHBASE_PASSWORD",
+        "type": "key_value",
+        "description": "Password for Couchbase account",
+        "displayName": "Couchbase Password",
+        "optional": false
+    },
     "dl-singlestore-password": {
         "to": "SingleStore",
         "env": "SINGLESTORE_PASSWORD",
@@ -110,6 +118,15 @@
         "description": "Azure Integration",
         "displayName": "Azure Integration",
         "optional": false
+    },
+    "dl-tavily-api-key": {
+        "to": "Tavily",
+        "env": "TAVILY_API_KEY",
+        "type": "key_value",
+        "description": "Tavily Integration",
+        "displayName": "Tavily Integration",
+        "optional": false
+
     },
     "dl-huggingface-api-key": {
         "to": "Hugging Face",
