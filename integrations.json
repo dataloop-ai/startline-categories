@@ -126,5 +126,14 @@
         "description": "Tavily Integration",
         "displayName": "Tavily Integration",
         "optional": false
+
+    },
+    "dl-huggingface-api-key": {
+        "to": "Hugging Face",
+        "env": "HUGGINGFACE_TOKEN",
+        "type": "key_value",
+        "description": "Token for Hugging Face platform",
+        "displayName": "Hugging Face Token",
+        "optional": false
     }
 }
