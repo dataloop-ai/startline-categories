@@ -593,6 +593,20 @@
                 "link": ""
             },
             {
+                "name": "Roboflow",
+                "displayName": "Roboflow",
+                "icon": {
+                  "dark": "icon-dl-roboflow",
+                  "light": "icon-dl-roboflow"
+                },
+                "color": {
+                  "dark": "",
+                  "light": ""
+                },
+                "description": "Provided by Roboflow",
+                "link": ""
+            },
+            {
                 "name": "Couchbase",
                 "displayName": "Couchbase",
                 "icon": {
