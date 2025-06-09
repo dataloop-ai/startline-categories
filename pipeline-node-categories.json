@@ -7,5 +7,22 @@
     },
     "Integrations": {
         "color": "library-image-utils-nodes"
-    }
+    },
+    "Text-Preprocessing": {
+        "color": "library-image-utils-nodes"
+    },
+    "azure-ai-video-indexer": {
+        "color": "library-image-utils-nodes"
+    },
+    "text-utils": {
+        "color": "library-image-utils-nodes"
+    },
+    "video-utils": {
+        "color": "library-image-utils-nodes"
+    },
+    "AWS-Rekognition": {
+        "color": "library-image-utils-nodes"
+    
+    
+    
 }
