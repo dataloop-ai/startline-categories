@@ -1,7 +1,4 @@
 {
-    "Text-Preprocessing": {
-        "color": "dl-color-info"
-    },
     "query": {
         "color": "library-image-utils-nodes"
     },
@@ -22,4 +19,23 @@
     },
     "AWS-Rekognition": {
         "color": "library-image-utils-nodes"
+    },
+    "Application": {
+        "color": "library-image-utils-nodes"
+    },
+    "Prompt Item Tools": {
+        "color": "library-image-utils-nodes"
+    },
+    "agent": {
+        "color": "library-image-utils-nodes"
+    },
+    "model": {
+        "color": "library-image-utils-nodes"
+    },
+    "Podcast Generation": {
+        "color": "library-image-utils-nodes"
+    },
+    "Report Generation": {
+        "color": "library-image-utils-nodes"
+    }
 }
