@@ -15,6 +15,14 @@
         "displayName": "Databricks API key",
         "optional": false
     },
+    "dl-google-api-key": {
+        "to": "Google",
+        "env": "GOOGLE_API_KEY",
+        "type": "key_value",
+        "description": "API key for Google platform",
+        "displayName": "Google API key",
+        "optional": false
+    },
     "dl-dbrx-client-secret": {
         "to": "Databricks",
         "env": "DATABRICKS_CLIENT_SECRET",
