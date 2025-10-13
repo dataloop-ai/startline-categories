@@ -635,6 +635,20 @@
                 "link": ""
             },
             {
+                "name": "Dell",
+                "displayName": "Dell",
+                "icon": {
+                    "dark": "icon-dl-brand-dell",
+                    "light": "icon-dl-brand-dell"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by Dell",
+                "link": ""
+            },
+            {
                 "name": "TensorFlow",
                 "displayName": "TensorFlow",
                 "icon": {
