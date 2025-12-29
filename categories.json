@@ -425,20 +425,6 @@
                 "link": "https://openmmlab.com/"
             },
             {
-                "name": "NetApp",
-                "displayName": "NetApp",
-                "icon": {
-                    "dark": "icon-dl-netapp",
-                    "light": "icon-dl-netapp"
-                },
-                "color": {
-                    "dark": "",
-                    "light": ""
-                },
-                "description": "Provided by NetApp",
-                "link": "https://www.netapp.com/"
-            },
-            {
                 "name": "Cohere",
                 "displayName": "Cohere",
                 "icon": {
@@ -824,20 +810,6 @@
                 },
                 "description": "Provided by Intel",
                 "link": ""
-            },
-            {
-                "name": "NetApp",
-                "displayName": "NetApp",
-                "icon": {
-                    "dark": "icon-dl-netapp",
-                    "light": "icon-dl-netapp"
-                },
-                "color": {
-                    "dark": "",
-                    "light": ""
-                },
-                "description": "Provided by NetApp",
-                "link": "https://www.netapp.com/"
             },
             {
                 "name": "Databricks",
