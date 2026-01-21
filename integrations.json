@@ -143,5 +143,13 @@
         "description": "Token for Hugging Face platform",
         "displayName": "Hugging Face Token",
         "optional": false
+    },
+    "dl-openrouter-api-key": {
+        "to": "OpenRouter",
+        "env": "OPENROUTER_API_KEY",
+        "type": "key_value",
+        "description": "Token for OpenRouter platform",
+        "displayName": "OpenRouter Token",
+        "optional": false
     }
 }
