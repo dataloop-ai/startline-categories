@@ -470,8 +470,8 @@
                 "name": "IBM",
                 "displayName": "IBM",
                 "icon": {
-                    "dark": "icon-dl-ibm-dark",
-                    "light": "icon-dl-ibm-light"
+                    "dark": "icon-dl-ibm",
+                    "light": "icon-dl-ibm"
                 },
                 "color": {
                     "dark": "",
@@ -610,8 +610,8 @@
                 "name": "SingleStore",
                 "displayName": "SingleStore",
                 "icon": {
-                    "dark": "icon-dl-singlestore-dark",
-                    "light": "icon-dl-singlestore-light"
+                    "dark": "icon-dl-singlestore",
+                    "light": "icon-dl-singlestore"
                 },
                 "color": {
                     "dark": "",
@@ -829,8 +829,8 @@
                 "name": "IBM",
                 "displayName": "IBM",
                 "icon": {
-                    "dark": "icon-dl-ibm-dark",
-                    "light": "icon-dl-ibm-light"
+                    "dark": "icon-dl-ibm",
+                    "light": "icon-dl-ibm"
                 },
                 "color": {
                     "dark": "",
