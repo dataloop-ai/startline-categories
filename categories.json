@@ -2015,6 +2015,174 @@
                 "link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE"
             },
             {
+                "name": "NVIDIA Nemotron Open Model License",
+                "displayName": "NVIDIA Nemotron Open Model License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/"
+            },
+            {
+                "name": "NVIDIA Software and Model Evaluation License",
+                "displayName": "NVIDIA Software and Model Evaluation License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-and-model-evaluation-license/"
+            },
+            {
+                "name": "NVIDIA Community Model License",
+                "displayName": "NVIDIA Community Model License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://www.nvidia.com/en-eu/agreements/enterprise-software/nvidia-community-models-license/"
+            },
+            {
+                "name": "NVIDIA Open Model License",
+                "displayName": "NVIDIA Open Model License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/"
+            },
+            {
+                "name": "Gemma Terms of Use",
+                "displayName": "Gemma Terms of Use",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://ai.google.dev/gemma/terms"
+            },
+            {
+                "name": "Hive Terms of Use",
+                "displayName": "Hive Terms of Use",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://thehive.ai/terms-of-use"
+            },
+            {
+                "name": "BigCode OpenRAIL-M v1 License Agreement",
+                "displayName": "BigCode OpenRAIL-M v1",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://www.bigcode-project.org/docs/pages/bigcode-openrail/"
+            },
+            {
+                "name": "Jamba Open License Agreement",
+                "displayName": "Jamba Open License Agreement",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://assets.ngc.nvidia.com/products/api-catalog/legal/Jamba_Open_Model_License_Agreement.pdf"
+            },
+            {
+                "name": "Falcon 3 TII Falcon License",
+                "displayName": "Falcon 3 TII Falcon License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://falconllm.tii.ae/falcon3/falcon-3-terms-and-conditions.html"
+            },
+            {
+                "name": "License agreement for Colosseum",
+                "displayName": "License agreement for Colosseum",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://colosseum.com/legal/Colosseum%20-%20Terms%20of%20Service.pdf"
+            },
+            {
+                "name": "NVIDIA Technology Access Terms of Use",
+                "displayName": "NVIDIA Technology Access Terms of Use",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://developer.nvidia.com/legal/terms"
+            },
+            {
+                "name": "DeepSeek License",
+                "displayName": "DeepSeek License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL"
+            },
+            {
                 "name": "Other",
                 "displayName": "Other",
                 "icon": {
