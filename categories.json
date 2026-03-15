@@ -2183,6 +2183,146 @@
                 "link": "https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL"
             },
             {
+                "name": "NVIDIA AI Foundation Models Community License",
+                "displayName": "NVIDIA AI Foundation Models Community License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-ai-foundation-models-community-license-agreement/"
+            },
+            {
+                "name": "NVIDIA Evaluation License Agreement",
+                "displayName": "NVIDIA Evaluation License Agreement",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://developer.download.nvidia.com/licenses/NVIDIA_Model_Evaluation_License_Agreement_(2024.04.16).pdf"
+            },
+            {
+                "name": "NVIDIA NeMo Foundational Models Evaluation License",
+                "displayName": "NVIDIA NeMo Foundational Models Evaluation License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://developer.download.nvidia.com/licenses/NVIDIA_Model_Evaluation_License_Agreement_(2024.04.16).pdf"
+            },
+            {
+                "name": "Llama 3",
+                "displayName": "Llama 3",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://github.com/meta-llama/llama3/blob/main/LICENSE"
+            },
+            {
+                "name": "Llama 3.1",
+                "displayName": "Llama 3.1",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE"
+            },
+            {
+                "name": "Llama 4 Community Model License",
+                "displayName": "Llama 4 Community Model License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE"
+            },
+            {
+                "name": "License agreement for Italia",
+                "displayName": "License agreement for Italia",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://almaai.it/en/italia-license/"
+            },
+            {
+                "name": "Mistral License",
+                "displayName": "Mistral License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://mistral.ai/licenses/MRL-0.1.md"
+            },
+            {
+                "name": "Qwen License",
+                "displayName": "Qwen License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://github.com/QwenLM/Qwen/blob/main/Tongyi%20Qianwen%20LICENSE%20AGREEMENT"
+            },
+            {
+                "name": "Baichuan License",
+                "displayName": "Baichuan License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://huggingface.co/baichuan-inc/Baichuan2-7B-Base/resolve/main/Community%20License%20for%20Baichuan%202%20Model.pdf"
+            },
+            {
                 "name": "Other",
                 "displayName": "Other",
                 "icon": {
