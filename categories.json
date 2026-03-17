@@ -105,6 +105,9 @@
                 "name": "Dataloop"
             },
             {
+                "name": "DDOE"
+            },
+            {
                 "name": "Nvidia"
             },
             {
@@ -143,7 +146,7 @@
         "parent": "Onboarding",
         "values": [
             {
-                "name": "Use Dataloop Example"
+                "name": "Use DDOE Example"
             },
             {
                 "name": "Annotation Tools"
@@ -160,6 +163,7 @@
         "parent": null,
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Nvidia",
             "Microsoft",
             "Databricks"
@@ -178,7 +182,8 @@
                 "name": "Hugging Face",
                 "displayName": "Hugging Face",
                 "hubs": [
-                    "Dataloop"
+                    "Dataloop",
+                    "DDOE"
                 ],
                 "icon": {
                     "dark": "icon-dl-hugging-face",
@@ -195,7 +200,8 @@
                 "name": "LangChain",
                 "displayName": "LangChain",
                 "hubs": [
-                    "Dataloop"
+                    "Dataloop",
+                    "DDOE"
                 ],
                 "icon": {
                     "dark": "icon-dl-langchain",
@@ -212,7 +218,8 @@
                 "name": "LlamaIndex",
                 "displayName": "LlamaIndex",
                 "hubs": [
-                    "Dataloop"
+                    "Dataloop",
+                    "DDOE"
                 ],
                 "icon": {
                     "dark": "icon-dl-llamaindex",
@@ -496,7 +503,7 @@
             },
             {
                 "name": "Dataloop",
-                "displayName": "Dataloop",
+                "displayName": "DDOE",
                 "icon": {
                     "dark": "icon-dl-dataloop",
                     "light": "icon-dl-dataloop"
@@ -505,7 +512,7 @@
                     "dark": "",
                     "light": ""
                 },
-                "description": "Provided by Dataloop",
+                "description": "Provided by DDOE",
                 "link": "https://dataloop.ai"
             },
             {
@@ -671,6 +678,7 @@
         "parent": null,
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Nvidia",
             "Databricks",
             "Microsoft"
@@ -841,7 +849,7 @@
             },
             {
                 "name": "Dataloop",
-                "displayName": "Dataloop",
+                "displayName": "DDOE",
                 "icon": {
                     "dark": "icon-dl-dataloop",
                     "light": "icon-dl-dataloop"
@@ -850,7 +858,7 @@
                     "dark": "",
                     "light": ""
                 },
-                "description": "Provided by Dataloop",
+                "description": "Provided by DDOE",
                 "link": "https://dataloop.ai"
             }
         ],
@@ -862,6 +870,7 @@
         "parent": "Application",
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Microsoft"
         ],
         "categories": [
@@ -954,6 +963,7 @@
         "parent": "Template",
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Microsoft"
         ],
         "categories": [
@@ -1028,6 +1038,7 @@
         "parent": "Solution",
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Nvidia",
             "Microsoft"
         ],
@@ -1103,6 +1114,7 @@
         "parent": null,
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Nvidia",
             "Microsoft",
             "Databricks"
@@ -1216,6 +1228,7 @@
         "parent": "Model",
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Nvidia",
             "Microsoft",
             "Databricks"
@@ -1323,6 +1336,7 @@
         "parent": "Model",
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Nvidia",
             "Microsoft",
             "Databricks"
@@ -1445,6 +1459,7 @@
         "parent": "Model",
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Microsoft",
             "Databricks"
         ],
@@ -1526,6 +1541,7 @@
         "parent": "Application",
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Microsoft"
         ],
         "categories": [
@@ -1619,6 +1635,7 @@
         "parent": "Model",
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Nvidia",
             "Databricks"
         ],
@@ -1715,6 +1732,7 @@
         "parent": "Dataset",
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Microsoft"
         ],
         "categories": [
@@ -1850,6 +1868,7 @@
         "parent": null,
         "hubs": [
             "Dataloop",
+            "DDOE",
             "Microsoft",
             "Databricks"
         ],
