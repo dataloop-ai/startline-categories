@@ -1903,6 +1903,20 @@
                 "link": "https://creativecommons.org/licenses/by/4.0/"
             },
             {
+                "name": "CC BY-NC 4.0",
+                "displayName": "CC BY-NC 4.0",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            {
                 "name": "CC BY-SA 3.0",
                 "displayName": "CC BY-SA 3.0",
                 "icon": {
@@ -1973,20 +1987,6 @@
                 "link": "https://www.gnu.org/licenses/agpl-3.0.en.html"
             },
             {
-                "name": "Llama 2",
-                "displayName": "Llama 2",
-                "icon": {
-                    "dark": "icon-dl-license",
-                    "light": "icon-dl-license"
-                },
-                "color": {
-                    "dark": "#7BD679",
-                    "light": "#4CC34A"
-                },
-                "description": "",
-                "link": "https://github.com/facebookresearch/llama/blob/main/LICENSE"
-            },
-            {
                 "name": "BSD-3-Clause",
                 "displayName": "BSD-3-Clause",
                 "icon": {
@@ -2001,6 +2001,48 @@
                 "link": "https://opensource.org/license/bsd-3-clause"
             },
             {
+                "name": "Llama 2",
+                "displayName": "Llama 2",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://github.com/facebookresearch/llama/blob/main/LICENSE"
+            },
+            {
+                "name": "Llama 3",
+                "displayName": "Llama 3",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3/LICENSE"
+            },
+            {
+                "name": "Llama 3.1",
+                "displayName": "Llama 3.1",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE"
+            },
+            {
                 "name": "Llama 3.2",
                 "displayName": "Llama 3.2",
                 "icon": {
@@ -2013,6 +2055,28 @@
                 },
                 "description": "",
                 "link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE"
+            },
+            {
+                "name": "Llama 3.3 Community License",
+                "displayName": "Llama 3.3 Community License",
+                "icon": { "dark": "icon-dl-license", "light": "icon-dl-license" },
+                "color": { "dark": "#7BD679", "light": "#4CC34A" },
+                "description": "",
+                "link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/LICENSE"
+            },
+            {
+                "name": "Llama 4 Community Model License",
+                "displayName": "Llama 4 Community Model License",
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
+                "description": "",
+                "link": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE"
             },
             {
                 "name": "NVIDIA Nemotron Open Model License",
@@ -2223,48 +2287,6 @@
                 },
                 "description": "",
                 "link": "https://developer.download.nvidia.com/licenses/NVIDIA_Model_Evaluation_License_Agreement_(2024.04.16).pdf"
-            },
-            {
-                "name": "Llama 3",
-                "displayName": "Llama 3",
-                "icon": {
-                    "dark": "icon-dl-license",
-                    "light": "icon-dl-license"
-                },
-                "color": {
-                    "dark": "#7BD679",
-                    "light": "#4CC34A"
-                },
-                "description": "",
-                "link": "https://github.com/meta-llama/llama3/blob/main/LICENSE"
-            },
-            {
-                "name": "Llama 3.1",
-                "displayName": "Llama 3.1",
-                "icon": {
-                    "dark": "icon-dl-license",
-                    "light": "icon-dl-license"
-                },
-                "color": {
-                    "dark": "#7BD679",
-                    "light": "#4CC34A"
-                },
-                "description": "",
-                "link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE"
-            },
-            {
-                "name": "Llama 4 Community Model License",
-                "displayName": "Llama 4 Community Model License",
-                "icon": {
-                    "dark": "icon-dl-license",
-                    "light": "icon-dl-license"
-                },
-                "color": {
-                    "dark": "#7BD679",
-                    "light": "#4CC34A"
-                },
-                "description": "",
-                "link": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE"
             },
             {
                 "name": "License agreement for Italia",
