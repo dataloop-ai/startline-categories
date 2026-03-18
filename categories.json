@@ -502,11 +502,11 @@
                 "link": "https://www.ai21.com/"
             },
             {
-                "name": "DDOE",
+                "name": "Dataloop",
                 "displayName": "DDOE",
                 "icon": {
-                    "dark": "icon-dl-dell",
-                    "light": "icon-dl-dell"
+                    "dark": "icon-dl-dataloop",
+                    "light": "icon-dl-dataloop"
                 },
                 "color": {
                     "dark": "",
@@ -848,11 +848,11 @@
                 "link": "https://www.ibm.com/us-en"
             },
             {
-                "name": "DDOE",
+                "name": "Dataloop",
                 "displayName": "DDOE",
                 "icon": {
-                    "dark": "icon-dl-dell",
-                    "light": "icon-dl-dell"
+                    "dark": "icon-dl-dataloop",
+                    "light": "icon-dl-dataloop"
                 },
                 "color": {
                     "dark": "",
