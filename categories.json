@@ -102,9 +102,6 @@
         "parent": null,
         "values": [
             {
-                "name": "Dataloop"
-            },
-            {
                 "name": "DDOE"
             },
             {
@@ -162,7 +159,6 @@
         "displayName": "Provider",
         "parent": null,
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Nvidia",
             "Microsoft",
@@ -182,7 +178,6 @@
                 "name": "Hugging Face",
                 "displayName": "Hugging Face",
                 "hubs": [
-                    "Dataloop",
                     "DDOE"
                 ],
                 "icon": {
@@ -200,7 +195,6 @@
                 "name": "LangChain",
                 "displayName": "LangChain",
                 "hubs": [
-                    "Dataloop",
                     "DDOE"
                 ],
                 "icon": {
@@ -218,7 +212,6 @@
                 "name": "LlamaIndex",
                 "displayName": "LlamaIndex",
                 "hubs": [
-                    "Dataloop",
                     "DDOE"
                 ],
                 "icon": {
@@ -502,11 +495,11 @@
                 "link": "https://www.ai21.com/"
             },
             {
-                "name": "Dataloop",
+                "name": "DDOE",
                 "displayName": "DDOE",
                 "icon": {
-                    "dark": "icon-dl-dataloop",
-                    "light": "icon-dl-dataloop"
+                    "dark": "icon-dl-dell",
+                    "light": "icon-dl-dell"
                 },
                 "color": {
                     "dark": "",
@@ -677,7 +670,6 @@
         "displayName": "API Service By",
         "parent": null,
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Nvidia",
             "Databricks",
@@ -848,11 +840,11 @@
                 "link": "https://www.ibm.com/us-en"
             },
             {
-                "name": "Dataloop",
+                "name": "DDOE",
                 "displayName": "DDOE",
                 "icon": {
-                    "dark": "icon-dl-dataloop",
-                    "light": "icon-dl-dataloop"
+                    "dark": "icon-dl-dell",
+                    "light": "icon-dl-dell"
                 },
                 "color": {
                     "dark": "",
@@ -869,7 +861,6 @@
         "displayName": "Application Type",
         "parent": "Application",
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Microsoft"
         ],
@@ -962,7 +953,6 @@
         "displayName": "Pipeline Type",
         "parent": "Template",
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Microsoft"
         ],
@@ -1037,7 +1027,6 @@
         "displayName": "Solution Type",
         "parent": "Solution",
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Nvidia",
             "Microsoft"
@@ -1113,7 +1102,6 @@
         "displayName": "Media Type",
         "parent": null,
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Nvidia",
             "Microsoft",
@@ -1227,7 +1215,6 @@
         "displayName": "Computer Vision",
         "parent": "Model",
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Nvidia",
             "Microsoft",
@@ -1335,7 +1322,6 @@
         "key": "NLP",
         "parent": "Model",
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Nvidia",
             "Microsoft",
@@ -1458,7 +1444,6 @@
         "displayName": "Audio",
         "parent": "Model",
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Microsoft",
             "Databricks"
@@ -1540,7 +1525,6 @@
         "displayName": "Converters",
         "parent": "Application",
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Microsoft"
         ],
@@ -1634,7 +1618,6 @@
         "displayName": "GenAI",
         "parent": "Model",
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Nvidia",
             "Databricks"
@@ -1731,7 +1714,6 @@
         "displayName": "Annotation Type",
         "parent": "Dataset",
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Microsoft"
         ],
@@ -1867,7 +1849,6 @@
         "displayName": "License",
         "parent": null,
         "hubs": [
-            "Dataloop",
             "DDOE",
             "Microsoft",
             "Databricks"
