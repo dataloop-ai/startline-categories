@@ -631,8 +631,8 @@
                 "name": "Dell",
                 "displayName": "Dell",
                 "icon": {
-                    "dark": "icon-dl-brand-dell",
-                    "light": "icon-dl-brand-dell"
+                    "dark": "icon-dl-dell",
+                    "light": "icon-dl-dell"
                 },
                 "color": {
                     "dark": "",
