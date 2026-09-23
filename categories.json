@@ -589,12 +589,12 @@
                 "name": "Roboflow",
                 "displayName": "Roboflow",
                 "icon": {
-                  "dark": "icon-dl-roboflow",
-                  "light": "icon-dl-roboflow"
+                    "dark": "icon-dl-roboflow",
+                    "light": "icon-dl-roboflow"
                 },
                 "color": {
-                  "dark": "",
-                  "light": ""
+                    "dark": "",
+                    "light": ""
                 },
                 "description": "Provided by Roboflow",
                 "link": ""
@@ -668,6 +668,24 @@
                 },
                 "description": "",
                 "link": ""
+            },
+             {
+                "name": "Unstructured",
+                "displayName": "Unstructured.io",
+                "hubs": [
+                    "Dataloop",
+                    "DDOE"
+                ],
+                "icon": {
+                    "dark": "icon-dl-unstucturedio",
+                    "light": "icon-dl-unstucturedio"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by Unstrucured.io",
+                "link": "https://unstructured.io"
             }
         ],
         "isMultiple": false
@@ -917,6 +935,19 @@
                 "description": ""
             },
             {
+                "name": "Preprocess",
+                "displayName": "Preprocess",
+                "icon": {
+                    "dark": "icon-dl-faas-outline",
+                    "light": "icon-dl-faas-outline"
+                },
+                "color": {
+                    "dark": "#FF6FC8",
+                    "light": "#FD4CB9"
+                },
+                "description": ""
+            },
+            {
                 "name": "Pipeline Node",
                 "displayName": "Pipeline Node",
                 "icon": {
@@ -988,6 +1019,18 @@
                 "icon": {
                     "dark": "icon-dl-models",
                     "light": "icon-dl-models"
+                },
+                "color": {
+                    "dark": "#FFF1B2",
+                    "light": "#ECC416"
+                }
+            },
+            {
+                "name": "Preprocess",
+                "displayName": "Preprocess",
+                "icon": {
+                    "dark": "icon-dl-faas-outline",
+                    "light": "icon-dl-faas-outline"
                 },
                 "color": {
                     "dark": "#FFF1B2",
@@ -2078,8 +2121,14 @@
             {
                 "name": "Llama 3.3 Community License",
                 "displayName": "Llama 3.3 Community License",
-                "icon": { "dark": "icon-dl-license", "light": "icon-dl-license" },
-                "color": { "dark": "#7BD679", "light": "#4CC34A" },
+                "icon": {
+                    "dark": "icon-dl-license",
+                    "light": "icon-dl-license"
+                },
+                "color": {
+                    "dark": "#7BD679",
+                    "light": "#4CC34A"
+                },
                 "description": "",
                 "link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/LICENSE"
             },
