@@ -668,6 +668,24 @@
                 },
                 "description": "",
                 "link": ""
+            },
+             {
+                "name": "Unstructured",
+                "displayName": "Unstructured.io",
+                "hubs": [
+                    "Dataloop",
+                    "DDOE"
+                ],
+                "icon": {
+                    "dark": "icon-dl-unstucturedio",
+                    "light": "icon-dl-unstucturedio"
+                },
+                "color": {
+                    "dark": "",
+                    "light": ""
+                },
+                "description": "Provided by Unstrucured.io",
+                "link": "https://unstructured.io"
             }
         ],
         "isMultiple": false
